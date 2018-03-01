@@ -2,9 +2,14 @@
 
 ## To enter the course materials, follow this [link](https://github.com/cmohge1/lrbs/tree/master/scholarly-editing/).
 
-##Outline
-Day 1: Introduction; The problem of the Copy-text
-Day 2: What is a Document?; Introduction to R Markdown for Transcription
-Day 3: Copy-Text editing; Introduction to the Text Encoding Initiative
-Day 4: Genetic Text Editing; TEI continued
-Day 5: Editing Manuscript Images with TextLab; XPath and XSLT   
+### Outline
+
+Day 1: Introduction; The problem of the Copy-text.
+
+Day 2: Documentary Editing; Introduction to R Markdown for Transcription.
+
+Day 3: Copy-Text editing; Introduction to the Text Encoding Initiative (TEI).
+
+Day 4: Genetic Text Editing; TEI continued.
+
+Day 5: Editing Manuscript Images with TextLab; Transforming Digital Editing with R, XPath, and XSLT.
