@@ -12,4 +12,4 @@ Day 3: Copy-Text editing; Introduction to the Text Encoding Initiative (TEI).
 
 Day 4: Genetic Text Editing; TEI continued.
 
-Day 5: Editing Manuscript Images with TextLab; Transforming Digital Editing with R, XPath, and XSLT.
+Day 5: Editing Manuscript Images with TextLab; Transforming Editorial Data with R, XPath, and XSLT.
