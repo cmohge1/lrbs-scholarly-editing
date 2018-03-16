@@ -19,7 +19,7 @@ Time | Topic | Type
 ---- | ---- | ----
 9-12 a.m. | Brief history of Scholarly Editing: Philology, Housman's "Application of Thought to Textual Criticism", W. W. Greg's "Rationale of Copy Text"| Presentation, Discussion
 1-2 p.m. | Documentary Editing: | Discussion
-3-5 p.m. | [Markdown for transcription](#Digital-Editing-Workflow) | Code lab
+3-5 p.m. | Markdown for transcription | Code lab
 
 ### Brief History of Scholarly editing
 
