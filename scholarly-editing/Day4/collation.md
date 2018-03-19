@@ -1,4 +1,4 @@
-# Day 4: Computer-Assited Collation
+# Day 4: Computer-Assited Collation with Juxta and CollateX
 
 Download Python 3, preferably the Anaconda distribution
 
