@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Day 4: Computer-Assisted Collation
 
 ## Summary
