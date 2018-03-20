@@ -1,6 +1,10 @@
-# Day 4: Computer-Assisted Collation
+# Day 4, Afternoon: Computer-Assisted Collation
 
 ## Summary
+
+This session will survey two digital approaches for collating texts.
+
+## Collation
 
 The traditional method of collation has been tedious: you literally read versions of texts side-by-side and note the differences in a collation table.
 
