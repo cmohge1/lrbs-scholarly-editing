@@ -29,9 +29,6 @@ A good example of an edition using Juxta: The [Fluid Text edition of Herman Melv
 For a more detailed user guide, go to <http://www.juxtacommons.org/guide?nocontrols#screencast>.
 
 ### Collatex
-=======
-# Day 4: Computer-Assited Collation with Juxta and CollateX
->>>>>>> 58b233a080236b090f06d9fe5b4a7ee6161435b6
 
 Download Python 3, preferably the Anaconda distribution
 
