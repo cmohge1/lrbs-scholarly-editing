@@ -36,17 +36,17 @@ Day 5: Editing Manuscript Images with TextLab; Transforming Editorial Data with 
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-Morning session 1| Brief history of Scholarly Editing | Presentation, Discussion|
-Morning session 2 | Digital Editing Workflow; Transcription Options | Digital lab|
-Afternoon session 1 | Documentary Editing | Discussion|
-Afternoon session 2 | Brief Introduction to XML | Digital lab|
+Morning session 1 | Induction?                 | Presentation            |
+Morning session 2 | Brief history of Scholarly Editing | Presentation, Discussion|
+Afternoon session 1 | Digital Editing Workflow; Transcription Options | Digital lab|
+Afternoon session 2 | Brief Introduction to XML | Presentation, Discussion|
 
 ### Day 2
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
 Morning session 1| Introduction to the Text Encoding Initiative (TEI) | Presentation, Discussion|
-Morning session 2 | Documentary Editing, continued | Digital lab             |
+Morning session 2 | Documentary Editing | Digital lab             |
 Afternoon session 1 | Using TEI for documentary editions: letters and journals | Discussion|
 Afternoon session 2 | Documentary Editing, continued | Digital lab |
 
@@ -54,8 +54,8 @@ Afternoon session 2 | Documentary Editing, continued | Digital lab |
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-Morning session 1| Eclectic/clear text editing | Presentation, Discussion|
-Morning session 2 | Encoding textual apparatus in TEI | Digital lab|
+Morning session 1| Eclectic/clear text editing; Critical Apparatus | Presentation, Discussion|
+Morning session 2 | Encoding critical apparatus in TEI | Digital lab|
 Afternoon session 1 | Principles of Annotation | Discussion|
 Afternoon session 2 | Writing and encoding annotation | Digital lab|
 
@@ -78,6 +78,8 @@ Afternoon session 1 | Fluid Text editing |  Discussion|
 Afternoon session 2 | Using TextLab to edit manuscript images and fluid texts | Digital lab|
 
 ## Readings
+
+(Other shorter readings will be found on the course github repository)
 
 Bryant, John. *The Fluid Text*. U Michigan P, 2002.
 
