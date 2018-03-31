@@ -20,9 +20,9 @@ To access the folders of course materials online, go to (https://github.com/cmoh
 
 ## Schedule
 
-Day 1: Brief History of Scholarly Editing; The problem of the Copy-text; Transcription; Documentary Editing 1.
+Day 1: Brief History of Scholarly Editing; The problem of the Copy-text; Transcription; XML.
 
-Day 2: Introduction to the Text Encoding Initiative (TEI); Documentary Editing 2.
+Day 2: Introduction to the Text Encoding Initiative (TEI); Documentary Editing.
 
 Day 3: Eclectic/clear text editing; TEI continued; annotation.
 
@@ -36,7 +36,7 @@ Day 5: Editing Manuscript Images with TextLab; Transforming Editorial Data with 
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-Morning session 1 | Induction?                 | Presentation            |
+Morning session 1 | Induction                 | Presentation            |
 Morning session 2 | Brief history of Scholarly Editing | Presentation, Discussion|
 Afternoon session 1 | Digital Editing Workflow; Transcription Options | Digital lab|
 Afternoon session 2 | Brief Introduction to XML | Presentation, Discussion|
@@ -75,7 +75,7 @@ Time     | Topic                               | Type                    |
 Morning session 1| Quick introduction to XPath and XSLT | Presentation, Discussion|
 Morning session 2 | Transforming TEI-XML into an edition | Digital lab|
 Afternoon session 1 | Fluid Text editing |  Discussion|
-Afternoon session 2 | Using TextLab to edit manuscript images and fluid texts | Digital lab|
+Afternoon session 2 | Using TextLab to edit manuscript images | Digital lab|
 
 ## Readings
 
