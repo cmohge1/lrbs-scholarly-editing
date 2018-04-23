@@ -28,60 +28,60 @@ Day 3: Eclectic/clear text editing; TEI continued; annotation.
 
 Day 4: Genetic Text Editing; TEI continued; LMNL and alternative markup.
 
-Day 5: Editing Manuscript Images with TextLab; Transforming Editorial Data with R, XPath, and XSLT.
+Day 5: Transforming Editorial Data with XPath, and XSLT;  Editing Manuscript Images with TextLab.
 
 ## Detailed Schedule (Subject to Change)
 
-### Day 1
+### Day 1 (Monday, 2 July)
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-Morning session 1 | Induction                 | Presentation            |
-Morning session 2 | Brief history of Scholarly Editing | Presentation, Discussion|
-Afternoon session 1 | Digital Editing Workflow; Transcription Options | Digital lab|
-Afternoon session 2 | Brief Introduction to XML | Presentation, Discussion|
+12.30  | Registration                 |             |
+13.00  |  Senate House Library Talk | Presentation |
+14.00 | Seminar 1: Brief history of Scholarly Editing  | Presentation, Discussion  |
+16.00 | Seminar 2: Digital Editing Workflow; Brief Introduction to XML | Digital lab |
 
-### Day 2
-
-Time     | Topic                               | Type                    |
-:--------| :---------------------------------- |:------------------------|
-Morning session 1| Introduction to the Text Encoding Initiative (TEI) | Presentation, Discussion|
-Morning session 2 | Documentary Editing | Digital lab             |
-Afternoon session 1 | Using TEI for documentary editions: letters and journals | Discussion|
-Afternoon session 2 | Documentary Editing, continued | Digital lab |
-
-### Day 3
+### Day 2 (Tuesday, 3 July)
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-Morning session 1| Eclectic/clear text editing; Critical Apparatus | Presentation, Discussion|
-Morning session 2 | Encoding critical apparatus in TEI | Digital lab|
-Afternoon session 1 | Principles of Annotation | Discussion|
-Afternoon session 2 | Writing and encoding annotation | Digital lab|
+9.30 | Seminar 3: Introduction to the Text Encoding Initiative (TEI) | Presentation, Discussion |
+11.30 | Seminar 4: Documentary Editing |  Digital lab             |
+14.00 | Seminar 5: Using TEI for documentary editions: letters and journals | Discussion |
+16.00 | Library Time: Documentary Editing, continued | Presentation |
 
-### Day 4
-
-Time     | Topic                               | Type                    |
-:--------| :---------------------------------- |:------------------------|
-Morning session 1| Genetic editing, genetic criticism | Presentation, Discussion|
-Morning session 2 | Using TEI to mark-up versions | Digital lab             |
-Afternoon session 1 | Problems with TEI; alternative markup with LMNL; Computer-Assisted Collation Overview| Discussion|
-Afternoon session 2 | Collation with Juxta and Collatex | Digital lab             |
-
-### Day 5
+### Day 3 (Wednesday, 4 July)
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-Morning session 1| Quick introduction to XPath and XSLT | Presentation, Discussion|
-Morning session 2 | Transforming TEI-XML into an edition | Digital lab|
-Afternoon session 1 | Fluid Text editing |  Discussion|
-Afternoon session 2 | Using TextLab to edit manuscript images | Digital lab|
+9.30 | Seminar 6: Eclectic/clear text editing; Critical Apparatus | Presentation, Discussion |
+11.30  | Seminar 7: Encoding critical apparatus in TEI | Digital lab |
+14.00  | Seminar 8: Principles of Annotation; Writing and encoding annotation | Discussion; Digital lab |
+16.00 | Library Time: Literary manuscripts  | Presentation, Discussion |
+
+### Day 4 (Thursday, 5 July)
+
+Time     | Topic                               | Type                    |
+:--------| :---------------------------------- |:------------------------|
+9.30 | Seminar 9: Genetic editing, genetic criticism | Presentation, Discussion |
+11.30  | Seminar 10: Using TEI to mark-up versions of texts | Digital lab             |
+14.00  | Seminar 11: Problems with TEI; alternative markup with LMNL; Computer-Assisted Collation Overview | Discussion; Digital lab |
+16.00 | Library Time              |
+
+### Day 5 (Friday, 6 July)
+
+Time     | Topic                               | Type                    |
+:--------| :---------------------------------- |:------------------------|
+9.30 | Seminar 12: Quick introduction to XPath and XSLT | Presentation, Discussion |
+11.30 | Seminar 13: Fluid Text Editing; Using TextLab to edit manuscript images | Digital lab |
 
 ## Readings
 
 (Other shorter readings will be found on the course github repository)
 
 Bryant, John. *The Fluid Text*. U Michigan P, 2002.
+
+Burnard, Lou. [*What is the Text Encoding Initiative?*](http://books.openedition.org/oep/426?lang=en) (Open Edition, 2014).
 
 Gabler, Hans Walter. [*Text Genetics in Literary Modernism and Other Essays*](https://www.openbookpublishers.com/product/629/14d4ad5e8b306c35282ca91fe0ba69c4) [especially "Theorizing the Digital Scholarly Edition"] (Open Book, 2018).
 
