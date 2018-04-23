@@ -1,14 +1,14 @@
 MS sources for LRBS
 
 Documentary Editing examples:
-SLV/28 (Southey letter)
+SLV/28 (Southey letter): talks about Coleridge. Published in *Romantic Circles*: https://www.rc.umd.edu/editions/southey_letters/Part_One/HTML/letterEEd.26.236.html
 SLV105/24 (GB Shaw letter): short letter
-SLV/13 (Emerson letters)
+SLV/13 (Emerson letters): series of letters to his British publisher John Chapman, 1844–47. All unpublished?
 SLV/5 (Burns letter): excellent; it is a letter with a poem text included ('Song of Death').
 
 Literary Editing examples:
 SLV/32 (Tennyson, ‘The Voyage of Maeldune’)
-SLV/33 (Tennyson, ‘Early Spring’): not that interesting on first blush; has two revisions, but this versions differs from the final text. **Consult Ricks's edition***
+SLV/33 (Tennyson, ‘Early Spring’): not that interesting on first blush; has two revisions, but this versions differs from the final text. **Consult Ricks's edition*** Engl 5th floor, YN/T352C/987
 SLV/10 (Carlyle’s Prinzenraub): fairly long, but a lot of revisions, also different mediums and hands: ink, pencil, crayon
 SLV/6 (Byron, Childe Harold canto). See McGann's Byron, vol. 2: p. 298. Interesting revisions in Cantos 1, 2, 10, 19, 32, 50, 1 [after 54], 56, 67, 68 ('wrong' and 'strong'). Also the extra-textual stuff---letters, notes &c.
 SLV/80 (Sassoon’s Georgian Parodies): yes indeed, for its textual uniqueness as against its published uniqueness in Vanity Fair. Minor revisions in a few poems, the most interesting of which are in the D. H. Lawrence parody (some capitalization and lineation differences, and a few substantive revisions).

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">The Collected Letters of Robert Southey. Part 1: 1791-1797 </title>
+            <title type="subordinate">A Romantic Circles Electronic Edition</title>
+            <author>
+               <name>Southey, Robert, 1774-1843</name>
+            </author>
+            <editor>Lynda Pratt</editor>
+            <sponsor>Romantic Circles</sponsor>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Neil Fraistat</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Steven E. Jones</name>
+            </respStmt>
+            <respStmt>
+               <resp>General Editor, </resp>
+               <name>Carl Stahmer</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Editor</resp>
+               <name>Laura Mandell</name>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>2009-03-15</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <idno type="nines">rce236</idno>
+            <idno type="edition">letterEEd.26.236</idno>
+            <publisher>Romantic Circles, http://www.rc.umd.edu, University of Maryland</publisher>
+            <pubPlace>College Park, MD</pubPlace>
+            <date when="2009-02-20">March 15, 2009</date>
+            <availability status="restricted">
+               <p>Material from the Romantic Circles Website may not be downloaded, reproduced or disseminated in any manner without authorization
+                  unless it is for purposes of criticism, comment, news reporting, teaching, and/or classroom use as provided by the Copyright Act of
+                  1976, as amended.</p>
+               <p>Unless otherwise noted, all Pages and Resources mounted on Romantic Circles are copyrighted by the author/editor and may be shared
+                  only in accordance with the Fair Use provisions of U.S. copyright law. Except as expressly permitted by this statement,
+                  redistribution or republication in any medium requires express prior written consent from the author/editors and advance
+                  notification of Romantic Circles. Any requests for authorization should be forwarded to Romantic Circles:&gt;
+                  <address>
+                     <addrLine>Romantic Circles</addrLine>
+                     <addrLine>c/o Professor Neil Fraistat</addrLine>
+                     <addrLine>Department of English</addrLine>
+                     <addrLine>University of Maryland</addrLine>
+                     <addrLine>College Park, MD 20742</addrLine>
+                     <addrLine>fraistat@umd.edu</addrLine>
+                  </address>
+               </p>
+               <p>By their use of these texts and images, users agree to the following conditions: <list>
+                     <item>These texts and images may not be used for any commercial purpose without prior written permission from Romantic
+                        Circles.</item>
+                     <item>These texts and images may not be re-distributed in any forms other than their current ones.</item>
+                  </list>
+               </p>
+               <p>Users are not permitted to download these texts and images in order to mount them on their own servers. It is not in our interest or
+                  that of our users to have uncontrolled subsets of our holdings available elsewhere on the Internet. We make corrections and
+                  additions to our edited resources on a continual basis, and we want the most current text to be the only one generally available to
+                  all Internet users. Institutions can, of course, make a link to the copies at Romantic Circles, subject to our conditions of
+                  use.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Stirling Library, University of London, SL V.28. Previously published: John Wood Warter (ed.), Selections From the Letters of Robert
+               Southey, 4 vols (London, 1856), I, pp. 40–43; and Charles Cuthbert Southey (ed.), Life and Correspondence of Robert Southey, 6 vols
+               (London, 1849–1850), I, pp. 320–321 [in part; misdated July 15. 1799].</p>
+            <p>These letters were edited with the assistance of Carol Bolton, Tim Fulford and Ian Packer</p>
+            <p>For permission to publish the text of MSS in their possession, the editor wishes to thank the Beinecke Rare Books and Manuscript
+               Library, Yale University; Berg Collection of English and American Literature, The New York Public Library, Astor, Lenox and Tilden
+               Foundations; the Bodleian Library Oxford University; the British Library; Boston Public Library; the Syndics of Cambridge University
+               Library; the Syndics of the Fitzwilliam Museum Cambridge; Haverford College, Connecticut; the Historical Society of Pennsylvania; the
+               Hornby Library, Liverpool Libraries and Information Services; the Houghton Library, Harvard University; the John Rylands Library,
+               Manchester; the Kenneth Spencer Research Library, University of Kansas; Luton Museum (Bedfordshire County Council); Massachusetts
+               Historical Society; McGill University Library; the National Library of Scotland; the Newberry Library, Chicago; the New York Public
+               Library (Pforzheimer Collections); the Pierpont Morgan Library, New York; the Public Record Offices of Bedford, Suffolk (Bury St
+               Edmunds) and Northumberland, the Master and Fellows of Trinity College, Cambridge; the Society of Antiquaries of Newcastle upon Tyne;
+               the Trustees of the William Salt Library, Stafford, the Wisbech and Fenland Museum; the University of Virginia Library.</p>
+            <p>A research grant from the British Academy made much of the archival work possible, as did support from the English Department of
+               Nottingham Trent University.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <hyphenation eol="none">
+               <p>Any dashes occurring in line breaks have been removed.</p>
+               <p>Because of web browser variability, all hyphens have been typed on the U.S. keyboard.</p>
+               <p>Dashes have been rendered as a variable number of hyphens to give a more exact rendering of their length.</p>
+            </hyphenation>
+            <normalization method="markup">
+               <p>Southey’s spelling has not been regularized.</p>
+               <p>Writing in other hands appearing on these manuscripts has been indicated as such, the content recorded in brackets.</p>
+            </normalization>
+            <normalization>
+               <p>&amp; has been used for the ampersand sign.</p>
+               <p>£ has been used for £, the pound sign</p>
+               <p>All other characters, those with accents, non-breaking spaces, etc., have been encoded in HTML entity decimals.</p>
+            </normalization>
+         </editorialDecl>
+         <classDecl>
+            <taxonomy corresp="http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E" xml:id="g">
+               <bibl>NINES categories for Genre and Material Form at
+                  http://www.performantsoftware.com/nines_wiki/index.php/Submitting_RDF#.3Cnines:genre.3E on 2009-02-26</bibl>
+               <category xml:id="g1">
+                  <catDesc>Architecture</catDesc>
+               </category>
+               <category xml:id="g2">
+                  <catDesc>Artifacts</catDesc>
+               </category>
+               <category xml:id="g3">
+                  <catDesc>Bibliography</catDesc>
+               </category>
+               <category xml:id="g4">
+                  <catDesc>Collection</catDesc>
+               </category>
+               <category xml:id="g5">
+                  <catDesc>Criticism</catDesc>
+               </category>
+               <category xml:id="g7">
+                  <catDesc>Letters</catDesc>
+               </category>
+               <category xml:id="g6">
+                  <catDesc>Drama</catDesc>
+               </category>
+               <category xml:id="g8">
+                  <catDesc>Life Writing</catDesc>
+               </category>
+               <category xml:id="g9">
+                  <catDesc>Politics</catDesc>
+               </category>
+               <category xml:id="g10">
+                  <catDesc>Folklore</catDesc>
+               </category>
+               <category xml:id="g11">
+                  <catDesc>Ephemera</catDesc>
+               </category>
+               <category xml:id="g12">
+                  <catDesc>Fiction</catDesc>
+               </category>
+               <category xml:id="g13">
+                  <catDesc>History</catDesc>
+               </category>
+               <category xml:id="g14">
+                  <catDesc>Leisure</catDesc>
+               </category>
+               <category xml:id="g15">
+                  <catDesc>Manuscript</catDesc>
+               </category>
+               <category xml:id="g16">
+                  <catDesc>Reference Works</catDesc>
+               </category>
+               <category xml:id="g17">
+                  <catDesc>Humor</catDesc>
+               </category>
+               <category xml:id="g18">
+                  <catDesc>Education</catDesc>
+               </category>
+               <category xml:id="g19">
+                  <catDesc>Music</catDesc>
+               </category>
+               <category xml:id="g20">
+                  <catDesc>nonfiction</catDesc>
+               </category>
+               <category xml:id="g21">
+                  <catDesc>Paratext</catDesc>
+               </category>
+               <category xml:id="g22">
+                  <catDesc>Perodical</catDesc>
+               </category>
+               <category xml:id="g23">
+                  <catDesc>Philosphy</catDesc>
+               </category>
+               <category xml:id="g24">
+                  <catDesc>Photograph</catDesc>
+               </category>
+               <category xml:id="g25">
+                  <catDesc>Citation</catDesc>
+               </category>
+               <category xml:id="g26">
+                  <catDesc>Family Life</catDesc>
+               </category>
+               <category xml:id="g27">
+                  <catDesc>Poetry</catDesc>
+               </category>
+               <category xml:id="g28">
+                  <catDesc>Religion</catDesc>
+               </category>
+               <category xml:id="g29">
+                  <catDesc>Review</catDesc>
+               </category>
+               <category xml:id="g30">
+                  <catDesc>Visual Art</catDesc>
+               </category>
+               <category xml:id="g31">
+                  <catDesc>Translation</catDesc>
+               </category>
+               <category xml:id="g32">
+                  <catDesc>Travel</catDesc>
+               </category>
+               <category xml:id="g33">
+                  <catDesc>Book History</catDesc>
+               </category>
+               <category xml:id="g34">
+                  <catDesc>Law</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.rc.umd.edu/southey_letters/people.xml">
+               <category xml:id="people">
+                  <catDesc>Southey Letters: Biographies</catDesc>
+               </category>
+            </taxonomy>
+            <taxonomy corresp="http://www.rc.umd.edu/southey_letters/places.xml">
+               <category xml:id="places">
+                  <catDesc>Southey Letters: Places</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <catRef scheme="#genre" target="#g7 #g27"/>
+            <catRef scheme="#people" target="#EEd.26.1.names"/>
+            <catRef scheme="#places" target="#EEd.26.1.places"/>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change who="#LM" when="2009-03-10" n="4">
+            <label>Changed by</label>
+            <name>Laura Mandell</name>
+            <list>
+               <item>XSLT Transforming</item>
+            </list>
+         </change>
+         <change who="#AB" when="2009-03-02" n="3">
+            <label>Changed by</label>
+            <name>Averill Buchanan</name>
+            <list>
+               <item>corrections from proofing</item>
+            </list>
+         </change>
+         <change who="#LM" when="2009-02-20" n="2">
+            <label>Changed by</label>
+            <name xml:id="LM">Laura Mandell</name>
+            <list>
+               <item>XSLT Transforming</item>
+            </list>
+         </change>
+         <change who="#AB" when="2009-02-20" n="1">
+            <label>Changed by</label>
+            <name xml:id="AB">Averill Buchanan</name>
+            <list>
+               <item>TEI Encoding</item>
+            </list>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="236" type="letter">
+            <head>236. Robert Southey to <ref type="a" target="people.html#MayJohn">John May</ref>, <date when="1797-07-19">19 July 1797</date>
+               <note place="foot" resp="editors" type="headnote">Address: For/ John May Esq<hi rend="sup">r</hi>/ 4. Bedford Square/
+                  London<lb/>Stamped: RINGWOOD<lb/>Postmark: AJY/ 20/ 97<lb/>Endorsement: 1797 No 4/ Robert Southey/ Burton 19 July/ rec<hi rend="sup"
+                     >d</hi>: 20 d<hi rend="sup">o</hi>/ ans<hi rend="sup">d</hi>: 22 d<hi rend="sup">o</hi>
+                  <lb/> MS: Stirling Library, University of London, SL V.28. ALS; 4p.<lb/>Previously published: John Wood Warter (ed.), <title level="m"
+                     >Selections From the Letters of Robert Southey</title>, 4 vols (London, 1856), I, pp. 40–43; and Charles Cuthbert Southey (ed.),
+                     <title level="m">Life and Correspondence of Robert Southey</title>, 6 vols (London, 1849–1850), I, pp. 320–321 [in part; misdated
+                  July 15. 1799].</note>
+            </head>
+            <opener>
+               <dateline rend="right">
+                  <address>
+                     <placeName>
+                        <ref target="places.html#Burton">Burton</ref>.</placeName>
+                  </address>
+                  <date when="1797-07-19"> July 19. 1797.</date>
+               </dateline>
+            </opener>
+            <p rend="indent1"> My dear friend I sincerely thank you for your letter. its contents are strange &amp; I am inclined to think when <ref
+                  type="m" target="people.html#HillHerbertUncle">my Uncle</ref> blamed me for not doing my utmost to relieve my family he must have
+               alluded to my repeated refusal of entering into orders; a step which undoubtedly &lt;would&gt; have almost instantly relieved them
+               &amp; which occasioned me great anguish &amp; many conflicts of mind. To this I have been urged by him &amp; by <ref type="m"
+                  target="people.html#SoutheyMargaret">my Mother</ref>, but you know what my religious opinions are, &amp; I need not ask you whether
+               I did rightly &amp; honestly in refusing.</p>
+            <p rend="indent1"> Till Xmas last I supported myself wholly by the profits of my writings. when I left Lisbon I had thirty pounds from
+                  <ref type="m" target="people.html#HillHerbertUncle">my Uncle</ref>, of which a large part was expended in paying my passage &amp;
+               the journey home. When my determination was made not to enter into the church I instantly quitted the University, that <ref type="m"
+                  target="people.html#HillHerbertUncle">my Uncle</ref> might no longer be inconvenienced by me. I applied for a clerks place in a
+               public office &amp; my republican principles occasioned my ill success. at this time my acquaintance with <ref type="m"
+                  target="people.html#ColeridgeSamuelTaylor">Coleridge</ref> commenced; I had all the enthusiasm which a young man of strong feeling
+               &amp; an acute sense of right &amp; wrong can possess, &amp; resolved to go to America &amp; attempt to establish a better system. we
+               hoped to raise a sum sufficient amongst us, &amp; I had then expectations that the reversion of a family estate might be sold, which
+               has since proved worth nothing. wild as the plan was it wanted not plausibility &amp; <ref type="m"
+                  target="people.html#SoutheyMargaret">my Mother</ref> would have gone with us had it taken place. at the end of 1794 I found myself
+               disappointed in this; <ref type="m" target="people.html#TylerElizabeth">my Aunt</ref> with whom I had previously lived had turned me
+               out of her doors; &amp; I would not be burthensome to <ref type="m" target="people.html#SoutheyMargaret">my Mother</ref> tho my
+               quitting her was against her wishes. I went to Bristol to <ref type="m" target="people.html#ColeridgeSamuelTaylor">Coleridge</ref>
+               &amp; supported myself &amp; almost him I may say, for what my labours earned were as four to one. I gave lectures, I wrote
+               indefatigably. nor is there one single action of this whole period that I would wish undone.</p>
+            <p rend="indent1"> One <ref type="m" target="people.html#WynnCharlesWW">friend</ref> I had, only one, willing &amp; able to serve me; but
+               he had not the power till he was of age. in the summer of 1795 <ref type="m" target="people.html#HillHerbertUncle">my Uncle</ref>, as
+               you know, came to England, he urged me very strongly to take orders. my heart was heavily afflicted: my literary resources were
+               exhausted, &amp; it was yet a year &amp; half before my friend could assist me, &amp; you will believe &lt;me&gt; when I say that my
+               spirit could but ill brook dependance. <del rend="strikethrough">I</del> Add to this that my opinion of <ref type="m"
+                  target="people.html#ColeridgeSamuelTaylor">S T Coleridge</ref> was not what it had been, for by long living with him I knew much of
+               his character now. I gave him <ref type="m" target="people.html#HillHerbertUncle">my Uncles</ref> letter when it arrived &amp; told him
+               I knew not what I ought to do. I wrote to my friend — he strongly advised me against the church &amp; recommended the Law when he could
+               enable me to pursue it. after some days I followed this advice; our <del rend="strikethrough">xxxxxx xx xxxx</del> finances no longer
+               suffered us to remain at Bristol as we had done, we removed as we had before agreed, I to <ref type="m"
+                  target="people.html#SoutheyMargaret">my mother</ref>, <del rend="strikethrough">&amp; bef</del> our arrears were paid with twenty
+               guineas which <ref type="m" target="people.html#CottleJoseph">Cottle</ref> advanced as the copy right price of the poems which were
+               published not till after my return from Lisbon. during all this <ref type="m" target="people.html#ColeridgeSamuelTaylor"
+                  >Coleridge</ref> was to all appearance as he had ever been towards me — but I discovered that he had been employing every possible
+               calumny against me &amp; representin me as a villain.</p>
+            <p rend="indent1">
+               <ref type="m" target="people.html#SoutheyMargaret">My mothers</ref> was now my home, but I was more frequently with <ref type="m"
+                  target="people.html#CottleJoseph">Cottle</ref>, &amp; with a mind agitated by so many feelings did I compose the greater part of
+               Joan of Arc. when this was nearly compleated <ref type="m" target="people.html#HillHerbertUncle">my Uncle</ref> asked me to go abroad
+               with him. I consented, &amp; married the morning of my departure. this too requires some explanation. I had never avowed a<del
+                  rend="strikethrough">n</del> long formed attachment till the prospect of settling in America made me believe it justifiable. I
+               placed <ref type="m" target="people.html#FrickerEdith">Edith</ref> during my absence with <ref type="m"
+                  target="people.html#Cottlefamily">Cottles sister</ref>, who keep a school, as one of their family, &amp; it was not proper that she
+               should be supported by me except as my wife. the remainder of what Joan of Arc was to produce would defray this expence. on my return I
+               &lt;had&gt; resolved still to leave her there, &amp; live seperately till the Xmas of 1796 when I had no evil to endure — but
+               dependance.</p>
+            <p rend="indent1"> I returned however with the remainder of the thirty pounds — about 18 I believe. I had likewise the matter for my
+               Letters, which were only published from necessity. <ref type="m" target="people.html#CottleJoseph">Cottle</ref> supplied me in advance
+               with such small sums as I wanted from time to time, which the sale of the first edition of that book would repay, &amp; my own reserved
+               copies of Joan of Arc produced me <del rend="strikethrough">with thes</del> enough with these assistances. By Xmas I had published my
+               poems &amp; letters.<note n="1" place="foot" resp="editors">Southey’s <title level="m">Poems</title> (1797) and <title level="m"
+                     >Letters Written During a Short Residence in Spain and Portugal</title> (1797).</note> &amp; in the course of the following month
+               received the first quarterly payment of an annuity of 160£.</p>
+            <p rend="indent1"> Had this been without the heavy incumbrance of such obligation I would have taken a cottage, &amp; lived there with my
+               wife &amp; mother, without one wish unsatisfied. as it was, it was my duty to labour till I could do this indepently by the Law. we had
+               clothes to purchase — some little to discharge — &amp; a journey to London. with these draw-backs you will easily conceive that at [MS
+               torn] the end of the first half year nothing could remain.</p>
+            <p rend="indent1"> It is only two days since I have learnt that <ref type="m" target="people.html#SoutheyMargaret">my Mother</ref> had any
+               obligations to the D. of N.<note n="2" place="foot" resp="editors">Unidentified, but the abbreviation suggests an aristocrat, perhaps a
+                  Duke.</note> &amp; what that obligation was I knew not till your letter informed me. <ref type="m"
+                  target="people.html#HillHerbertUncle">my Uncle</ref> wrote to me by <ref type="m" target="people.html#ThomasWilliamBowyer"
+                  >Thomas</ref>, said he had desired Burn<note n="3" place="foot" resp="editors">William Burn (dates unknown) was attached to the
+                  British Factory, Lisbon.</note> to send me ten pounds — that he would supply me with money from time to time — &amp; requested
+               therefore to know the state of my finances. this surprized me because I had told him what I expected. on the receipt of this letter I
+               wrote to <ref type="m" target="people.html#SoutheyMargaret">my Mother</ref> &amp; told her to expect this ten pounds, which I
+               fortunately wanted not, for this purpose I wrote to Burn for it by means of <ref type="m" target="people.html#ThomasWilliamBowyer"
+                  >Thomas</ref>, explaining to <ref type="m" target="people.html#ThomasWilliamBowyer">Thomas</ref> why I accepted it that he might not
+               think I was wantonly draining <ref type="m" target="people.html#HillHerbertUncle">my Uncle</ref>. this I shall explain in my letter to
+               Lisbon which fortunately is not yet written.</p>
+            <p rend="indent1"> Thus you may see that the only means I have <del rend="strikethrough">omitted</del> ever possessed of assisting <ref
+                  type="m" target="people.html#SoutheyMargaret">my Mother</ref> was by entering the Church. God knows I would exchanged every
+               intellectual gift which he has blest me with for implicit faith to have been able to do this. I have urged her to come &amp; live with
+               me; she has a large lodging house which does not pay its own rent, &amp; my wish is that she would let the remainder of her lease upon
+               a reduced rent, <del rend="strikethrough">that what</del> &amp; sink a certain little to prevent greater loss. I can then support
+               her.</p>
+            <p rend="indent1"> I care not for the opinion of the world, but would willingly be thought justly of by a few individuals. I labour at a
+               study which I very much dislike, to render myself independant — &amp; I work for the booksellers whenever I can get employment that I
+               may have to spare for others. <del rend="strikethrough">I now do all I can</del> I sent ten pounds when last in London to <ref type="m"
+                  target="people.html#Frickerfamily">Ediths mother</ref> whose wants were more pressing than those of my own. I now do all I can,
+               perhaps I may one day be enabled to do all I wish. however there is One who will accept the will for the deed.</p>
+            <closer>
+               <salute rend="indent3"> God bless you.</salute>
+               <signed rend="indent5"> Robert Southey.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
