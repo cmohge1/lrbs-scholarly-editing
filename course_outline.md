@@ -97,6 +97,8 @@ McGann, Jerome. *A Critique of Modern Textual Criticism* (UP of Virginia, 1983).
 
 Parker, Hershel. *Flawed Texts and Verbal Icons* (Northwestern UP, 1984).
 
-Tanselle, G. Thomas. ["The Editing of Historical Documents,"](https://www.jstor.org/stable/40371673?seq=1#page_scan_tab_contents) *Studies in Bibliography* Vol. 31 (1978), pp. 1-56.
+Tanselle, G. Thomas. ["The Editing of Historical Documents,"](https://www.jstor.org/stable/40371673?seq=1#page_scan_tab_contents) *Studies in Bibliography* 31 (1978), pp. 1–56.
 
-Pierazzo, Elena. [*Digital Scholarly Editing: Theories and Practices*](https://www.openbookpublishers.com/product/483/r) (Open Book, 2016).
+Pierazzo, Elena. *Digital Scholarly Editing: Theories, Models and Methods* (Routledge, 2015).
+
+––––. [*Digital Scholarly Editing: Theories and Practices*](https://www.openbookpublishers.com/product/483/r) (Open Book, 2016).
