@@ -14,9 +14,11 @@ Welcome to the London Rare Books School summer 2018 module on Digital Scholarly 
 
 * Awareness of the problems and challenges of digital editions.
 
-## To enter the course materials, follow this [link](https://github.com/cmohge1/lrbs/tree/master/scholarly-editing/).
+## To access the course materials, follow this [link](https://github.com/cmohge1/lrbs/tree/master/scholarly-editing/).
 
-### Outline
+## To access the detailed outline, follow this [link](course_outline.md)
+
+### Schedule
 
 Day 1: [Brief History of Scholarly Editing; The problem of the Copy-text; Transcription; Documentary Editing 1](/scholarly-editing/Day1/markdown-transcription.md).
 
