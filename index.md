@@ -30,7 +30,7 @@ Day 2: [Introduction to the Text Encoding Initiative (TEI); Documentary Editing 
 
 Day 3: [Eclectic editing; TEI continued](/scholarly-editing/Day3/day3-plan.md).
 
-Day 4: [Genetic Text Editing; TEI continued](/scholarly-editing/Day4/day4-plan.md).
+Day 4: [Genetic Text Editing; customising TEI](/scholarly-editing/Day4/day4-plan.md).
 
 Day 5: [Editing Manuscript Images with TextLab; Transforming Editorial Data with R, XPath, and XSLT](/scholarly-editing/Day5/day5-plan.md).
 
