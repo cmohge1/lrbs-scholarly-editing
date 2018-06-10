@@ -9,25 +9,26 @@ Today will feature an introduction to the history of textual editing, an introdu
 
 * General grasp of the history of scholarly editing.
 
-* Understand the difference between documentary editing and other forms of editing.
-
 * Facility with transcribing documents in Markdown, XML and HTML.
 
 ## Schedule
+### Day 1 (Monday, 2 July)
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-10-12 a.m.| Brief history of Scholarly Editing | Presentation, Discussion|
-1-2 p.m. | Digital Editing Workflow; Transcription Options               | Digital lab             |
-3-4 p.m. | Documentary Editing                 | Discussion              |
-4–5 p.m. | Brief Introduction to XML           | Digital lab             |
+12.30  | Registration                 |             |
+13.00  |  Senate House Library Talk | Presentation |
+14.00 | Seminar 1: Brief history of Scholarly Editing  | Presentation, Discussion  |
+16.00 | Seminar 2: Digital Editing Workflow; Brief Introduction to XML | Digital lab |             |
 
 
-### Brief History of Scholarly editing
+## Seminar 1: Brief History of Scholarly editing
+
+[Access the slides here.](insert-link)
 
 Readings and discussions: A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text".
 
-### Digital Editing Workflow
+### Seminar 2: Digital Editing Workflow
 
 If I am interested in creating a digital edition, there are two questions that you must ponder at length before proceeding:
 
@@ -39,7 +40,7 @@ The answer to (1) will vary quite a bit, depending on your documents, and what k
 
 The answer to (2) is a little more straightforward. Since we are concerned with "digital" editing, we need to think in terms of an appropriate computational pipeline.
 
-### Transcription Options
+#### Transcription Options
 
  The beginning of the pipeline is the flexible text editor. By flexible I mean an editor that is amenable to Web publishing, and uses non-proprietary open source formatting. Many editors have used proprietary word processors to transcribe their editorial material. While that has many virtues (control of type-setting feature, to name one), it presents a lot of problems if you are trying to optimize your workflow. E.g., if you transcribe an edition in Microsoft Word, you would have to transform that document (and all of its attendant features) into XML or HTML in order to make it work as a digital edition on the Web.
 
@@ -47,7 +48,9 @@ The answer to (2) is a little more straightforward. Since we are concerned with 
 
  First we will look at the most basic of transcription: Markdown. This is lightweight web authoring at its best.
 
-### Documentary Editing
+ [Access the slides here.](insert-link)
+
+#### Documentary Editing
 
  Readings and discussions: G. Thomas Tanselle, "The Editing of Historical Documents".
 
