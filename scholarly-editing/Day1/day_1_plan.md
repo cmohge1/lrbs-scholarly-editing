@@ -1,6 +1,3 @@
----
-<script type="text/javascript" src="../schedule.js">/**/</script>
----
 # London Rare Books School 2018:
 ## Digital Scholarly Editing, Day 1
 
@@ -32,7 +29,9 @@ Time     | Topic                               | Type                    |
 A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text"; Fredson Bowers, "Some Principles..."; D. Greetham, "A History of Textual Scholarship" (from *Cambridge Companion to Textual Scholarship*); Philip Gaskell, Introduction to *From Writer to Reader*.
 
 #### Lecture notes
-<span class="buttons"><button class="localExpand">Expand</button> | <button class="localCollapse">Collapse</button></span><ol>
+
+<details><summary>First, an outline of an incomplete history of editing</summary>
+<p>
 
 * Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
 
@@ -48,7 +47,8 @@ A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "T
 
 * Biblical scholarship and philology.
 
-</ol>
+</p>
+</details>
 
 Housman's thought
 
