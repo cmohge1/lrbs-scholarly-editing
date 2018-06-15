@@ -28,8 +28,8 @@ Time     | Topic                               | Type                    |
 
 A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text"; Fredson Bowers, "Some Principles..."; D. Greetham, "A History of Textual Scholarship" (from *Cambridge Companion to Textual Scholarship*); Philip Gaskell, Introduction to *From Writer to Reader*.
 
-#### Lecture notes 
-&nbsp;<details><summary>First, a brief outline of an incomplete history [click to expand]</summary>
+#### Lecture notes
+<details><summary>First, a brief outline of an incomplete history [click to expand]</summary>
 
 * Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
 
