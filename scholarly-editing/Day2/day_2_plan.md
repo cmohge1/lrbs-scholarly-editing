@@ -17,8 +17,8 @@ Today will feature an introduction to documentary editing, an introduction to th
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
 9.30 | Seminar 3: Documentary Editing | Presentation, Discussion |
-11.30 | Seminar 4: Introduction to the Text Encoding Initiative (TEI) |  Presentation, discussion     |
-14.00 | Seminar 5: Using TEI for documentary editions: letters and journals | Digital lab |
+11.30 | Seminar 4: Introduction to the Text Encoding Initiative (TEI) and ODD |  Presentation, discussion    |
+14.00 | Seminar 5: Building ODD for documentary editions: letters and journals | Digital lab |
 16.00 | Library Time: Documentary Editing, continued | Presentation |
 
 ### Seminar 3: Documentary Editing

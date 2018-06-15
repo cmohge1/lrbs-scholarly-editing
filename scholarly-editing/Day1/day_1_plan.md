@@ -24,15 +24,32 @@ Time     | Topic                               | Type                    |
 
 ## Seminar 1: Brief History of Scholarly editing
 
-[Access the slides here.](insert-link)
+#### Readings and discussions:
 
-Readings and discussions: A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text".
+A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text"; D. Greetham, "A History of Textual Scholarship" (from *Cambridge Companion to Textual Scholarship*); Philip Gaskell, Introduction to *From Writer to Reader*.
 
-### Seminar 2: Digital Editing Workflow
+ <button class="collapsible">Open Collapsible</button>
+ #### Lecture notes
+
+First, a brief outline of an incomplete history:
+
+* Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
+
+* Lycurgus (c. 390–324 BCE) arranges for single texts of Aeschylus, Sophocles, and Euripedes to be deposited into Athenian archives.
+
+* The history of textual editing is a history of arguments about the meaning of terms such as authenticity and authority.
+
+* What is the *textus receptus*? E.g., Falstaff "babbl'd o' green fields" (Shakespeare, *Henry V*); "soiled fish of the sea" (Melville, *White-Jacket*).
+
+* Alexandrian library: manuscript copying; the birth of collation as a practice; dealing with anomalies.
+
+*
+
+## Seminar 2: Digital Editing Workflow
 
 If I am interested in creating a digital edition, there are two questions that you must ponder at length before proceeding:
 
-1. What is my text model?
+1. What is my text model, and why am I making it?
 
 2. What is my workflow?
 
