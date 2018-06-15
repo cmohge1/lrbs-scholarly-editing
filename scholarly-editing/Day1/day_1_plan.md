@@ -1,3 +1,8 @@
+---
+<link rel="stylesheet" href="/../style.css">
+      <link rel="stylesheet" href="/../markdown.css">
+        <script type="text/javascript" src="/../schedule.js">/**/</script>
+---
 # London Rare Books School 2018:
 ## Digital Scholarly Editing, Day 1
 
