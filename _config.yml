@@ -1,5 +1,6 @@
 theme: jekyll-theme-tactile
-baseurl: /lrbs-scholarly-editing
+url: /lrbs-scholarly-editing
+baseurl: ""
 title: Digital Scholarly Editing at the LRBS 
 description: Central repository for the 2018 Digital Scholarly Editing module at the London Rare Books School, Institute of English Studies
 
