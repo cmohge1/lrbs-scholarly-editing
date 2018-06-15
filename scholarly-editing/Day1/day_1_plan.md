@@ -35,6 +35,8 @@ A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "T
 
 * Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
 
+</p>
+
 * Lycurgus (c. 390–324 BCE) arranges for single texts of Aeschylus, Sophocles, and Euripedes to be deposited into Athenian archives.
 
 * The history of textual editing is a history of arguments about the meaning of terms such as authenticity and authority.
