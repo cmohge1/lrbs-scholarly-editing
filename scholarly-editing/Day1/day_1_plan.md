@@ -9,7 +9,7 @@ Today will feature an introduction to the history of textual editing, an introdu
 
 * General grasp of the history of scholarly editing.
 
-* Facility with transcribing documents in Markdown, XML and HTML.
+* Facility with transcribing documents in Markdown, HTML, and XML.
 
 ## Schedule
 ### Day 1 (Monday, 2 July)
@@ -24,14 +24,12 @@ Time     | Topic                               | Type                    |
 
 ## Seminar 1: Brief History of Scholarly editing
 
-#### Readings and discussions:
+#### Readings and discussions
 
-A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text"; D. Greetham, "A History of Textual Scholarship" (from *Cambridge Companion to Textual Scholarship*); Philip Gaskell, Introduction to *From Writer to Reader*.
+A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text"; Fredson Bowers, "Some Principles..."; D. Greetham, "A History of Textual Scholarship" (from *Cambridge Companion to Textual Scholarship*); Philip Gaskell, Introduction to *From Writer to Reader*.
 
- <button class="collapsible">Open Collapsible</button>
- #### Lecture notes
-
-First, a brief outline of an incomplete history:
+#### Lecture notes
+<details><summary>First, a brief outline of an incomplete history [click to expand]</summary>
 
 * Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
 
@@ -43,9 +41,30 @@ First, a brief outline of an incomplete history:
 
 * Alexandrian library: manuscript copying; the birth of collation as a practice; dealing with anomalies.
 
-*
+* Descriptive Bibliography.
 
-## Seminar 2: Digital Editing Workflow
+* Biblical scholarship and philology.
+</details>
+
+<details><summary>Housman's thought</summary>
+
+* ...
+
+</details>
+
+<details><summary>Problem of the Copy-Text: Greg-Bowers method</summary>
+
+* ...
+
+</details>
+
+## Seminar 2: Digital Editing Workflow; Brief Introduction to XML
+
+#### Reading
+David Birnbaum, ["An even gentler introduction to XML"](http://dh.obdurodon.org/what-is-xml.xhtml).
+
+#### Lecture notes
+<details><summary>Digital Editing Workflow</summary>
 
 If I am interested in creating a digital edition, there are two questions that you must ponder at length before proceeding:
 
@@ -57,7 +76,9 @@ The answer to (1) will vary quite a bit, depending on your documents, and what k
 
 The answer to (2) is a little more straightforward. Since we are concerned with "digital" editing, we need to think in terms of an appropriate computational pipeline.
 
-#### Transcription Options
+</details>
+
+<details><summary>Transcription Options</summary>
 
  The beginning of the pipeline is the flexible text editor. By flexible I mean an editor that is amenable to Web publishing, and uses non-proprietary open source formatting. Many editors have used proprietary word processors to transcribe their editorial material. While that has many virtues (control of type-setting feature, to name one), it presents a lot of problems if you are trying to optimize your workflow. E.g., if you transcribe an edition in Microsoft Word, you would have to transform that document (and all of its attendant features) into XML or HTML in order to make it work as a digital edition on the Web.
 
@@ -67,10 +88,8 @@ The answer to (2) is a little more straightforward. Since we are concerned with 
 
  [Access the slides here.](insert-link)
 
-#### Documentary Editing
+ </details>
 
- Readings and discussions: G. Thomas Tanselle, "The Editing of Historical Documents".
-
-### Brief Introduction to XML
+#### Brief Introduction to XML
 
 Why encode documents in XML? [Access the slides here.](fill-in-link)

@@ -21,9 +21,9 @@ Time     | Topic                               | Type                    |
 14.00 | Seminar 5: Building ODD for documentary editions: letters and journals | Digital lab |
 16.00 | Library Time: Documentary Editing, continued | Presentation |
 
-### Seminar 3: Documentary Editing
+#### Seminar 3: Documentary Editing
 
-Access Seminar 3 slides here.
+ Readings and discussions: G. Thomas Tanselle, "The Editing of Historical Documents".
 
 ### Seminar 4: Introduction to the Text Encoding Initiative (TEI)
 
