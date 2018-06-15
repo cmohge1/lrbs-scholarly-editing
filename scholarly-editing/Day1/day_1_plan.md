@@ -1,4 +1,4 @@
-# London Rare Books School 2018:
+# [London Rare Books School 2018:](/../index.md)
 
 ## Digital Scholarly Editing, Day 1
 
