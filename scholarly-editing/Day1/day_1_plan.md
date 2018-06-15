@@ -1,4 +1,4 @@
-# [London Rare Books School 2018:](/../index.md)
+# [London Rare Books School 2018:](https://cmohge1.github.io/lrbs-scholarly-editing/)
 
 ## Digital Scholarly Editing, Day 1
 
@@ -60,11 +60,14 @@ A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "T
 </p>
 </details>
 
-- ...
+ 
 
-Problem of the Copy-Text: Greg-Bowers method
-
+<details>
+  <summary>Problem of the Copy-Text: Greg-Bowers method</summary>
+  <p>
 - ...
+</p>
+</details>
 
 ## Seminar 2: Digital Editing Workflow; Brief Introduction to XML
 

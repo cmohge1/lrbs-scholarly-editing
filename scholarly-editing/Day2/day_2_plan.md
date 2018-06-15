@@ -1,4 +1,4 @@
-# [London Rare Books School 2018:](/../index.md)
+# [London Rare Books School 2018:](https://cmohge1.github.io/lrbs-scholarly-editing/)
 
 ## Digital Scholarly Editing, Day 2
 
