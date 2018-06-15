@@ -29,14 +29,11 @@ Time     | Topic                               | Type                    |
 A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text"; Fredson Bowers, "Some Principles..."; D. Greetham, "A History of Textual Scholarship" (from *Cambridge Companion to Textual Scholarship*); Philip Gaskell, Introduction to *From Writer to Reader*.
 
 #### Lecture notes
-<details><summary>First, a brief outline of an incomplete history [click to expand]</summary>
+<details><summary><code>init(title:level:style:close:)</code>First, a brief outline of an incomplete history [click to expand]</summary>
 
-* Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
-
+> * Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
 * Lycurgus (c. 390–324 BCE) arranges for single texts of Aeschylus, Sophocles, and Euripedes to be deposited into Athenian archives.
-
 * The history of textual editing is a history of arguments about the meaning of terms such as authenticity and authority.
-
 * What is the *textus receptus*? E.g., Falstaff "babbl'd o' green fields" (Shakespeare, *Henry V*); "soiled fish of the sea" (Melville, *White-Jacket*).
 
 * Alexandrian library: manuscript copying; the birth of collation as a practice; dealing with anomalies.
