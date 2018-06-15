@@ -1,4 +1,17 @@
 theme: jekyll-theme-tactile
 baseurl: /lrbs-scholarly-editing
-title: Digital Scholarly Editing at the London Rare Books School !homepage 
-description: Central repository for the 2018 Digital Scholarly Editing module at the Institute of English Studies
+title: Digital Scholarly Editing at the LRBS 
+description: Central repository for the 2018 Digital Scholarly Editing module at the London Rare Books School, Institute of English Studies
+
+navbar-links:
+  Outline: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - Learn markdown: "http://www.markdowntutorial.com/"
+    - GitHub Pages: "https://pages.github.com/"
+Home: "https://cmohge1.github.io/lrbs-scholarly-editing/"
+
+author:
+name: Christopher Ohge
+
+url-pretty: "https://cmohge1.github.io/lrbs-scholarly-editing/"
