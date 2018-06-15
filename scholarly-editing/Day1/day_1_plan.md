@@ -1,5 +1,5 @@
 ---
-<script type="text/javascript" src="/../schedule.js">/**/</script>
+<script type="text/javascript" src="../schedule.js">/**/</script>
 ---
 # London Rare Books School 2018:
 ## Digital Scholarly Editing, Day 1
