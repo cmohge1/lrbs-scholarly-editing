@@ -29,35 +29,35 @@ Time     | Topic                               | Type                    |
 A. E. Housman, "The Application of Thought to Textual Criticism"; W. W. Greg, "The Rationale of Copy Text"; Fredson Bowers, "Some Principles..."; D. Greetham, "A History of Textual Scholarship" (from *Cambridge Companion to Textual Scholarship*); Philip Gaskell, Introduction to *From Writer to Reader*.
 
 #### Lecture notes
-<details><summary>First, a brief outline of an incomplete history [click to expand]</summary>
+&nbsp;<details><summary>First, a brief outline of an incomplete history [click to expand]</summary>
 
-Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
+* Peisistratus (560–527 BCE) orders the 'official' text of Homer. The primary challenge was to build a coherent text from myriad versions spoken by the rhapsodes. This could be a viable beginning of textual criticism, i.e., being aware of variance and attending to authenticity and authority (whatever those terms mean). (Discuss!)
 
-Lycurgus (c. 390–324 BCE) arranges for single texts of Aeschylus, Sophocles, and Euripedes to be deposited into Athenian archives.
+* Lycurgus (c. 390–324 BCE) arranges for single texts of Aeschylus, Sophocles, and Euripedes to be deposited into Athenian archives.
 
-The history of textual editing is a history of arguments about the meaning of terms such as authenticity and authority.
+* The history of textual editing is a history of arguments about the meaning of terms such as authenticity and authority.
 
-What is the *textus receptus*? E.g., Falstaff "babbl'd o' green fields" (Shakespeare, *Henry V*); "soiled fish of the sea" (Melville, *White-Jacket*).
+* What is the *textus receptus*? E.g., Falstaff "babbl'd o' green fields" (Shakespeare, *Henry V*); "soiled fish of the sea" (Melville, *White-Jacket*).
 
-Alexandrian library: manuscript copying; the birth of collation as a practice; dealing with anomalies.
+* Alexandrian library: manuscript copying; the birth of collation as a practice; dealing with anomalies.
 
-Descriptive Bibliography.
+* Descriptive Bibliography.
 
-Biblical scholarship and philology.
-
+* Biblical scholarship and philology.
 </details>
 
-<details><summary>Housman's thought</summary>
+
+Housman's thought
 
 * ...
 
-</details>
 
-<details><summary>Problem of the Copy-Text: Greg-Bowers method</summary>
+
+Problem of the Copy-Text: Greg-Bowers method
 
 * ...
 
-</details>
+
 
 ## Seminar 2: Digital Editing Workflow; Brief Introduction to XML
 
@@ -65,7 +65,7 @@ Biblical scholarship and philology.
 David Birnbaum, ["An even gentler introduction to XML"](http://dh.obdurodon.org/what-is-xml.xhtml).
 
 #### Lecture notes
-<details><summary>Digital Editing Workflow</summary>
+Digital Editing Workflow
 
 If I am interested in creating a digital edition, there are two questions that you must ponder at length before proceeding:
 
@@ -77,9 +77,9 @@ The answer to (1) will vary quite a bit, depending on your documents, and what k
 
 The answer to (2) is a little more straightforward. Since we are concerned with "digital" editing, we need to think in terms of an appropriate computational pipeline.
 
-</details>
 
-<details><summary>Transcription Options</summary>
+
+Transcription Options
 
  The beginning of the pipeline is the flexible text editor. By flexible I mean an editor that is amenable to Web publishing, and uses non-proprietary open source formatting. Many editors have used proprietary word processors to transcribe their editorial material. While that has many virtues (control of type-setting feature, to name one), it presents a lot of problems if you are trying to optimize your workflow. E.g., if you transcribe an edition in Microsoft Word, you would have to transform that document (and all of its attendant features) into XML or HTML in order to make it work as a digital edition on the Web.
 
@@ -89,7 +89,7 @@ The answer to (2) is a little more straightforward. Since we are concerned with 
 
  [Access the slides here.](insert-link)
 
- </details>
+
 
 #### Brief Introduction to XML
 
