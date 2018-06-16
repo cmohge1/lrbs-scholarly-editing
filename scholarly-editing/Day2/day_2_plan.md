@@ -1,6 +1,10 @@
-# [London Rare Books School 2018:](https://cmohge1.github.io/lrbs-scholarly-editing/)
+---
+layout: page
+title: 'Digital Scholarly Editing, Day 2'
+permalink: /day2/
+---
 
-## Digital Scholarly Editing, Day 2
+# [London Rare Books School 2018](https://cmohge1.github.io/lrbs-scholarly-editing/)
 
 ## Synopsis
 
