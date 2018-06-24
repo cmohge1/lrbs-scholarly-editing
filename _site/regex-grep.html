@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RegEx and the Command Line</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code {
+        font-family: 'Ubuntu Mono';
+      color: #000000;
+    background-color: #C0C0C0;
+  }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+      class: center, middle
+
+      # "O, this way madness lies":
+
+      ## Regular expressions on the command line
+
+      ### https://bit.ly/2K6pvyF
+
+      ---
+
+      # grep
+
+      - `grep` stands for global regular expressions. This is a powerful command to search through multiple files. It literally processes a text line by line and prints the results that match the regular expression.
+
+      - Syntax:
+
+          `$ grep [OPTIONS] PATTERN [FILE...]`
+
+      ---
+      ## Example 1: a simple word match in a file
+
+      - Download the corpus of text files [here](https://www.dropbox.com/sh/m2i9j6x34znhmxa/AAC05iy6z-3b2iCHmNU75xEya?dl=0).
+
+      - On the command line, use `cd` to navigate to "corpus" (i.e., the folder you just downloaded).
+
+      - Let's say we're interested in finding all instances of the word "worried" in Melville's *Moby-Dick*:
+      --
+
+          `$ grep "worried" moby-dick.txt`
+
+      - Recall the syntax:
+
+          `$ grep [OPTIONS] PATTERN [FILE...]`
+
+      - The pattern is "worried" (all regular expressions are placed within quote marks), and the file is "moby-dick.txt". We can see the result is a hapax legomenon (a word that only occurs once).
+
+      - If we would like to find the exact line number in the txt file, we can add an -n option to the argument:
+
+      --
+
+          `$ grep -n "worried" moby-dick.txt`
+      ---
+
+      ## Example 2: another simple word match in a file
+
+      - To see how many times "Ahab" appears, start with: `grep "ahab" moby-dick.txt`
+
+      - Obviously "Ahab" is always capitalised in the book, since he is a main character. So we will enter an `-i` option in our argument to make our search case insensitive: `grep -i "ahab" moby-dick.txt`
+
+      - Use the `--color` option to make the results more obvious: `$ grep -i --color "ahab" moby-dick.txt`
+
+      - To count the results, just use a count option: `$ grep -i --count "ahab" moby-dick.txt`
+
+      - Now if I also want to match exactly the possessive uses of "Ahab", then I need another regex; in bash shell we invoke a powerful command: `egrep` (extended regex), which allows for more complicated pattern matches.
+
+      --
+
+          `$ egrep -i --count "\bahab('?\w?)" moby-dick.txt`
+
+      ---
+
+      ## Example 3.1: a (simple?) word match on multiple files
+
+      - Say I am interested in a very Melvillean word, such as "mad", or even a topic of "madness". The regex is apparently pretty straightforward: `$ grep --color "mad" *.txt`
+
+      - Notice how the file path begins with the regex `*` (the wildcard). This tells the machine to search for zero or more text files that have a .txt extension. It quickly accesses multiple files txt files in a corpus. But there's a problem with the results. Any guesses?
+
+      --
+      - Say I do want to include results for words containing "mad" as well, like, say, "madness" and "maddening".
+      --
+
+          `$ grep -i --color "\bmad\w*" *.txt`
+
+      --
+
+      - Notice here that we have included a word boundary regex (`\b`) at the beginning that makes sure the word begins with "mad", and at the end we match zero or more words (`\w*`).
+
+      - Interesting, but if you look closely, this expression finds any words that start with the characters "mad", which in our corpus includes "made" and "madame"---not relevant to us. So we can use regex to limit our search to just the word "mad":
+      --
+
+          `$ egrep -i --color "\bmad\b" *.txt`
+
+      --
+
+      - Now use `--count` to generate a list of the instances.
+      ---
+      ## Example 3.2: a (simple?) word match on multiple files
+
+      - Fine; but we still might want other madness words with the root "mad", but we do not want the extra words like "madame". How would that look?
+
+      --
+
+          `$ egrep --color "\bmad\b|\bmadness|\bmaddening|\bmadman" *.txt`
+
+      --
+
+      - Wait?? There's still a problem?
+
+      --
+
+      - Yes: several of these files have a tricky word, "mad'st". We can introduce a strict option for egrep, `-w`, which tells the grep to only match the words in the pattern. In this case, this saves us a little trouble because we now know what words we want.
+
+      --
+
+          `$ egrep -w --color "mad\b|madness|maddening|madman" *.txt`
+
+      ---
+
+      ## Who is the maddest of them all?
+      --
+
+      battle-pieces.txt:5
+
+      beale-natural-history-sperm-whale.txt:0
+
+      chapman-iliad.txt:25
+
+      chapman-odyssey.txt:21
+
+      confidence-man.txt:11
+
+      hawthorne-and-his-mosses.txt:2
+
+      israel-potter.txt:10
+
+      milton-complete.txt:13
+
+      moby-dick.txt:51
+
+      piazza-tales.txt:8
+
+      pierre.txt:27
+
+      **shakespeare-complete.txt:334**
+      ---
+
+      ## Example 4.1: Piping your results: simply
+
+      - Sometimes you want to put your results into a new file. The piping function on the command line is `>`. The resulting word results (with line numbers) could be rendered as such:
+
+          `$ egrep -w -n "mad\b|madness|maddening|madman" *.txt > mad-results.txt`
+
+      ---
+      ## Example 4.2: Piping your search results with `sed`
+
+      - The next major use of regex on the command line is `sed` (literally "stream editor"), a simple search and replace function that can be used for multiple files. Recall our problem with the word "mad'st". With `sed` we can regularise the word over multiple files using this syntax:
+
+          `$ sed -e "s/STRING_TO_REPLACE/STRING_TO_REPLACE_IT/g" file.txt`
+
+      - Translated into our example:
+
+          `$ sed -e "s/mad'st/madest/g" chapman*.txt > chapman_clean.txt`
+
+      - I *would not* recommend doing that, but it's just an example. Another challenge, which I might recommend: suppose we wanted to regularise all of the past tense verbs with 'd? How would you search and replace all "'d "s with "ed"s?
+
+      --
+
+          `$ sed -e "s/\'d/ed/g" *.txt > past-tense.txt`
+
+      --
+
+      - Better yet, use `grep` to check that nothing went wrong:
+
+      --
+
+          `$ grep -i --color "\'d\b" past-tense.txt`
+
+      ---
+
+      ## Bonus Example 5! using `grep` within `xmllint` to search xml files
+
+      - `xmllint` is a command line tool that allows several options for searching xml files. It can also function as an XPath query engine for those without a good editor like oXygen.
+
+      - The syntax is pretty similar to `grep`: here we are using an XPath expression an option following the xmllint invocation that greps out the text of the xml node:
+
+           `$ xmllint --xpath "//line/text()" ozymandias.xml > ozymandias.txt`
+
+      - This just prints out all `<line>` elements in the document. You can now use `grep` to search just through the texts of only the `<line>` elements (which is important in an xml file because you will have searches that match strings of nodes other than lines): `$ grep "\b([A-z]{4})\b" ozymandias.txt` finds all four-letter words that are lines, for example.
+
+      ---
+
+      ## Last word about search and replace and xml
+
+      - Now suppose you want to move toward a more compliant TEI file for ozymandias.xml. For one file you would use a regex to search and replace each `<line>` element with a `<l>` (and then wrap that in an `<lg>`). But you might want to use the command line for multiple files that have the same issue. The syntax for that would be with `sed`: type in `$ sed -e "s/line/l/g" ozymandias.xml` and you'll see a nice rewriting of the line elements.
+
+      - **But** this should **not** be done, generally: most xml find-and-replace should be done with XPath and XSLT. There may be some cases when an element name (say, `<w>`) is not going to match with other characters in the file, so it might be worthwhile to use `sed` to your advantage. However, it's best to learn more about xml technologies XPath and XSLT! Any XSLT programmer uses a lot of regular expressions to navigate patterns in files.
+
+      ---
+      class: center, middle
+
+      ### Thanks! Please do be in touch with any questions: christopher.ohge@sas.ac.uk
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    var slideshow = remark.create();
+    </script>
+  </body>
+</html>
