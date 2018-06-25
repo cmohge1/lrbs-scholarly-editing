@@ -1,3 +1,7 @@
+---
+layout: page
+title: 'Day 1'
+---
 # Synopsis
 
 Today will feature an introduction to the history of scholarly editing, an overview of digital workflow strategies, and an introduction to Markdown and XML.
