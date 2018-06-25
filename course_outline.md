@@ -30,11 +30,7 @@ Day 3: Eclectic/clear text editing; TEI continued; annotation.
 
 Day 4: Genetic Text Editing; customising TEI; LMNL and alternative markup.
 
-<<<<<<< HEAD
-Day 5: Transforming Editorial Data with XPath, R, and XSLT; Editing Manuscript Images with TextLab.
-=======
 Day 5: Transforming Editorial Data with XPath, and XSLT;  Fluid Text Editing with TextLab.
->>>>>>> 14c9f28e329f228e53bd6ce30ee645b72cbe5560
 
 ## Detailed Schedule (Subject to Change)
 
@@ -49,21 +45,12 @@ Time | Topic | Type |
 
 ### Day 2 (Tuesday, 3 July)
 
-<<<<<<< HEAD
-Time | Topic | Type |
-:----|:-----|:------|
-9.30 | Seminar 3: Documentary Editing | Presentation, Discussion |
-11.30 | Seminar 4: Introduction to the Text Encoding Initiative (TEI) |  Presentation, discussion     |
-14.00 | Seminar 5: Using TEI for documentary editions: letters and journals | Digital lab |
-16.00 | Library Time: Documentary Editing, continued | Presentation |
-=======
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
 9.30 | Seminar 3: Introduction to the Text Encoding Initiative (TEI) | Presentation, Discussion |
 11.30 | Seminar 4: Documentary Editing |  Digital lab             |
 14.00 (in SHL) | Seminar 5: Using TEI for documentary editions: letters and journals | Discussion |
 16.00 | Library Time |
->>>>>>> 14c9f28e329f228e53bd6ce30ee645b72cbe5560
 
 ### Day 3 (Wednesday, 4 July)
 
@@ -85,17 +72,10 @@ Time | Topic | Type |
 
 ### Day 5 (Friday, 6 July)
 
-<<<<<<< HEAD
-Time | Topic | Type |
-:----|:-----|:------|
-9.30 | Seminar 12: Quick introduction to XPath and XSLT | Presentation, Discussion |
-11.30 | Seminar 13: Fluid Text Editing; Using TextLab to edit manuscript images | Digital lab |
-=======
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
 9.30 | Seminar 12: Quick introduction to XPath and XSLT; Fluid Text Editing | Presentation, Discussion |
 11.30 | Seminar 13: Using TextLab to edit manuscript images | Digital lab |
->>>>>>> 14c9f28e329f228e53bd6ce30ee645b72cbe5560
 
 ## Readings
 
