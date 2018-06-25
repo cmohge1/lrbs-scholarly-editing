@@ -4,4 +4,4 @@
 
 Course tutor: Christopher Ohge, Lecturer in Digital Approaches to Literature (Institute of English Studies, School of Advanced Study, University of London)
 
-## [Enter the course schedule.](course-outline)
+## [Enter the course schedule.](course-outline.md)
