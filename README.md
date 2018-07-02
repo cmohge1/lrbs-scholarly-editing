@@ -8,7 +8,7 @@ Welcome to the London Rare Books School summer 2018 module on Digital Scholarly 
 
 - Facility with transcribing documents in Markdown, HTML, and XML (using the standards of the Text Encoding Initiative).
 
-- Your very own miniature digital critical edition of a literary document.
+- The ability to make your own digital critical edition of a literary document.
 
 - Awareness of the problems and challenges of digital editions.
 
