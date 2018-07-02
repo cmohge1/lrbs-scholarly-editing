@@ -1,9 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
 # Synopsis
 
 Welcome to the London Rare Books School summer 2018 module on Digital Scholarly Editing (2-6 July). This week will be an intense look at the traditions and principles of scholarly editing and textual scholarship, coupled with an intensive bootcamp on the fundamentals of creating digital editions.
