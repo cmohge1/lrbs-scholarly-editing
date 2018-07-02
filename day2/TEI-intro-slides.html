@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intro to TEI-XML</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code {
+        font-family: 'Ubuntu Mono';
+      color: #000000;
+    background-color: #C0C0C0;
+  }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# An intro to TEI
+
+---
+
+## Anatomy of an XML document
+
+- namespace
+- PCDATA
+- schema (meaning and grammar for valid XML documents)
+
+---
+
+## What is TEI?
+
+TEI is a like a library of concepts and rules that are applied to the meta-information about text through descriptive and structural markup. "The TEI provides names and definitions for many hundred tags, together with rules about how they may be combined. More exactly, the TEI Guidelines define some five or six hundred different concepts, along with detailed specifications for the XML elements and element classes which may be used to represent them" (Burnard).
+
+---
+
+## TEI and constraint
+
+The TEI offers around 500 elements and 200 attributes.
+
+You cannot read all the books in the library, in other words.
+
+TEI is not a schema. Editors should select TEI elements and attributes from the TEI modules that apply to their projects. TEI offers an unambiguous foundation for representing text as well as standardized mechanisms for customisation.
+
+---
+
+Good news: few projects require a complete knowledge of the TEI, and most projects only require about 25 or so element in total.
+
+Every TEI document has at least two parts: a teiHeader (containing metadata–––i.e., data describing the document), and the text (typically represented by a <text> element), in which its structure is represented by elements such as <front>, <body>, and <back>. Within these three structural divisions are further sub-divisions often encoded with <div> tags.
+
+---
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sha-ham">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hamlet, Prince of Denmark</title>
+                <author>William Shakespeare</author>
+                <respStmt>
+                    <name>Craig A. Berry, Martin Mueller, and Clifford Wulfman</name>
+                    <resp>editors</resp>
+                </respStmt>
+                ...
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <title>The WordHoard Shakespeare</title> is a joint project ... </p>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <p> The Wordhoard Shakespeare is derived from, but not identical with, <title>The
+                Globe Shakespeare</title>...</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="sha-hamcast" type="castList">
+                <head>Dramatis Personae</head>
+                ... </head> ...
+              </div>
+          </body>
+      </text>
+  </TEI>
+
+```
+---
+
+TEI proposes a single element `<div>` for any such structural subdivision of the body of a text.
+
+Each `<div>` should have at least a @type attribute, and eventually @xml:id.
+
+
+
+---
+
+To read more about the history of TEI, read James Cummings's ["The Text Encoding Initiative and the Study of Literature"](http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405148641/9781405148641.xml&chunk.id=ss1-6-6&toc.depth=1&toc.id=ss1-6-6&brand=9781405148641_brand)
+
+[Return to the Day 2 plan](https://cmohge1.github.io/lrbs-digital-scholarly-editing/day2/).
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    var slideshow = remark.create();
+    </script>
+  </body>
+</html>
