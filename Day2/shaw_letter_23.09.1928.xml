@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from G. B. Shaw to William Burton</title>
+            <author>George Bernard Shaw</author>
+            <editor>Digital Scholarly Editing Team, London Rare Books School</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a born-digital diplomatic transcription of an unpublished letter.</p>        
+         </publicationStmt>
+         <sourceDesc>
+            <p>Written on one side of a card with Shaw's stock letterhead</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <opener>
+               <!-- do we include the pre-printed letterhead? -->
+               <date when="1928-09-23">23<hi rend="superscript">rd</hi>. Sept. 1928</date>
+               <salute>Dear Sir</salute></opener>
+            <p>There is nothing in all this that your children will not be able to learn––if they want to––from books by more practiced hands.</p>
+            <p>I should have guessed you to be a young man with an itch for writing, in which case I should have recommended you to write a thousand words a day for five years to find out whether you could write professionally or not.</p>
+            <p>It takes as long to make a skilled writer as a skilled carpenter for a man of your turn of mind.</p>
+            <p>I have only just returned from the continent, where I have passed 2 months out of reach of your <abbr>MS.<expan>manuscript</expan></abbr></p>
+            <closer>
+               <salute>faithfully,</salute> <signed>
+                  <name>G. Bernard Shaw</name>
+               </signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

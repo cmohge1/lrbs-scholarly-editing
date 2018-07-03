@@ -23,7 +23,7 @@ Time  | Topic                                                                   
 12.30 | Registration                                                                  |
 13.00 | Senate House Library Talk                                                     | Presentation             |
 14.00 | Seminar 1: Brief history of Scholarly Editing                                 | Presentation, Discussion |
-16.00 | Seminar 2: Digital Editing Workflow, Transcription; Brief Introduction to XML | Digital lab              |
+16.00 | Seminar 2: Digital Editing Workflow, Transcription with Markdown | Digital lab              |
 
 ## Seminar 1: Brief History of Scholarly Editing
 
@@ -33,7 +33,7 @@ Time  | Topic                                                                   
 
 2. [A. E. Housman, "The Application of Thought to Textual Criticism"](../readings/housman_application_of_thought.html) (*Art and Error*).
 
-3. G. Thomas Tanselle, "The Varieties of Scholarly Editing" (Greetham, 1995).
+3. [G. Thomas Tanselle, "The Varieties of Scholarly Editing" (Greetham, 1995)](../readings/tanselle_varieties_of_editing.pdf).
 
 ### Lecture notes
 
@@ -49,17 +49,27 @@ Time  | Topic                                                                   
   <li><p>Pergamum, the other civic rival to Alexandria, switched to using parchment (animal skin) after Alexandria banished papyrus exports during a trade conflict. Generally, the Pergamanian scholars accepted the necessity of corruption and sought to identify the "best text" based on a careful examination of all surviving witnesses. The "best text" would be based on an actual historical document, rather than the Alexandrian text, which was a reconstructed text. Texts from neither of these epochs survive, but citations of them exist in medieval scholias.</p></li>
   <li><p>Descriptive Bibliography. Callimachus (c. 305–240 BCE) created the first record of Greek manuscripts, <em>Pinakes</em> (Tablets).</p></li>
   <li>Late classical era: the birth of textual commentaries (Servius Honoratus on Virgil).</li>
-  <li><p>Biblical scholarship: problems of vocalisation, accentuation, and word-division in consonantal Hebrew. Masoretic text versus Greek Septuagint translation versus the Dead Sea Scrolls. The Old Testament is far less complicated (textually speaking) than the transmission of the Greek New Testament. Jerome's <em>Vulgate</em>, commissioned by Pope Damascus I, was the first Latin Bible that was based on surviving witnesses (~8000 manuscripts!).
+  <li><p>Biblical scholarship: problems of vocalisation, accentuation, and word-division in consonantal Hebrew. Masoretic text (Hebrew and Aramaic copies, c. 7th–9th centuries CE) versus Greek Septuagint translation versus the Dead Sea Scrolls. The Old Testament is far less complicated (textually speaking) than the transmission of the Greek New Testament. Jerome's <em>Vulgate</em>, commissioned by Pope Damascus I in the late 4th century CE, was the first Latin Bible that was based on surviving witnesses (~8000 manuscripts!).
 </p></li>
 <li>Medieval period saw a period of conservation, copying mostly religious works and trying to reconcile them, as much as possible, with classical (pagan) works. The Caroline Reformation led to a standardised script that made various European national scripts consistent––a significant portion of surviving manuscripts of classical literature is the result of copies made in monasteries with Carolingian script. Meanwhile, Constantinople's holdings of Greek manuscripts were crucial to Italian humanists' serious return to Greek study in the late fourteenth–early fifteenth century.</li>
 <li>Copying work transferred from the hands of monks to those of professional scribes, often in universities. The great poet Petrarch's partial reconstruction of Livy's histories was a rigorous editorial project based on manuscript fragments in many medieval repositories. Poggio Bracciolini (1380–1459), acting as papal secretary, found manuscripts all over Europe of prominent classical thinkers. Bracciolini even invented a new humanist script that was far more clear and readable than the prevailing <em>textura</em> (i.e., gothic) script of the day. This is a good moment to reflect on the desire for humanists over time to invent inscription technologies that are consistent, readable, and shareable––a set of values very important to so-called "digital humanities" today.</li>
-<li>Another figure worth noting: Lorenzo Valla (1407–57), the great debunker of forgeries: the <em>Donation of Constantine</em> and the letters of Seneca and St. Paul, e.g. He also sought to emend Jerome's <em>Vulgate</em>. His edition, based on Greek and patristic texts, was published by Erasmus in 1505. Similarly, Politian (1454–94) searched for earliest recoverable version of a manuscript––this foreshadowed the genealogical method of plotting a linear path of textual transmission. Politian derived the method of <em>elminatio codicum descriptorum</em>, the removal of "descriptive" or derived copies as witnesses to an authentic version. This led to the method (very much in use to this day) of <em>stemma codicum</em>, the "family tree" of textual versions.</li>
+<li>Another figure worth noting: Lorenzo Valla (1407–57), the great debunker of forgeries: the <em>Donation of Constantine</em> and the letters of Seneca and St. Paul, e.g. He also sought to emend Jerome's <em>Vulgate</em>. His edition, based on Greek and patristic texts, was published by Erasmus in 1505. Similarly, Politian (1454–94) searched for earliest recoverable version of a manuscript––this foreshadowed the genealogical method of plotting a linear path of textual transmission. Politian derived the method of <em>eliminatio codicum descriptorum</em>, the removal of "descriptive" or derived copies as witnesses to an authentic version. This led to the method (very much in use to this day) of <em>stemma codicum</em>, the "family tree" of textual versions.</li>
 </ul>
 
 
-<ul><li>Stemmatics: building a family tree by examining scribal errors in multiple manuscript copies. Aldine editions. Example of the Erasmus New Testament.</li></ul>
+<ul><li>Stemmatics: building a family tree by examining scribal errors in multiple manuscript copies. Aldine editions. Example of the Erasmus New Testament. As an example: <img src="https://christopherohge.com/stemmatics.jpg">(Courtesy <https://chs.harvard.edu/CHS/article/display/4742.1-textual-criticism-as-applied-to-biblical-and-classical-texts>)</img></li></ul>
 
-<ul><li>Philology: Lachmannian method: identification and evaluation of bibliographic sources with a critical awareness. Later witnesses have more errors.</li></ul>
+<ul><li>Philology (<em>OED</em>):
+
+1. Love of learning and literature; the branch of knowledge that deals with the historical, linguistic, interpretative, and critical aspects of literature; literary or classical scholarship. Now chiefly U.S.
+
+3. The branch of knowledge that deals with the structure, historical development, and relationships of languages or language families; the historical study of the phonology and morphology of languages; historical linguistics. See also comparative philology at comparative adj. 1b.</li></ul>
+
+<ul><li>Lachmannian method: identification and evaluation of bibliographic sources with a critical awareness. This comes out of the work of Karl Lachmann (1793–1851), whose 1850 edition of Lucretius claimed that the three extant manuscripts descended from a single archetype. Later witnesses have more errors. Interestingly, Lachmann's <em>Nibelungenlied</em> edition involved more speculation.</li></ul>
+
+<ul><li>Johann Gottfried Eichhorn (1753–1824) and his monumental claim that there was no possibility to find or reconstruct the original or best text in biblical texts, because of all of the layers of copying and linguistic shifts (<em>Einleitung in das Alte Testament</em>, 1780–83).</li></ul>
+
+<ul><li>Friedrich August Wolf (1759–1824) similarly argued in his <em>Prolegomena ad Homerum</em> (1795) that it would be impossible to recover Homeric texts.</li></ul>
 </details>
 
 <details>
@@ -90,11 +100,7 @@ Time  | Topic                                                                   
 </ul>
 </details>
 
-## Seminar 2: Digital Editing Workflow; Brief Introduction to XML
-
-### Reading
-
-David Birnbaum, ["An even gentler introduction to XML"](http://dh.obdurodon.org/what-is-xml.xhtml).
+## Seminar 2: Digital Editing Workflow
 
 ### Lecture notes
 
@@ -147,6 +153,10 @@ First we will look at the most basic of transcription: Markdown. This is lightwe
 
 - Open the file in Atom text editor. Save it as thomas_markdown_exercise.md.
 
+- Make sure your Atom text editor is updated. Click on Help and check to see you if need to update.
+
+- Go to File > Settings > Install and type in the search box "markdown-preview-enhanced".
+
 - Now press `control + shift + m` to show an html preview in Atom.
 
 - Using Markdown syntax, mark up the following ([click here for the Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)):
@@ -156,11 +166,7 @@ First we will look at the most basic of transcription: Markdown. This is lightwe
   - a hyperlink from Edward Thomas's name to a web page (say, Poetry Foundation) with his biography;
   - create a contextual footnote for one of the lines (possibly the "Source"?).
 
-- Once your markdown document is complete, right-click on the preview window, select "Save as HTML." Your document is now available as a web-ready html file. You can navigate to the file yourself and open it in your browser.
-
-### Brief Introduction to XML
-
-[Access the XML slides here.](https://christopherohge.com/XML-intro_LRBS.pdf)
+- Once your markdown document is complete, right-click on the preview window, select HTML > HTML (offline). In a green box you will see the html url for your file. You can also right click on the markdown preview and select "Open in Broswer". Your document is now available as a web-ready html file. You can navigate to the file yourself and open it in your browser.
 
 How do you get from markdown to xml? Two good options are [Pandoc](https://pandoc.org/) and [OxGarage](http://www.tei-c.org/oxgarage/). I prefer using Pandoc for my transformations (my favourite probably being the markdown > PDF transformation). OxGarage is also good, and a little bit simpler to use: it can convert several types of documents into TEI-XML.
 

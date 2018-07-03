@@ -14,8 +14,6 @@ Today will introduce two technologies for transforming xml documents: XPath and 
 
 - A facility with querying xml nodes with XPath.
 
-- A working knowledge of using TextLab to transcribe manuscripts.
-
 ## Schedule
 
 ### Day 5 (Friday, 6 July)
@@ -23,4 +21,4 @@ Today will introduce two technologies for transforming xml documents: XPath and 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
 9.30 | Seminar 12: Fluid Text Editing; Quick introduction to XPath and XSLT | Presentation, Discussion |
-11.30 | Seminar 13: Using TextLab to edit manuscript images | Digital lab |
+11.30 | Seminar 13: Open discussion on publishing digital editions; course review | Digital lab; Discussion |
