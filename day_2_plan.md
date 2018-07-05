@@ -21,8 +21,8 @@ Today will feature an introduction to XML, documentary editing, and the the Text
 Time  | Topic                                                                  | Type
 :---- | :--------------------------------------------------------------------- | :-----------------------
 9.30  | Seminar 3: Brief Introduction to XML; Documentary Editing (TEI)                                        | Presentation, Discussion |
-11.30 | Seminar 4: Introduction to the Text Encoding Initiative; Text modelling; TEI and ODD | Presentation, discussion |
-14.00 | Seminar 5: Building ODD for Documentary Editions: letters and journals | Digital lab              |
+11.30 | Seminar 4: Introduction to the Text Encoding Initiative; Text modelling | Presentation, discussion |
+14.00 | Seminar 5: Letters and journals manuscripts (Senate House Library) | Digital lab              |
 16.00 | Library Time                                                           | Presentation             |
 
 #### Seminar 3
@@ -152,12 +152,19 @@ Here is a sample TEI template for a letter in our manuscript collection (The Sti
          <div type="letter">
             <opener>
                <!-- do we include the pre-printed letterhead? -->
+               <address><addrLine>[Written sideways in the left margin:] to Mr. <name>William Burton</name>
+               <lb/>77 Queens Buildings
+               <lb/>Collinson Street, London SE1</addrLine></address>
                <date when="1928-09-23">23<hi rend="superscript">rd</hi>. Sept. 1928</date>
                <salute>Dear Sir</salute></opener>
             <p>There is nothing in all this that your children will not be able to learn––if they want to––from books by more practiced hands.</p>
             <p>I should have guessed you to be a young man with an itch for writing, in which case I should have recommended you to write a thousand words a day for five years to find out whether you could write professionally or not.</p>
             <p>It takes as long to make a skilled writer as a skilled carpenter for a man of your turn of mind.</p>
-            <p>I have only just returned from the continent, where I have passed 2 months out of reach of your <abbr>MS.<expan>manuscript</expan></abbr></p>
+            <p>I have only just returned from the continent, where I have passed 2 months out of reach of your <choice>
+            <abbr>MS.</abbr>
+            <expan>manuscript</expan>
+            </choice>
+            </p>
             <closer>
                <salute>faithfully,</salute> <signed>
                   <name>G. Bernard Shaw</name>
