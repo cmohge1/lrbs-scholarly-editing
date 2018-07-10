@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Day 4
-permalink: /day4/
+permalink: /day4.html
 ---
 ## Synopsis
 
@@ -9,26 +9,26 @@ Today we will finish the exercise on encoding textual apparatus and annotation. 
 
 ## Aims
 
-- Encode an app crit, witness list, and annotations.
-- Knowledge of schemas, ODDs, and why we use them.
+- Encode a textual apparatus, witness list, and annotations.
+- Understanding of schemas and ODDs, and why we use them.
 - Understand the differences between eclectic and genetic text editing.
-- Understand how "social text" theory changed the landscape of editing.
-- A working knowledge of using TextLab to transcribe manuscripts.
+- Understand how text genetics and "social text" theory changed the practices of editing.
+- A working knowledge of using TextLab to transcribe manuscript images.
 
 ### Day 4 (Thursday, 5 July)
 
 Time | Topic | Type |
 :----|:------|:-----|
-9.30 | Seminar 9: Writing and encoding textual apparatus and annotation | Presentation, Discussion |
+9.30 | Seminar 9: Thinking about, writing and encoding textual apparatus and annotation | Presentation, Discussion |
 11.30 | Seminar 10: Intro to genetic criticism, genetic editing, fluid text editing | Digital lab  |
-14.00 | Seminar 11: Using TEI to mark-up versions of texts with TextLab | Digital lab |
+14.00 | Seminar 11: Using TextLab to create a manuscript-based genetic edition in TEI | Digital lab |
 16.00 | Library Time |             |
 
 ### Seminar 9:
 
 #### Writing and encoding annotation
 
-Remember that the essence of the app crit in TEI is the `<app>` element, which contains at least `<rdg>` elements with `@wit` attributes. If you would like to replicate Ricks's app crit, you'll want to also nest a `<lem>` element (a lemma) so that you can represent the preferred reading (the lemma) which points to its variants. More information about app crit in TEI can be found in [Chapter 12](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html) of the *TEI Guidelines*.
+Remember that the essence of the app crit in TEI is the `<app>` element, which contains at least `<rdg>` elements with `@wit` attributes. If you would like to replicate Ricks's app crit, you'll want to also nest a `<lem>` element (a lemma) so that you can represent the preferred reading (the lemma) which points to its variants at the foot of the page. More information about app crit in TEI can be found in [Chapter 12](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TC.html) of the *TEI Guidelines*.
 
 Thankfully annotation is a bit simpler: for many projects a `<note>` TEI element will suffice (for more, consult the [Guidelines](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-note.html)).
 
@@ -52,20 +52,18 @@ The `<ptr>` element uses a # mark to indicate that we are going to move to anoth
 
 OK, but why did the `<ptr>` element include its own `@xml:id`?
 
-Another way to do this is evidenced by a Mark Twain edition file:
-
 #### Exercise
 
 1. Return to your TEI-encoded text of Tennyson's "Early Spring."
 2. Now have a look at [Christopher Ricks's edition](../readings/tennyson_early-spring-Ricks-edition.pdf) of Tennyson and take a moment to study the app crit of "Early Spring".
 3. Within the `<text>` of your xml file, create an app crit using Ricks's example.
-4. Create a personography within your file. Create entries (and `@xml:id`s) for Tennyson and Ricks (does not have to be complete).
-5. Create a note to reproduce Ricks's textual headnote (hint: treat like you would an explanatory note: create a `<back>` element).
+4. Create a personography within your file. Create entries (and `@xml:id`s) for Tennyson and Ricks (it does not have to be complete).
+5. Create a note to reproduce Ricks's textual headnote (hint: treat it like you would an explanatory note: create a `<back>` element?).
 6. Create a short explanatory note about some aspect of the poem.
 
 If you would like to consult the Senate House Library's manuscript of "Early Spring," you can download it [here](../readings/early-spring-ms.pdf).
 
-#### Customising the TEI: TEI and ODD
+#### Some notes on customising the TEI: TEI and ODD
 
 [Burnard](https://books.openedition.org/oep/692): "How should you go about choosing just the parts of the TEI you need? How should you communicate the particular TEI encoding choices you have made to others so that such integration remains possible?"
 
@@ -156,7 +154,7 @@ Or, if you're really clear about the elements you want, exclude what you do not 
 <moduleRef key="analysis" exclude="c cl interp m pc span spanGrp"/>
 ```
 
-Burnard notes a very good example of how the TEI can be constrained by ODD. The EpiDoc Guidelines wanted to constrain the vocabulary of `@type` attributes in `<div>` elements. So within their `<schemaSpec>` you will notice:
+Burnard notes a very good example of how the EpiDoc Guidelines in TEI constrained their encoding with ODD. The EpiDoc Guidelines wanted to constrain the `@type` attributes in `<div>` elements. And for very good reason: EpiDoc is the standardised set of guidelines for encoding classical documents which require a controlled vocabulary. So within their `<schemaSpec>` you will notice:
 
 ```
 <elementSpec
@@ -203,7 +201,7 @@ Burnard: "one of the purposes of the TEI Guidelines is to guide encoding practic
 
 Why are we doing this? Aren't we jumping ahead a bit on the TEI?
 
-Answer: Possibly, but the TEI is very difficult to learn in a few days (in a few years, even), and with ODD you engage with the Guidelines in a more critical way. Moreover, it is inevitable that projects will decide to encode different things in different ways. For example, some projects might consider it very important to label each rhyme word within a poem's lines with `<rhyme>` and `@label`, and they will want to include `@type` and `@rhyme` attributes in their supervening `<lg>` elements:
+Answer: Possibly, but the TEI is very difficult to learn in a few days (in a few years, even), and with ODD you engage with the Guidelines with a critical eye. Moreover, it is inevitable that projects will decide to encode different things in different ways. For example, some projects might consider it very important to label each rhyme word within a poem's lines with `<rhyme>` and `@label`, and they will want to include `@type` and `@rhyme` attributes in their supervening `<lg>` elements:
 
 ```
 <!-- from Alexander Pope's *Essay on Criticism* -->
@@ -228,25 +226,26 @@ Other poetry projects will not use any rhyming identifiers, as they may simply w
 
 The ODD approach allows you to communicate exactly what encoding decisions you made, how you constrained them for consistency, and how you envision what is important in your document model. This benefits other researchers doing similar projects as well as the TEI, which is community-driven.
 
-The TEI also offers a web application called [Roma](http://www.tei-c.org/Roma/) to build ODDs.
+The TEI also offers a web application called [Roma](http://www.tei-c.org/Roma/) to build ODDs from the element and attribute specifications covered above.
 
-For more information on writing ODDs, consult Syd Bauman and Julia Flanders's [documentation](http://www.wwp.neu.edu/outreach/seminars/uvic_advanced_2016/presentations/basic_odd/basic_odd_simple_00.xhtml).
+For more information on writing ODDs, consult Syd Bauman and Julia Flanders's [teaching materials](http://www.wwp.neu.edu/outreach/seminars/uvic_advanced_2016/presentations/basic_odd/basic_odd_simple_00.xhtml).
 
 ### Seminar 10:
-#### Genetic criticism, genetic editing, fluid text editing
+#### Genetic criticism, social text editing, fluid text editing
 
 ### Readings
 
 1. McGann, *Critique of Modern Textual Criticism*.
 2. Bryant, *The Fluid Text*.
+3. [Hayford-Sealts genetic transcription of Melville's *Billy Budd*](https://christopherohge.com/hayford-sealts-billy-budd-transcription.pdf).
 
 Some distinctions:
 
 1. New Bibliography (Greg, Bowers, Gaskell––wait? Gaskell?).
 2. Sociology of Text (McKenzie, McGann).
-3. Genetic editing (Gabler, Sealts–Hayford, Bryant et al).
+3. Genetic editing (Gabler, Hayford-Sealts, Bryant et al).
 
-###Seminar 11:
+### Seminar 11:
 
 #### Using TEI to mark-up versions of texts with TextLab
 
@@ -254,7 +253,7 @@ Some distinctions:
 
 <p>1. Go to <https://app.textlab.org/users/sign_in> and click "Sign Up." Enter your details and make sure to select "University of London" under "Institutional Sponsor."</p>
 
-<p>2. Find “Bow in the Cloud” and click "Edit."</p>
+<p>2. Do you want to edit <em>Billy Budd</em> or the <em>Bow in the Cloud</em>? Find "Billy Budd (SAS, UoL)" or "Bow in the Cloud" and click "Edit."</p>
 
 <p>3. Find your Image number on the left-hand pane and click on it.</p>
 
@@ -282,3 +281,7 @@ Some distinctions:
 
 <p>10. To create a revision narrative, double-click on the boxed revision site, and click "New sequence." The top level will show the zone number of the box and the bottom will allow to compose a revision narrative.</p>
 </details>
+
+[Click here to download a PDF of the entire Hayford-Sealts transcription](https://christopherohge.com/hayford-sealts-billy-budd-transcription.pdf).
+
+The ongoing digital edition can be found at the [Melville Electronic Library](http://mel-juxta-editions.herokuapp.com/documents/631).

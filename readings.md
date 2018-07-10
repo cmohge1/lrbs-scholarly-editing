@@ -4,8 +4,6 @@ title: Readings
 permalink: /readings/
 ---
 
-# Click [here](insert-url) to access a PDF of the course reading pack and suggested readings.
-
 # A non-exhaustive list of books that are useful for this class:
 
 Bryant, John. _The Fluid Text_. U Michigan P, 2002.

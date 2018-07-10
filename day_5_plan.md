@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: Day 5
-permalink: /day5/
+permalink: /day5.html
 ---
 
 ## Synopsis
@@ -11,6 +11,8 @@ Today will introduce two technologies for transforming xml documents: XPath and 
 ## Aims
 
 - Familiarity with alternative markup options.
+
+- Ability to perform electronic collation.
 
 - A facility with searching xml nodes with XPath.
 
@@ -33,15 +35,12 @@ Time     | Topic                               | Type                    |
 
 1. [Wendell Piez, "TEI in LMNL: Implications for Modeling"](https://journals.openedition.org/jtei/1337) (*jTEI*, 2014)
 
-<details><summary>Exercise 1</summary>
+If you return to the poem you marked up on Day 1, Edward Thomas's "The Child on the Cliffs." Either open the original text file, and paste the text into a blank xml file in oXygen, or use your file that was converted from markdown to xml.
 
-<p>Return to the poem you marked up on Day 1, Edward Thomas's "The Child on the Cliffs." Either open the original text file, and paste the text into a blank xml file in oXygen, or use your file that was converted from markdown to xml.</p>
+Say we would like to mark up all instances of speakers with `<speaker>` tags (for more on this see the [TEI Guidelines](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html#DRSP)).
 
-<p>Say we would like to mark up all instances of speakers with `<speaker>` tags (for more on this see the [TEI Guidelines](http://www.tei-c.org/release/doc/tei-p5-doc/en/html/DR.html#DRSP)).</p>
+What happens to the XML validation?
 
-<p>What happens to the XML validation?</p>
-</details>
-<br />
 Customising TEI in your ODD file.
 
 *An alternative markup:* **LMNL**. LMNL (the Layered Markup and Annotation Language) is a non-hierarchical markup language developed by Wendell Piez.
@@ -50,13 +49,11 @@ The document consists of text and a sequence of atoms (mostly characters) with r
 
 Alternative markups such as LMNL are best used when the the XML or TEI-XML cannot serve the project's purposes. It is also best to only use alternative markup on small- to medium-scale projects (LMNL, for example, does not provide validation rules like XML does).
 
-<details><summary>Exercise 2</summary>
+Exercise 1
 
-Return to the text file of ["The Child on the Cliffs," by Edward Thomas](../thomas_edward_child_on_the_cliffs.txt) and mark up the speakers (and any other features) in LMNL.
+Mark up the Thomas poem in LMNL and make sure to encode the speakers (and any other features) you may find interesting.
 
 How does that compare to TEI encoding?
-
-</details>
 
 #### Computer-Assisted Collation
 
@@ -70,12 +67,18 @@ In most cases, machine-collation can detect differences that human eyes often mi
 
 Juxta Commons is a web-based interface for comparing versions of texts and creating editions from those versions.
 
-<details><summary>Instructions</summary>
+Exercise 2
+
+Instructions
 
 * Go to [Juxta Commons](http://www.juxtacommons.org/) (http://www.juxtacommons.org/)
 * Create a [free account](http://www.juxtacommons.org/signup)
 (http://www.juxtacommons.org/signup)
-* Go to the Day4 file repository and download [TBD]. If you already have some versions of a text prepared, feel free to use those.
+* Download the two versions of Mark Twain's "A Scrap of Curious History"
+  * [Manuscript transcription (c. 1894)](../readings/a-scrap-of-curious-history-ms.txt)
+  * [1914 published text](../readings/a-scrap-of-curious-history-harpers-1914.txt)
+
+If you already have some versions of a text prepared, feel free to use those.
 * Click on "Add Source" (top-left of the screen) and upload the files you just downloaded.
 * When you have uploaded your sources, under "Sources" click on the right arrow ("Prepare Witness"). The source will then appear in the top-middle pane, "Witnesses."
 * Select the witnesses that you would like to compare by clicking on the box next to its title and then "Create set" (you will then select "Create with Witnesses").
@@ -84,9 +87,8 @@ Juxta Commons is a web-based interface for comparing versions of texts and creat
 A good example of an edition using Juxta: The [Fluid Text edition of Herman Melville's *Moby-Dick*](https://mel.hofstra.edu/expurgating-moby-dick.html).
 
 For a more detailed user guide, go to <http://www.juxtacommons.org/guide?nocontrols#screencast>.
-</details>
 
-### CollateX
+#### CollateX
 
 Download Python 3, preferably the Anaconda distribution
 
@@ -97,4 +99,8 @@ Download Python 3, preferably the Anaconda distribution
 
 If these instructions do not make sense, consult [David Birnbaum's site](http://collatex.obdurodon.org/installation.xhtml).
 
-A good example of a Collatex collation: the Samuel Beckett manuscript project.
+A good example of a Collatex collation: the [Samuel Beckett manuscript project](www.beckettarchive.org/).
+
+#### BONUS material: XPath and XSLT
+
+(TBD)

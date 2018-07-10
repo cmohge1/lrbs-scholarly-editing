@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: post
 title: Day 3
-permalink: /day3/
+permalink: /day3.html
 ---
 
 ## Synopsis
@@ -135,4 +135,4 @@ Encode the poem in TEI (with the required metadata in the `<teiHeader>`, please)
 
 Dr Johnson's maxim: to correct what is corrupt, and clarify what is obscure.
 
-William Empson: a great thinker about notes. See Empson's Introduction to the Notes to his *Collected Poems*. See also [Empson on annotation](https://christopherohge.com/empson-obscurity-and-annotation.pdf).
+William Empson: a great thinker about notes. See Empson's Introduction to the Notes to his *Collected Poems*. See also [Empson on annotation](../readings/empson-obscurity-and-annotation.pdf).

@@ -1,9 +1,3 @@
----
-layout: page
-title: Course outline
-permalink: /course-outline/
----
-
 To access the folders of course materials online, go to [https://github.com/cmohge1/lrbs-scholarly-editing](https://github.com/cmohge1/lrbs-scholarly-editing).
 
 Course readings are either hyperlinked in the plan of each of day or downloadable at [https://github.com/cmohge1/lrbs-scholarly-editing/scholarly-editing/readings](https://github.com/cmohge1/lrbs-scholarly-editing/scholarly-editing/readings). (Please save paper by reading these on your computer or tablet.)
@@ -16,9 +10,9 @@ Day 2: [Documentary Editing; Introduction to the Text Encoding Initiative (TEI)]
 
 Day 3: [Eclectic editing; TEI continued](/day_3_plan.md).
 
-Day 4: [Genetic Criticism and Fluid Text Editing; customising TEI](/day_4_plan.md).
+Day 4: [Genetic Criticism, Sociology of Text, and Fluid Text Editing; customising TEI](/day_4_plan.md).
 
-Day 5: [Transforming Editorial Data with R, XPath, and XSLT; Open discussion on publishing editions](/day_5_plan.md).
+Day 5: [Alternative markup; Computer-assisted collation; Open discussion on publishing editions](/day_5_plan.md).
 
 ## Detailed Schedule (Subject to Change)
 
@@ -48,21 +42,21 @@ Time | Topic | Type |
 :----|:-----|:------|
 9.30 | Seminar 6: Eclectic/clear text editing; Critical Apparatus | Presentation, Discussion |
 11.30  | Seminar 7: Encoding critical apparatus in TEI | Digital lab |
-14.00 (in SHL)  | Seminar 8: Editing a clear text: stories and poems; Principles of Annotation; Writing and encoding annotation | Discussion; Digital lab |
+14.00 (in SHL)  | Seminar 8: Editing a clear text: stories, essays and poems | Discussion; Digital lab |
 16.00 | Library Time |
 
 ### Day 4 (Thursday, 5 July)
 
 Time | Topic | Type |
 :----|:------|:-----|
-9.30 | Seminar 9: Genetic editing, genetic criticism | Presentation, Discussion |
-11.30 | Seminar 10: Using TEI to mark-up versions of texts with TextLab | Digital lab |
-14.00 | Seminar 11: Customising the TEI; problems with TEI; alternative markup with LMNL; Computer-Assisted Collation Overview | Discussion; Digital lab |
+9.30 | Seminar 9: Thinking about, writing, and encoding textual apparatus and annotation | Presentation, Discussion |
+11.30 | Seminar 10: Intro to genetic criticism, social text editing, fluid text editing | Digital lab  |
+14.00 | Seminar 11: Using TextLab to create manuscript-based genetic editions in TEI | Digital lab |
 16.00 | Library Time |             |
 
 ### Day 5 (Friday, 6 July)
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-9.30 | Seminar 12: Quick introduction to XPath and XSLT | Digital lab |
-11.30 | Seminar 13: Open discussion: publishing editions; course review | Discussion |
+9.30 | Seminar 12: Problems with TEI; alternative markup with LMNL; Computer-Assisted Collation Overview; Quick introduction to XPath and XSLT | Presentation, Digital lab |
+11.30 | Seminar 13: Open discussion on publishing digital editions; course review | Discussion |
