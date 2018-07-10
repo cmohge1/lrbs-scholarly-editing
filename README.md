@@ -2,7 +2,7 @@
 
 Welcome to the London Rare Books School summer 2018 module on Digital Scholarly Editing (2-6 July). This week will be an intense look at the traditions and principles of scholarly editing and textual scholarship, coupled with an intensive bootcamp on the fundamentals of creating digital editions.
 
-Course readings are either hyperlinked in the plan of each of day or downloadable at [https://github.com/cmohge1/lrbs-scholarly-editing/readings](https://github.com/cmohge1/lrbs-scholarly-editing/readings). (Please save paper by reading these on your computer or tablet.)
+Course readings are either hyperlinked in the plan of each of day or downloadable in the [readings subdirectory](/readings). (Please save paper by reading these on your computer or tablet.)
 
 # Aims
 
