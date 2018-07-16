@@ -46,23 +46,25 @@ Time  | Topic                                                                  |
 
 <details><summary>Lecture Notes</summary>
 <ul>
-<li><p>To make a long article short: transcribe as much as possible.</p></li>
+<li><p>To make a long article short: transcribe as much as possible in a documentary edition.</p></li>
 
-<li><p>The divide between literary and historical editing. Historical: more about annotation (contextual commentary). Literary: more about textual variants.</p></li>
+<li><p>The old divide between literary and historical editing. Historical: more about annotation (contextual commentary). Literary: more about textual variants.</p></li>
 
 <li><p>Naive view: literary editing produces eclectic texts, historical editors produce "faithful" texts.</p></li>
 
 <li><p>Literalness and exactness and critical. Faithfulness?</p></li>
 
-<li><p>Modernisation and regularisation.</p></li>
+<li><p>Modernisation and regularisation. What is lost by the editor imposing regularity and spelling changes on a historical or private document.</p></li>
 
-<li><p>Jefferson "wd hve retird immedly hd h. nt bn infmd".</p></li>
+<li><p>Jefferson "wd hve retird immedly hd h. nt bn infmd". What is lost by expanding the abbreviations?</p></li>
 
-<li><p>Falicity to the document or to the reader?</p></li>
+<li><p>Felicity to the document or to the reader?</p></li>
 
-<li><p>Diplomatic, semi-diplomatic, and clear text.</p></li>
+<li><p><strong>Diplomatic:</strong> "wd hve retird immedly hd h. nt bn infmd";</p>
+<p><strong>Semi-diplomatic:</strong> "w[oul]d h[a]ve retir[e]d immed[iate]ly h[a]d h[e] n[o]t b[ee]n inf[or]m[e]d" ; and</p>
+<p><strong>Clear text:</strong> would have retired immediately had he not been informed.</p></li>
 
-<li><p>Yet: one cannot transcribe everything. As soon as transcription happens, an element of contingency comes into the text.</p></li>
+<li><p>Yet: one cannot transcribe everything. As soon as transcription happens, an element of contingency comes into the text. It is still a representation.</p></li>
 </ul>
 </details>
 <br />
