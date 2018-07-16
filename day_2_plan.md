@@ -46,7 +46,7 @@ Time  | Topic                                                                  |
 
 <details><summary>Lecture Notes</summary>
 <ul>
-<li><p>To make a long article short: transcribe as much as possible.</li></p>
+<li><p>To make a long article short: transcribe as much as possible.</p></li>
 
 <li><p>The divide between literary and historical editing. Historical: more about annotation (contextual commentary). Literary: more about textual variants.</p></li>
 
@@ -66,8 +66,6 @@ Time  | Topic                                                                  |
 </ul>
 </details>
 <br />
-
-#### Examples
 
 [Example 1: Mark Twain's notebooks and journals. Access slides here.](https://christopherohge.com/mark-twain-journals.pdf)
 
