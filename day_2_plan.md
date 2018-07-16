@@ -4,9 +4,19 @@ title: Day 2
 permalink: /day2.html
 ---
 
-## Synopsis
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=3 orderedList=false} -->
+<!-- code_chunk_output -->
 
-Today will feature an introduction to XML, documentary editing, and the the Text Encoding Initiative (TEI). There will also be a demonstration of documentary editing with Senate House Library manuscripts.
+* [Aims](#aims)
+* [Schedule: Day 2 (Tuesday, 3 July)](#schedule-day-2-tuesday-3-july)
+	* [Seminar 3: Documentary Editing](#seminar-3-documentary-editing)
+	* [Seminar 4: Brief Introduction to the Text Encoding Initiative (TEI)](#seminar-4-brief-introduction-to-the-text-encoding-initiative-tei)
+	* [Text Modelling](#text-modelling)
+	* [Seminar 5 (Senate House Library): Using TEI for documentary editions: letters and journals](#seminar-5-senate-house-library-using-tei-for-documentary-editions-letters-and-journals)
+
+<!-- /code_chunk_output -->
+
+Today will feature an introduction documentary editing and the the Text Encoding Initiative (TEI). There will also be a demonstration of documentary editing with Senate House Library manuscripts.
 
 ## Aims
 
@@ -14,62 +24,60 @@ Today will feature an introduction to XML, documentary editing, and the the Text
 - General grasp of the Text Encoding Initiative and TEI schemas.
 - Understanding of modelling texts.
 
-## Schedule
-
-### Day 2 (Tuesday, 3 July)
+## Schedule: Day 2 (Tuesday, 3 July)
 
 Time  | Topic                                                                  | Type
 :---- | :--------------------------------------------------------------------- | :-----------------------
-9.30  | Seminar 3: Brief Introduction to XML; Documentary Editing (TEI)                                        | Presentation, Discussion |
+9.30  | Seminar 3: Documentary Editing                                        | Presentation, Discussion |
 11.30 | Seminar 4: Introduction to the Text Encoding Initiative; Text modelling | Presentation, discussion |
 14.00 | Seminar 5: Letters and journals manuscripts (Senate House Library) | Digital lab              |
 16.00 | Library Time                                                           | Presentation             |
 
-#### Seminar 3
+### Seminar 3: Documentary Editing
 
 #### Readings
 
-1. David Birnbaum, ["An even gentler introduction to XML"](http://dh.obdurodon.org/what-is-xml.xhtml).
 1. G. Thomas Tanselle, ["The Editing of Historical Documents."](/readings/tanselle_editing_historical _documents.pdf)
 2. Lou Burnard's [*What is the TEI?*](https://books.openedition.org/oep/426)
 3. James Cummings, ["The Text Encoding Initiative and the Study of Literature"](http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405148641/9781405148641.xml&chunk.id=ss1-6-6&toc.depth=1&toc.id=ss1-6-6&brand=9781405148641_brand)
 4. Elena Pierazzo, *Digital Scholarly Editing* (Chapter 2).
 
-#### Brief Introduction to XML
+#### Documentary Editing
 
-[Access the XML slides here.](https://christopherohge.com/XML-intro_LRBS.pdf)
+<details><summary>Lecture Notes</summary>
+<ul>
+<li><p>To make a long article short: transcribe as much as possible.</li></p>
 
-#### Documentary Editing: Lecture Notes
+<li><p>The divide between literary and historical editing. Historical: more about annotation (contextual commentary). Literary: more about textual variants.</p></li>
 
-To make a long article short: transcribe as much as possible.
+<li><p>Naive view: literary editing produces eclectic texts, historical editors produce "faithful" texts.</p></li>
 
-The divide between literary and historical editing. Historical: more about annotation (contextual commentary). Literary: more about textual variants.
+<li><p>Literalness and exactness and critical. Faithfulness?</p></li>
 
-Naive view: literary editing produces eclectic texts, historical editors produce "faithful" texts.
+<li><p>Modernisation and regularisation.</p></li>
 
-Literalness and exactness and critical. Faithfulness?
+<li><p>Jefferson "wd hve retird immedly hd h. nt bn infmd".</p></li>
 
-Modernisation and regularisation.
+<li><p>Falicity to the document or to the reader?</p></li>
 
-Jefferson "wd hve retird immedly hd h. nt bn infmd".
+<li><p>Diplomatic, semi-diplomatic, and clear text.</p></li>
 
-Falicity to the document or to the reader?
+<li><p>Yet: one cannot transcribe everything. As soon as transcription happens, an element of contingency comes into the text.</p></li>
+</ul>
+</details>
+<br />
 
-Diplomatic, semi-diplomatic, and clear text.
-
-Yet: one cannot transcribe everything. As soon as transcription happens, an element of contingency comes into the text.
+#### Examples
 
 [Example 1: Mark Twain's notebooks and journals. Access slides here.](https://christopherohge.com/mark-twain-journals.pdf)
 
 [Example 2: Christopher Cranch's 1839 travel journal](http://scholarlyediting.org/2014/editions/cranchjournal.html)
 
-#### Seminar 4
-
-#### Brief Introduction to the Text Encoding Initiative (TEI)
+### Seminar 4: Brief Introduction to the Text Encoding Initiative (TEI)
 
 [Access the TEI intro slides here.](/Day2/TEI-intro-slides.html)
 
-#### Text Modelling
+### Text Modelling
 
 "[E]very electronic representation of text is an interpretation" (Paul Eggert, *Securing the Past*, Cambridge UP, 2009).
 
@@ -124,7 +132,7 @@ Clearly these kinds of data could not be printed out, and even if one attempted 
 
 ### Seminar 5 (Senate House Library): Using TEI for documentary editions: letters and journals
 
-Here is a sample TEI template for a letter in our manuscript collection (The Stirling Collection, Senate House Library):
+Here is a sample TEI template for a George Bernard Shaw letter in our manuscript collection (The Stirling Collection, Senate House Library):
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -179,3 +187,5 @@ Here is a sample TEI template for a letter in our manuscript collection (The Sti
 You can also download the XML file by right-clicking [here](https://christopherohge.com/shaw_letter_23.09.1928.xml) and saving the file (or the link as an xml file on your desktop).
 
 Of course there is plenty more information that you could encode to properly represent this short letter document. What else would you include, and how does it fit into your text model?
+
+#### [Proceed to Day 3](day_3_plan.md)

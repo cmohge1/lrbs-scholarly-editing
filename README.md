@@ -1,6 +1,6 @@
 # Synopsis
 
-Welcome to the London Rare Books School summer 2018 module on Digital Scholarly Editing (2-6 July). This week will be an intense look at the traditions and principles of scholarly editing and textual scholarship, coupled with an intensive bootcamp on the fundamentals of creating digital editions.
+Welcome to the London Rare Books School summer 2018 module on Digital Scholarly Editing (2-6 July). This week will be an intense study of the traditions and principles of scholarly editing, coupled with a bootcamp on the fundamentals of creating digital editions.
 
 Course readings are either hyperlinked in the plan of each of day or downloadable in the [readings subdirectory](/readings). (Please save paper by reading these on your computer or tablet.)
 
@@ -43,8 +43,8 @@ Time      | Topic  | Type    |
 
 Time     | Topic                               | Type                    |
 :--------| :---------------------------------- |:------------------------|
-9.30 | Seminar 3: Introduction to the Text Encoding Initiative (TEI) | Presentation, Discussion |
-11.30 | Seminar 4: Documentary Editing |  Digital lab             |
+9.30 | Seminar 3: Documentary Editing | Presentation, Discussion |
+11.30 | Seminar 4: Introduction to the Text Encoding Initiative (TEI) |  Digital lab             |
 14.00 (in SHL) | Seminar 5: Using TEI for documentary editions: letters and journals | Discussion |
 16.00 | Library Time |
 
