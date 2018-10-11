@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Intro to TEI-XML</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code {
+        font-family: 'Ubuntu Mono';
+      color: #000000;
+    background-color: #C0C0C0;
+  }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# A brief intro to TEI
+
+---
+
+## Anatomy of an XML document
+
+- namespace
+- schema (meaning and grammar for valid XML documents)
+- PCDATA (what?)
+
+TEI is expressed in XML. All TEI data comply with the World Wide Web Consortium XML Recommendations.
+
+## What is TEI?
+
+TEI is a like a library of concepts and rules that are applied to the meta-information about text through descriptive and structural markup. "The TEI provides names and definitions for many hundred tags, together with rules about how they may be combined. More exactly, the TEI Guidelines define some five or six hundred different concepts, along with detailed specifications for the XML elements and element classes which may be used to represent them" (Burnard).
+
+The current version of the [TEI Guidelines](http://www.tei-c.org/guidelines/p5/) is called P5. That basically means the fifth version of accepted TEI standards.
+
+---
+
+## TEI and constraint
+
+The TEI offers around 500 elements and 200 attributes.
+
+You cannot read all the books in the library, in other words.
+
+TEI is not a schema. Editors should select TEI elements and attributes from the TEI modules that apply to their projects. TEI offers an unambiguous foundation for representing text as well as standardized mechanisms for customisation.
+
+Good news: few projects require a complete knowledge of the TEI, and **most projects only require about 25 or so elements** in total.
+
+---
+
+Every TEI document has at least two parts: a `<teiHeader>` (containing metadata–––i.e., data describing the document), and the text (typically represented by a `<text>` element), in which its structure is represented by elements such as `<front>`, `<body>`, and `<back>`. Within these three structural divisions are further sub-divisions often encoded with `<div>` tags.
+
+The `<teiHeader>` must include a description of the electronic file inside a (`<fileDesc>`). Within the `<fileDesc>` you must include:
+
+* the title statement (`<titleStmt>`), with (`<title>`), author (`<author>`) and others responsible for the electronic text;
+* the publication statement (`<publicationStmt>`), providing publication details about the electronic text in a structured way or as prose inside a `<p>`;
+* a description of the source (`<sourceDesc>`), which lists bibliographic details about the electronic text's material source in a structured way or in a prose paragraph (`<p>`).
+
+
+---
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sha-ham">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hamlet, Prince of Denmark</title>
+                <author>William Shakespeare</author>
+                <respStmt>
+                    <name>Craig A. Berry, Martin Mueller, and Clifford Wulfman</name>
+                    <resp>editors</resp>
+                </respStmt>
+                ...
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                    <title>The WordHoard Shakespeare</title> is a joint project ... </p>
+            </publicationStmt>
+            <sourceDesc default="false">
+                <p> The Wordhoard Shakespeare is derived from, but not identical with, <title>The
+                Globe Shakespeare</title>...</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div xml:id="sha-hamcast" type="castList">
+                <head>Dramatis Personae</head>
+                ... </head> ...
+              </div>
+          </body>
+      </text>
+  </TEI>
+
+```
+---
+
+## Textual phenomena
+
+1. Structural
+2. Renditional
+3. Logical & Semantic
+4. Analytic
+
+TEI proposes a single element `<div>` for any such structural subdivision of the body of a text.
+
+Each `<div>` should have at least a @type attribute, and eventually an `@xml:id`.
+
+The `<text>` element contains a single text of any kind (which we might call a "work"). This commonly contains the actual text *and* paratextual material. A text <text> **must** contain a `<body>`.
+
+---
+TEI allows you to encode composite texts, either by grouping structurally related texts in a `<group>` element inside `<text>`, or treating them as a corpus of diverse texts, using `<teiCorpus>` as the outermost element.
+
+A possible sibling of `<body>` can be `<front>`, which is used for: prefaces, an acknowledgement by the author, dedication, abstract, contents: a table of contents (in which case a `<list>` element should divide its structure, and a frontispiece. You can also include a `<back>` element for "backmatter" (appendices, contextual notes, a glossary with `<list>` items, or a bibliography with `<listBibl>` elements, an index, &amp;c).
+
+---
+```
+<front>
+<div type="dedication">
+<p>In memory of a dead white man.</p>
+</div>
+<div type="toc"> <!--'toc' means table of contents-->
+<head>Table of Contents</head>
+<list>
+<item>I. I came</item>
+<item>II. I saw</item>
+<item>III. I conquered</item>
+</list>
+</div>
+</front>
+```
+`<body>...</body>`
+```
+<back>
+<div type="explanatory-notes">
+<note resp="editor" xml:id="n0001">He did not actually conquer.</note>
+</div>
+</back>
+```
+---
+
+To read more about the history of TEI, read James Cummings's ["The Text Encoding Initiative and the Study of Literature"](http://www.digitalhumanities.org/companion/view?docId=blackwell/9781405148641/9781405148641.xml&chunk.id=ss1-6-6&toc.depth=1&toc.id=ss1-6-6&brand=9781405148641_brand)
+
+[Return to the Day 2 plan](https://cmohge1.github.io/lrbs-digital-scholarly-editing/day2/).
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+    var slideshow = remark.create();
+    </script>
+  </body>
+</html>

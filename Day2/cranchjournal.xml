@@ -1,0 +1,1669 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Journal. 1839.</title>
+            <author>Christopher Pearse Cranch</author>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+            <respStmt xml:id="fbd">
+               <resp>transcription of Cranch journal (1983)</resp>
+               <name>Francis B. Dedmond</name>
+            </respStmt>
+            <respStmt xml:id="cmo">
+               <resp>editorial changes</resp>
+               <name>Christopher M. Ohge</name>
+            </respStmt>
+            <respStmt xml:id="cpc">
+               <resp>authorial changes</resp>
+               <name>Christopher Pearse Cranch</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <idno type="file">cranchjournal</idno>
+            <idno type="edition">cranchjournal</idno>
+            <authority>Scholary Editing: The Annual of the Association for Documentary
+               Editing</authority>
+            <address>
+		            <addrLine>http://www.scholarlyediting.org</addrLine>
+		        </address>
+            <publisher>Association for Documentary Editing</publisher>
+            <publisher>University of Nebraska&#8211;Lincoln</publisher>
+            <distributor>
+               <name>Center for Digital Research in the Humanities</name>
+               <address>
+		                <addrLine>319 Love Library</addrLine>
+		                <addrLine>University of Nebraska&#8211;Lincoln</addrLine>
+		                <addrLine>Lincoln, NE 68588-4100</addrLine>
+		                <addrLine>http://cdrh.unl.edu</addrLine>
+		            </address>
+            </distributor>
+            <date>2014</date>
+            <availability>
+               <p>Scholary Editing: The Annual of the Association for Documentary Editing is freely
+                  distributed by the Association for Documentary Editing and the Center for Digital
+                  Research in the Humanities at the University of Nebraska-Lincoln and licensed
+                  under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+                  License</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title level="j">Scholarly Editing: The Annual of the Association for Documentary
+               Editing</title>
+            <respStmt>
+               <resp>editor</resp>
+               <name xml:id="ag">Amanada Gailey</name>
+            </respStmt>
+            <respStmt>
+               <resp>editor</resp>
+               <name xml:id="awj">Andrew Jewell</name>
+            </respStmt>
+            <idno type="vol">35</idno>
+            <idno type="ISSN">2167-1257</idno>
+         </seriesStmt>
+         <notesStmt>
+            <note>This is a journal written in ink that Cranch kept while traveling as a Unitarian
+               minister-at-large in 1839.</note>
+         </notesStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Christopher P. Cranch</author>
+               <title>Journal. 1839.</title>
+               <idno type="callno">Ms. N-1047, Box 5, Folder 3</idno>
+               <orgName>Christopher P. Cranch Papers, 1782-1928, Massachusetts Historical Society,
+                  Boston, Massachusetts. Courtesy of the Massachusetts Historical Society.</orgName>
+               <note type="project">Transcribed from the original manuscript, then collated against
+                  the 1983 transcription by Francis B. Dedmond.</note>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded for submission to Scholarly Editing: The Annual for the Association of
+               Documentary Editing, with the accompanying introductory essay, "Christopher Pearse
+               Cranch and the Making of Transcendentalism: A Digital Edition of Cranch's 'Journal.
+               1839'" (which includes a statement of editorial principles).</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <creation>
+            <date>1839</date>
+         </creation>
+         <particDesc>
+            <listPerson>
+               <person xml:id="rwe">
+                  <persName>
+                     <forename type="first">Ralph</forename>
+                     <forename type="middle">Waldo</forename>
+                     <surname>Emerson</surname>
+                  </persName>
+                  <birth>1803&#8211;</birth>
+                  <death>1882.</death>
+               </person>
+
+               <person xml:id="tc">
+                  <persName>
+                     <forename>Thomas</forename>
+                     <surname>Carlyle</surname>
+                  </persName>
+                  <birth>1795&#8211;</birth>
+                  <death>1881.</death>
+               </person>
+
+               <person xml:id="ww">
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Wordsworth</surname>
+                  </persName>
+                  <birth>1770&#8211;</birth>
+                  <death>1850.</death>
+               </person>
+
+               <person xml:id="es">
+                  <persName>
+                     <forename>Emanuel</forename>
+                     <surname>Swedenborg</surname>
+                  </persName>
+                  <birth>1688&#8211;</birth>
+                  <death>1772.</death>
+               </person>
+
+               <person xml:id="ak">
+                  <persName>
+                     <forename>Alexander</forename>
+                     <surname>Kinmont</surname>
+                  </persName>
+                  <birth>1799&#8211;</birth>
+                  <death>1838.</death>
+                  <note type="biographical-note">Born in Scotland, raised a Calvanist, and educated
+                     at Edinburgh, Kinmont settled in 1828 in Cincinnati, where he directed an
+                     academy and married Mary Eckstein, the daughter of a devout Swedenborgian. He
+                     was best known for his <bibl><title>Twelve Lectures on the Natural History of
+                           Man and the Rise and Progress of Philosophy</title> (Cincinnati,
+                        1839)</bibl>, which embraced the theory of man's divine nature yet radically
+                     suggested that educators ought to emphasize classical education (i.e. less
+                     originality and more imitation of Greek and Latin masters) and natural science
+                     instead of Biblical instruction. </note>
+               </person>
+
+               <person xml:id="vc">
+                  <persName>
+                     <forename>Victor</forename>
+                     <surname>Cousin</surname>
+                  </persName>
+                  <birth>1792&#8211;</birth>
+                  <death>1867.</death>
+                  <note>Cousin was a French philosopher who espoused a philosophy synthesizing
+                     Idealism with the Scottish Common Sense Realism of Thomas Reid and Thomas
+                     Brown.</note>
+               </person>
+
+               <person xml:id="tj">
+                  <persName>
+                     <forename>Théodore</forename>
+                     <surname>Jouffroy</surname>
+                  </persName>
+                  <birth>1796&#8211;</birth>
+                  <death>1842.</death>
+                  <note>Cousin's understudy, Jouffroy also translated the works of Scottish
+                     philosopher Thomas Reid.</note>
+               </person>
+
+               <person xml:id="jfc">
+                  <persName>
+                     <forename type="first">James</forename>
+                     <forename type="middle">Freeman</forename>
+                     <surname>Clarke</surname>
+                  </persName>
+                  <birth>1810&#8211;</birth>
+                  <death>1888</death>
+                  <note>Clarke was a cousin of Margaret Fuller. He befriended C. P. Cranch while at
+                     Harvard Divinity School, from which he graduated in 1833. Soon afterward he was
+                     installed in Louisville. He shared with Cranch an enthusiasm for Coleridge and
+                     German literature, as well as the ideas of Emerson. With Ephraim Peabody,
+                     Clarke founded the Unitarian literary magazine <title>The Western
+                        Messenger</title>, and took over as editor in 1836. Like Cranch he saw that
+                     Unitarianism would cease to be relevant unless Unitarian leadership learned to
+                     re-organize church life to meet the changing demographic of western American
+                     life. He would resign his puplit in Louisville in 1840 and move to
+                     Boston.</note>
+               </person>
+
+               <person xml:id="whf">
+                  <persName>
+                     <forename type="first">William</forename>
+                     <forename type="middle">Henry</forename>
+                     <surname>Furness</surname>
+                  </persName>
+                  <birth>1802&#8211;</birth>
+                  <death>1896</death>
+                  <note>A Shakespeare afficionado, lifelong friend of Emerson's, and "mildly
+                     transcendental" minister in Philadelphia (Miller 51), Furness was a cousin of
+                     C. P. Cranch. He is best known for his <title>Remarks on the Four
+                        Gospels</title>, a book that influenced Cranch's thinking during his travels
+                     in 1836&#8211;9.</note>
+               </person>
+
+               <person xml:id="whc">
+                  <persName>
+                     <forename type="first">William</forename>
+                     <forename type="middle">Henry</forename>
+                     <surname>Channing</surname>
+                  </persName>
+                  <birth>1810&#8211;</birth>
+                  <death>1884</death>
+                  <note>After graduating from Harvard Divinity School in 1833, Channing was ordained
+                     and installed at the Unitarian church in Cincinnati in 1835. A follower of
+                     Charles Fourier's plans for social reorganization, Channing was one of the
+                     first Christian socialists, eventually editing the <title>Present</title>, the
+                        <title>Spirit of the Age</title> and the <title>Harbinger</title>. In 1848
+                     he presided over The Religious Union of Associationists in Boston and
+                     participated in the Brook Farm commune.</note>
+               </person>
+
+               <person xml:id="jhp">
+                  <persName>
+                     <forename type="first">James</forename>
+                     <forename type="middle">Handasyd</forename>
+                     <surname>Perkins</surname>
+                  </persName>
+                  <birth>1810&#8211;</birth>
+                  <death>1848</death>
+                  <note>A cousin of William Henry Channing, Perkins came to Cincinnati in February
+                     1832, studied law, and was admitted to the bar three years later (though he
+                     never practiced). He became editor of the <title>Cincinnati Evening
+                        Chronicle</title>, purchased the paper in the winter of 1835, and united it
+                     with the <title>Cincinnati Mirror</title>, while also helping Ephraim Peabody
+                     edit the <title>Western Messenger</title>. He became an advocate for prison
+                     reform by the late 1830s.</note>
+               </person>
+
+               <person xml:id="jsd">
+                  <persName>
+                     <forename>John</forename>
+                     <forename>Sullivan</forename>
+                     <surname>Dwight</surname>
+                  </persName>
+                  <birth>1813&#8211;</birth>
+                  <death>1893</death>
+                  <note>A graduate of Harvard College in 1832, and (like C. P. Cranch) a Unitarian
+                     minister-in-training after finishing Harvard Divinity School in 1836, Dwight
+                     eventually "became the gentle arbiter of America's taste in music" with his
+                     starting <title>Dwight's Journal of Music</title> in 1852 (Miller 3). In
+                     addition to responding eagerly to Ralph Waldo Emerson's non-conformist ethic
+                     and neo-Platonic spirituality, he befriended George Ripley, minister of the
+                     Purchase Street Church in Boston, who was one of Emerson's astute
+                     Transcendentalist allies, and his wife Sophia Dana Ripley, who shared Dwight's
+                     musical enthusiasm. He would play a major role in the Brook Farm
+                     experiment.</note>
+               </person>
+
+               <person xml:id="gek">
+                  <persName>
+                     <forename type="first">Georgiana</forename>
+                     <forename type="middle">Emily</forename>
+                     <surname>Keats</surname>
+                  </persName>
+                  <birth>1819&#8211;</birth>
+                  <death>1879</death>
+                  <note>Georgiana ("Emily" or "Georgy") was the first daughter of George
+                     (1797&#8211;1841) and Georgiana Augusta (Wylie) Keats (1797&#8211;1879), and a
+                     niece of John Keats. After immigrating to the United States from London in
+                     1818, her parents settled in Louisville in late 1819 so that George could work
+                     in the sawmill of Thomas W. Bakewell. From 1821 until his death, George ran a
+                     literary salon in his living room to fill what he considered the cultural void
+                     in Louisville. In 1847 Georgiana Emily married Alfred Gwathmey, and stayed in
+                     Louisville until her death. See also <bibl>Gigante's <title>The Keats Brothers:
+                           The Life of John and George</title></bibl>, p. 327, for more on
+                     Georgiana's youth in Louisville.</note>
+               </person>
+
+               <person xml:id="eha">
+                  <persName>
+                     <forename type="first">Elizabeth</forename>
+                     <forename type="middle">Haven</forename>
+                     <surname>Appleton</surname>
+                  </persName>
+                  <birth>1815&#8211;</birth>
+                  <death>1890</death>
+                  <note>Elizabeth ("Lizzy") Appleton was a cousin of C. P. Cranch who hailed from
+                     the Baltimore Appletons. She came to Cincinnati in 1832, as her father was
+                     engaged in the manufacturing of white wax. See <bibl><title>In Memory of
+                           Elizabeth Haven Appleton is Printed this Selection from Her
+                           Lectures</title> (Cincinnati: Robert Clarke &amp; Co., 1891)</bibl>.
+                     Cranch is mentioned on page 6.</note>
+               </person>
+
+               <person xml:id="wcs">
+                  <persName>
+                     <forename type="first">William</forename>
+                     <surname>Cranch</surname>
+                  </persName>
+                  <birth>1769</birth>
+                  <death>1855</death>
+                  <note>Nephew to Abigail Adams, William was the son of the famous watchmaker,
+                     legislator, and jurist Richard Cranch (1726&#8211;1811). From 1801 until his death,
+                     William presided over the Circuit Court of Washington, D.C.</note>
+               </person>
+
+               <person xml:id="ngc">
+                  <persName>
+                     <forename type="first">Nancy</forename>
+                     <surname type="maiden">Greenleaf</surname>
+                     <surname type="married">Cranch</surname>
+                  </persName>
+                  <birth>1772</birth>
+                  <death>1843</death>
+               </person>
+
+               <person xml:id="epc">
+                  <persName>
+                     <forename type="first">Edward</forename>
+                     <forename type="middle">Pope</forename>
+                     <surname>Cranch</surname>
+                  </persName>
+                  <birth>1809&#8211;</birth>
+                  <death>1892</death>
+                  <note>Brother of C. P. Cranch.</note>
+               </person>
+
+               <person xml:id="wcj">
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Cranch</surname>
+                  </persName>
+                  <note>Brother of C. P. Cranch (cited in Scott's <title>Life in Letters</title>,
+                     pp. 4 and 67).</note>
+               </person>
+
+               <person xml:id="bwc">
+                  <persName>
+                     <forename>Bertha</forename>
+                     <surname type="maiden">Wood</surname>
+                     <surname type="married">Cranch</surname>
+                  </persName>
+                  <note>Wife of Edward P. Cranch.</note>
+               </person>
+
+               <person xml:id="wg">
+                  <persName>
+                     <forename>William</forename>
+                     <surname>Greene</surname>
+                  </persName>
+                  <birth>1797&#8211;</birth>
+                  <death>1883</death>
+                  <note>Greene was a lawyer and Unitarian who lived on Third Street in the
+                     fashionable part of Cincinnati. He often hosted the Semi-Colon meetings at his
+                     house, and was known as the club's official reader.</note>
+               </person>
+
+               <person xml:id="jcv">
+                  <persName>
+                     <forename type="first">John</forename>
+                     <forename type="middle">Champion</forename>
+                     <surname>Vaughan</surname>
+                  </persName>
+                  <birth>1806&#8211;</birth>
+                  <death>1892</death>
+                  <note>Vaughan was a prominent Unitarian and social reformer who, with Edward P.
+                     Cranch, ran the law office of E. P. Cranch and J. C. Vaughan. From
+                     1847&#8211;1850, he edited the antislavery newpaper, the
+                        <title>Examiner</title>.</note>
+               </person>
+
+               <person xml:id="rd">
+                  <persName>
+                     <forename>Rufus</forename>
+                     <surname>Dawes</surname>
+                  </persName>
+                  <birth>1803&#8211;</birth>
+                  <death>1859</death>
+                  <note>A lawyer in Boston, poet, and devoted Swedenborgian, Dawes married C. P.
+                     Cranch's sister Bertha in 1829.</note>
+               </person>
+
+               <person xml:id="sgb">
+                  <persName>
+                     <forename type="first">Stephen</forename>
+                     <forename type="middle">Greenleaf</forename>
+                     <surname>Bulfinch</surname>
+                  </persName>
+                  <birth>1809&#8211;</birth>
+                  <death>1870</death>
+                  <note>A graduate of C. P. Cranch's alma mater Columbian College in 1826, and of
+                     Harvard Divinity School in 1830, Bulfinch became a Unitarian clergyman in 1831
+                     and assumed congregations in the Northeast before settling in Cambridge. He
+                     published several liturgical works and hymns.</note>
+               </person>
+
+               <person xml:id="top">
+                  <persName>
+                     <forename type="first">Thomas</forename>
+                     <forename type="middle">Oliver</forename>
+                     <surname>Prescott</surname>
+                  </persName>
+                  <note>Cranch was likely talking about Thomas Oliver Prescott (also known as Oliver
+                     Prescott Hiller), the minister, poet, and Swedenborgian who arrived in
+                     Cincinnati in 1839 to practice law after receiving a B.C.L. from Harvard. He
+                     was ordained at New Church Ministry, in the Temple at Cincinnati, on 22 August
+                     1841, having realized that the law profession was distasteful to him <bibl>(The
+                        Intellectual Repository and New Jersusalem Magazine [London: Published by
+                        the General Conference of the New Church, 1870], 300)</bibl>. He published a
+                     poem titled "Moonlight in Cincinnati" (1856), and delivered sermons in
+                     Cincinnati in 1841 and 1842, which were published in his <bibl><title>Sermons,
+                           Doctrinal, Miscellaneous, and Occasional</title> (1860).</bibl></note>
+               </person>
+
+               <person xml:id="mcs">
+                  <persName>
+                     <name type="honorific">Mrs.</name>
+                     <forename type="honorific">Charles</forename>
+                     <surname type="married">Stetson</surname>
+                  </persName>
+                  <note>The Stetsons were a prominent Unitarian family who sometimes hosted the
+                     Semicolon discussion group at their home in Cincinnati.</note>
+               </person>
+
+               <person xml:id="dre">
+                  <persName>
+                     <roleName type="legal">Judge</roleName>
+                     <forename type="first">David</forename>
+                     <forename type="middle">R.</forename>
+                     <surname>Estes</surname>
+                  </persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="internal">
+               <term>transcendentalism</term>
+               <term>unitarianism</term>
+               <term>travel</term>
+               <term>emerson</term>
+               <term>carlyle</term>
+               <term>wordsworth</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+
+   <text type="manuscript">
+
+      <front>
+         <pb facs="cranch_frontcover"/>
+         <div type="cover">
+            <head rend="align(center)">JOURNAL.</head>
+            <head rend="align(center)">1839.</head>
+         </div>
+         <div type="titlePage">
+            <pb facs="cranch_title_1a" type="recto"/>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <head rend="align(center)">JOURNAL.</head>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <head rend="align(center)">1839.</head>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <epigraph rend="align(center)">
+               <l><foreign xml:lang="de">"Mein Vermächtniss, wie herrlich weit und
+                  breit!</foreign></l>
+               <l><foreign xml:lang="de">Die Zeit is mein Vermächtniss, mein Acker ist</foreign></l>
+               <l><foreign xml:lang="de">die Zeit."</foreign><ptr target="#note1" xml:id="nr1"/></l>
+            </epigraph>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <epigraph rend="align(center)">
+               <l><foreign xml:lang="gr">EP&#915;A KAI HMEPAI</foreign><ptr target="#note2" xml:id="nr2"/></l>
+            </epigraph>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <epigraph rend="align(center)">
+               <l>"Work while it is day. The night cometh,</l>
+               <l>wherein no man can work."<ptr target="#note3" xml:id="nr3"/></l>
+            </epigraph>
+            <milestone unit="undeclared" rend="short-bar"/>
+            <pb facs="cranch_title_1b" type="verso"/>
+         </div>
+      </front>
+
+      <body>
+         <pb facs="cranch_p01" type="recto"/>
+         <div type="section">
+            <head rend="text-indent:-2em;"><hi rend="underline">Journal.</hi>
+               <lb/><hi rend="underline">January. 1839 &#8212; </hi><lb/><placeName><settlement type="city">Louisville</settlement>, <settlement type="state"><abbr>Ky</abbr></settlement>,</placeName>
+               <date>Jan. 8<hi rend="superscript">th</hi>. &#8212;</date></head>
+            <p>I begin this <add rend="caret" place="above" hand="#cpc">day</add> a journal. I think
+               I shall <lb/>find it highly useful. I do not think it <lb/>necessary to record herein
+               every day, of <lb/>my life &#8212; but simply to record such <lb/>events, and note
+               down such thoughts, fee= <lb/>lings <choice>
+                  <sic resp="#fbd">and</sic>
+                  <corr resp="#cmo">&amp;</corr>
+               </choice> experiences as have a <add rend="caret" place="above" hand="#cpc">more
+                  intimate</add>
+               <del rend="strikethrough" hand="#cpc"><unclear>be</unclear></del> con= <lb/>nection
+               with my mind &amp; character. <lb/>A Journal should be a reflection of the <lb/>True
+               Life &#8212; the interior being, experience <lb/>&amp; growth &#8212;. a mirror of
+               myself, to <lb/>some extent. I intend to journalize <lb/>more systematically &amp;
+               philosophically <lb/>more than I have done. This book, now <lb/>blank, shall be my
+               friend, my com= <lb/>panion, my teacher &amp; monitor, as well <lb/>as my record. </p>
+            <p rend="text-indent:-2em;">I need something of this sort. I <lb/>need to retire back on
+                  myself<ptr target="#note4" xml:id="nr4"/>&#8212; take <lb/>an observation of my
+               longitude &amp; latitude <lb/>in the boundless ocean of Eternity on which <lb/>I am
+               sailing. I must look back. I <lb/>must look forward &#8212; square my accounts. <pb facs="cranch_p02" type="verso"/>
+               <fw type="pagNum" place="top" rend="align(left)">2</fw> And post them, clerk-like. I
+               must ask <lb/>myself, as I enter on this newyear, &amp; this <lb/>journalbook &#8212;
+               how I stand, with myself, <lb/>&amp; before God. Thus far I have voyaged, <lb/>by His
+               all preserving &amp; continually uphold= <lb/>ing grace &#8212; Nearly twenty six
+               years have <lb/>I been borne along the stream of time<ptr target="#note5" xml:id="nr5"/> &#8212; <lb/>a checkered Past! &#8212; various experiences! &#8212;
+               <lb/>Has this Past been a <hi rend="double-underline">Teacher</hi> to me? God
+               <lb/>grant it may have been, in some degree &#8212; <lb/>Let not the years pass by me
+               like the <lb/>wind, viewless, silent, forgotten! I have <lb/>many defects, errors,
+               weaknesses to con= <lb/>fess, O God, before Thee! Do thou grant <lb/>strength &amp;
+               light for the future! Give <lb/>me a more tender conscience &#8212; give me <lb/>a
+               firmer faith &#8212; inspire me with that <lb/>spiritual Mind which comes only from
+               <lb/>Thee! &#8212;</p>
+            <p rend="text-indent:-2em;">And now, I am <hi rend="double-underline">Here</hi>. The
+               <lb/>mystery of life has borne me to this <lb/>point. And I must begin afresh, &amp;
+               <lb/>with that resolution whose absence I <lb/>continually mourn, yet too vainly, I
+               <lb/>must turn a new leaf. &#8212; What I <lb/>want &#8212; is <hi rend="underline">Action.</hi><ptr target="#note6" xml:id="nr6"/> I must begin to <lb/><hi rend="underline">Live</hi> more in earnest, than I have done. <pb facs="cranch_p03" type="recto"/>
+               <fw type="pagNum" place="top" rend="align(right)">3.</fw> It seems to me as if those
+               lines of <persName ref="#ww">Words= <lb/>worth</persName>'s applied pointedly to <hi rend="underline">me</hi>. What a <lb/>beautiful meaning <ptr target="#note7" xml:id="nr7"/> is in them! <lg type="poem">
+                  <l>"My whole life I have lived in pleasant thought,</l>
+                  <l>As if life's business were a summer mood;</l>
+                  <l>As if all needful things <abbr>wd</abbr> come unsought</l>
+                  <l>To genial faith, still rich in genial good;</l>
+                  <l>But how can He expect that others should</l>
+                  <l>Build for him, sow for him, &amp; at his call</l>
+                  <l>Love him, who for himself, will take</l>
+                  <l rend="align(center)">no heed at all?"<ptr target="#note8" xml:id="nr8"/></l>
+                  <!-- #fbd neglected final line break -->
+               </lg> All things must become more <hi rend="underline">real</hi>
+               <lb/>to me. I must "see into the life of <lb/>things."<ptr target="#note9" xml:id="nr9"/> I must <hi rend="underline">realize</hi>. The great end <lb/>of
+               life is to <hi rend="underline">realize</hi>. At present I <lb/>only <hi rend="underline">dream</hi>. Half of my existence <lb/>seems to be <hi rend="underline">dreaming</hi>. A deadly <hi rend="underline">In=</hi>
+               <lb/><hi rend="underline">difference</hi> hangs over me &#8212; like a leth=
+               <lb/>argy. It is partly temperament &#8212; &amp; <lb/>partly a habit of mind &#8212;
+               I think. I <lb/>must break this <add rend="caret" place="above" hand="#cpc">egg</add>
+               shell &#8212; out of this <lb/>prison I must forth. I must <hi rend="underline">realize</hi>, <lb/>&amp; the way to realize, is to give up <lb/>dreaming and go
+               to <hi rend="underline">acting</hi> &amp; <hi rend="underline">working</hi><ptr target="#note10" xml:id="nr10"/> &#8212; <lb/>And as to needed knowledge, will it
+               not <lb/>"come round" as <persName ref="#rwe">Emerson</persName> says, to him who
+               <lb/>works and truly lives &#8212; ? &#8212;<ptr target="#note11" xml:id="nr11"/> I
+               find my= <pb facs="cranch_p04" type="verso"/>
+               <fw type="pagNum" place="top" rend="align(left)">4</fw> self perpetually repining
+               that I am <lb/>not familiar with books &#8212; that I am <lb/>so ignorant of things
+               which every <lb/>man <del rend="strikethrough" hand="#cpc">of</del> almost knows. But
+               if I <lb/>may learn <hi rend="underline">Things</hi> instead of books, <lb/>shall I
+               not be more truly wise than <lb/>if "had all knowledge".<ptr target="#note12" xml:id="nr12"/> And will not <lb/>this learning of <choice>
+                  <sic resp="#fbd">things</sic>
+                  <corr><hi rend="double-underline">Things</hi></corr>
+               </choice> from <add rend="caret" place="above" hand="#cpc">the</add> actual col=
+               <lb/>lision of Life, be the very best prep= <lb/>aration for book knowledge &#8212;
+               ?</p>
+            <p rend="text-indent:-2em;">As it is now, I <hi rend="underline">cannot</hi> keep up
+                  <lb/><del type="false-start" rend="strikethrough" hand="#cpc">th</del> a thirst
+               for truth. I am wholly <lb/>indifferent to knowledge &#8212; except now <lb/>&amp;
+               then, when excited. I am not fond <lb/>of reading, except when a book happens <lb/>to
+               suit my tastes in most respects. <lb/>I enjoy <hi rend="underline">writing</hi> I
+               think more than <lb/>reading. Nor do I <hi rend="underline">remember</hi> what <lb/>I
+               read. Now were I more <hi rend="underline">alive</hi> &#8212; <lb/>awake &#8212;
+               shaken up &#8212; by a more active<corr resp="#cmo">,</corr><!-- #fbd ommited comma -->
+               <lb/>out of door life &#8212; much of this might <lb/>be remedied. I might see in <hi rend="double-underline">books</hi>
+               <lb/>but the <hi rend="underline">reflection</hi> of what I experienced <lb/>&amp;
+               saw in <del rend="strikethrough" hand="#cpc">real</del>
+               <hi rend="underline">life</hi>. Because I <lb/>should be ever catching revealings of
+               truths <pb facs="cranch_p05" type="recto"/>
+               <fw type="pagNum" place="top" rend="align(right)">5</fw> and realities <del rend="strikethrough" hand="#cpc">in</del> at first hand, I should <lb/>be best
+               prepared to appreciate them <lb/>
+               <choice>
+                  <sic resp="#fbd">where</sic>
+                  <corr resp="#cmo" cert="medium">when</corr>
+               </choice> seen at second hand.<ptr target="#note13" xml:id="nr13"/> I
+                  <abbr>shd</abbr>
+               <lb/>remember better and thirst <add rend="caret" place="above" hand="#cpc">for</add>
+               more hab= <lb/>itually, the scattered truths in books. </p>
+            <p rend="text-indent:-2em;">Then, I want Faith in myself. <lb/>Unbelief in ourselves,
+               says <persName ref="#tc">Carlyle</persName>, is <lb/>the worst skepticism.<ptr target="#note14" xml:id="nr14"/> I want faith <lb/>in my former impressions &amp;
+               convictions, <lb/>and aspirings. I want Faith that <lb/>I am a <hi rend="double-underline">Spirit</hi>: and that the hidden <lb/>energies of a Spirit
+               are wrapped up in <lb/>me.<ptr target="#note15" xml:id="nr15"/> I must be a more
+               independent <lb/><hi rend="underline">thinker</hi>. I must not be afraid of <lb/>my
+               thought. I must love it, if it <lb/>is an earnest &amp; true one, to myself. <lb/>I
+               must be an independent <hi rend="underline">feeler</hi> &#8212; <lb/>not grieving if
+               I do not think I feel <lb/>deeply enough &#8212; but trying to be <hi rend="underline">nat=</hi>
+               <lb/><hi rend="underline">ural</hi>. I am not now natural <lb/>enough. I am afraid of
+               those <lb/>around me &#8212; They'll think me af= <lb/>fected, strange, undignified
+               or lax <lb/>in principle &#8212; must not mind them. <lb/>Do what is right and
+               natural. Obey <lb/>my higher instincts.</p>
+
+            <pb facs="cranch_p06" type="verso"/>
+            <fw type="pagNum" place="top" rend="align(left)">6</fw>
+            <p rend="text-indent:-2em;">In a word &#8212; I must begin to <hi rend="underline">Live</hi>. <lb/>Then I shall begin to <hi rend="underline">Realize</hi> &#8212;
+               then <lb/>to think, feel, act, grow. </p>
+            <p rend="text-indent:-2em;">This ministry to the Poor, may <lb/>be a great thing for me.
+               A stern <lb/>discipline, but a salutary.</p>
+            <p rend="text-indent:-2em;">God grant me faith and patience, and <lb/>the spirit of self
+               sacrifice!</p>
+         </div>
+         <div type="sub-section">
+            <milestone unit="undeclared" rend="short-bar"/>
+            <p rend="text-indent:-2em;">I have been in <placeName><settlement type="city">Louisville</settlement></placeName> since the <lb/><date>28<hi rend="superscript">th</hi> of October</date> &#8212; about 10 weeks. &#8212;
+               Since <lb/>the <date>22<hi rend="superscript">d</hi> December</date> &#8212;
+                  <persName ref="#jfc">Clarke</persName> has been here.<ptr target="#note16" xml:id="nr16"/><lb/> It is delightful &amp; profitable to me, to <lb/>be with him.
+               The river being closed, <lb/>but a prospect of its opening, I shall <lb/>remain here
+               till boats run.<ptr target="#note17" xml:id="nr17"/> The roads <lb/>are too bad to
+               attempt to go by land. </p>
+         </div>
+         <div type="section">
+            <milestone unit="undeclared" rend="short-bar"/>
+            <p><date><hi rend="underline">Jan 9<hi rend="superscript">th</hi></hi></date>. It is
+                  <add rend="caret" place="above" hand="#cpc">a</add> blessing to know <lb/>a mind
+               and character like <persName ref="#jfc">Jas. <lb/>F. Clarke</persName>'s. I feel that
+               it does me good <lb/>to be with him. While I feel my own <lb/>weaknesses and defects
+               in his society &#8212; <lb/>I feel that it is useful for me to be thus <lb/>with a
+               superior spirit. I may be gath= <lb/>ering material for thought &amp; action which
+               will <pb facs="cranch_p07" type="recto"/>
+               <fw type="pagNum" place="top" rend="align(right)">7</fw> carry me on with far surer
+               prospects than <lb/>if I had not one near me like him, to <lb/>whom I may <hi rend="underline">look up</hi>. It is bad to live <lb/>always with inferiors or
+               equals. We need <lb/>sometimes to compare ourselves with those <lb/>of a larger
+               stature, that we may real= <lb/>ize our littleness. </p>
+            <p rend="text-indent:-2em;">I may learn from him several things. <lb/>I may learn,
+               first, &amp; chiefly, <hi rend="underline">Independence.</hi>
+               <lb/>Independence of mind and of conduct. <lb/>To be <hi rend="underline">myself</hi>&#8212; and not another. &#8212; To be <lb/><hi rend="underline">natural</hi> and <hi rend="underline">free</hi>.<ptr target="#note18" xml:id="nr18"/>
+            </p>
+            <p>I may learn 2<hi rend="superscript">d</hi>. self denial and devotion <lb/>to Truth
+               &amp; Duty, instead of self seeking <ptr target="#note19" xml:id="nr19"/>&#8212;
+               <lb/>I may learn, 3<hi rend="superscript">d</hi>. how to realize things &#8212;
+               <lb/>take interest in every thing &#8212; and get good <lb/>out of everything. </p>
+            <p rend="text-indent:-2em;">Today I wrote to <persName ref="#ngc">mother</persName>
+               &#8212; and last <lb/>evening to <persName ref="#eha">Lizzy Appleton</persName>
+               &#8212; quite a <hi rend="underline">Sar=</hi>
+               <lb/><hi rend="underline">torish</hi> letter &#8212; put in some drawings &#8212; "an
+               <lb/>Intellectual All in All" &#8212; and some other <lb/>comic illustrations of
+                  <persName ref="#ww">Wordsworth</persName>.<ptr target="#note20" xml:id="nr20"/> I
+               have <lb/>a notion that I will illustrate these pages <lb/>of my journal by some such
+               things, now &amp; then. <lb/>Illustrations which have a sense &#8212; <hi rend="underline">Carlylean</hi>
+               <lb/>graphic-ness &#8212; and truth. There can be a <lb/>touch of comicality in them
+               too &#8212; to give <lb/>them a relish. &#8212;&#8212;</p>
+         </div>
+
+         <pb facs="cranch_p08" type="verso"/>
+         <fw type="pagNum" place="top" rend="align(left)">8.</fw>
+
+         <div type="section">
+            <head>Sunday Ev. Jan. 1<del type="overwrite">1</del><add type="overwrite">3</add><!-- the '1' is written over '3' --><hi rend="superscript">th</hi>&#8212;&#8212;</head>
+            <p>Last night Clarke &amp; I amused ourselves <lb/>making illustrations of Emerson's
+               writings &#8212; <lb/>
+               <choice>
+                  <sic resp="#fbd">. See</sic>
+                  <corr resp="#cmo">see</corr>
+               </choice> p. 10 &amp; 11.<ptr target="#note21" xml:id="nr21"/> &#8212; We had real
+               fun &#8212; <choice>
+                  <sic resp="#fbd">instructive</sic>
+                  <corr resp="#cmo">in= <lb/>struction</corr>
+               </choice> also. &#8212; </p>
+            <p><!-- #fbd neglected paragraph break -->This morning I preached &#8212; to a large
+               con= <lb/>gregation &#8212; my "Rain &amp; River" Sermon &#8212; <lb/>an old affair
+               &#8212; for want of a better, <persName ref="#jfc">Clarke</persName> thought <lb/>he
+                  <abbr>wd</abbr> preach in the afternoon &#8212; <lb/>He preached grandly. Text
+               &#8212; "The Lord is my <lb/>shepherd" &#8212; He has preached it before, but <lb/>it
+               is still fresh. The Louisvillians do <lb/>not know what a treasure they have in
+               <lb/>that man. For my part, take him <lb/>simply as a <hi rend="underline">preacher</hi>. I do not know <lb/>that I have ever listened to preaching so
+               <lb/>good as his. Such freshness, boldness, <lb/>earnestness of style, thought,
+               delivery &#8212; It <lb/>is delightful to listen to him. &#8212; Such a <lb/>fine
+               union of deep, original thought with <lb/>practical <choice>
+                  <sic resp="#fbd">illustrations</sic>
+                  <corr resp="#cmo" cert="medium">illustration</corr>
+               </choice> , and of a poetic <lb/>imagination with the tenderest feeling &#8212;
+               <lb/>His <hi rend="underline">Independence</hi> in everything he does <lb/>is truly
+               refreshing. He is no formula=man. <lb/>He "swallows all formulas", as <persName ref="#tc">Carlyle</persName>
+               <pb facs="cranch_p09" type="recto"/>
+               <fw type="pagNum" place="top" rend="align(right)">9</fw> phrases it<ptr target="#note22" xml:id="nr22"/> &#8212; thinks, feels, talks<!-- #fbd ommitted comma -->
+               <corr resp="#cmo">,</corr> &amp; <lb/>acts <hi rend="underline">himself</hi>, and not
+               another. I bask <lb/>in the light of such a man. I think <lb/>this sojourn with him,
+               has done me good. <lb/>It ought to. He is a rare genius: a <lb/>noble spirit.</p>
+            <p rend="text-indent:-2em;">He spoke in his sermon of the spiritual <lb/>advantages of
+                  <hi rend="underline">travelling</hi>.<ptr target="#note23" xml:id="nr23"/> 1. The
+                  <hi rend="underline">dangers</hi>
+               <lb/>of travelling lead us to <hi rend="underline">reliance</hi> on God <lb/>2. The
+               contemplation of <hi rend="underline">Nature</hi> in travelling <lb/>expands the mind
+               &amp; heart &#8212; 3. <abbr>Contemp.</abbr>
+               <lb/> of works of <hi rend="underline">Art</hi>, <choice>
+                  <sic resp="#fbd">railroads</sic>
+                  <corr resp="#cmo" cert="high">rail roads</corr>
+               </choice> over moun= <lb/>tains &amp; tunnels <hi rend="underline">through</hi>
+               mountains, for <lb/>instance, <choice>
+                  <sic resp="#fbd">show</sic>
+                  <corr resp="#cmo" cert="medium">shew</corr>
+               </choice> us the care of God for us. <lb/>4. We may see the <hi rend="underline">Impartiality</hi> of God <lb/>(in travelling) in the <hi rend="underline">compensation</hi><ptr target="#note24" xml:id="nr24"/> &#8212; made <lb/>in
+               various lands &#8212; a barren rocky land <lb/>e.g. producing industry &#8212; &amp;
+               a <unclear>rich</unclear> land <lb/>indolence &amp;c. 5. Parting from friends <lb/>a
+               lesson &amp; trial to the spirit &#8212; 6. This <lb/>leads to the parting of <hi rend="underline">death</hi> &#8212; which <lb/>separates the good only for a
+               time.</p>
+            <p rend="text-indent:-2em;">Clarke has in him great versatility. <lb/>He has a face to
+               meet you in, for all <lb/>moods of mind. This is why, though he <lb/>is so superior
+               to myself, I can yet <note resp="#cpc" place="bottom">See p. 11</note>
+               <pb facs="cranch_p10" type="verso"/>
+               <fw type="pagNum" place="top" rend="align(left)">10</fw>
+               <figure type="caricature">
+                  <head><del rend="multistroke" hand="#cpc">Ralph Waldo Emerson</del></head>
+                  <graphic url="fig_p10.jpg"/>
+                  <p>"Standing on the bare ground &#8212; my head <lb/>bathed by the blithe air,
+                     &amp; uplifted into <lb/>infinite spaces, &#8212; all mean egotism vanishes.
+                     <lb/>I become a Transparent Eyeball." <lb/><title>Nature</title>. p. 13 </p>
+               </figure>
+               <pb facs="cranch_p11" type="recto"/>
+               <fw type="pagNum" place="top" rend="align(right)">11</fw>
+               <figure type="caricature">
+                  <graphic url="fig_p11.jpg"/>
+                  <p>"I expand and live in the warm day, <lb/>like corn and melons."
+                        <lb/><title>Nature</title>. p. 73 </p>
+               </figure>
+               <milestone unit="undeclared" rend="long-bar"/> sympathise so freely with him, and
+               open <lb/>to him my mind &amp; heart. I can laugh <lb/>with him, pun with him, draw
+               pictures <lb/>with him, poetize with him, sermonize <lb/>with him, and be grave or
+               gay as he <lb/>is so. </p>
+
+            <pb facs="cranch_p12" type="verso"/>
+            <div type="section">
+               <fw type="pagNum" place="top" rend="align(left)">12</fw>
+               <head><placeName><settlement type="city">Cin<del rend="strikethrough" hand="#cpc">can</del>cinnati</settlement></placeName>
+                  <placeName><settlement type="state"><abbr>O.</abbr></settlement></placeName>
+                  <date>Jan. 22<hi rend="superscript">d</hi>. 1839.</date></head>
+               <milestone unit="undeclared" rend="short-bar"/>
+               <p>I left <placeName><settlement type="city">Louisville</settlement></placeName>
+                  nearly a week ago &#8212; the <lb/>River having finally broken up. Pleasant trip
+                  <lb/>up &#8212; rather hard to leave <persName ref="#jfc">Clarke</persName>.<ptr target="#note25" xml:id="nr25"/>
+               </p>
+               <p>I am now here &#8212; taking meals with <persName ref="#epc">Edw.</persName>
+                  <lb/>at <persName ref="#bwc">Miss Wood</persName>s, &amp; sleeping in the office.
+                  <lb/>Have not found a room yet. </p>
+               <p>Before I left, &#8212; (<date>Monday Jan 14</date> &#8212; we had <lb/>a juvenile
+                  concert in our church in <lb/><placeName><settlement type="city">Louisville</settlement></placeName> &#8212; fine &#8212; Went with
+                     <persName ref="#gek">Miss G. <lb/>Keats</persName>.<ptr target="#note26" xml:id="nr26"/> Friday Ev. Conversation club<ptr target="#note27" xml:id="nr27"/> &#8212; <lb/>next morng. Wednesday &#8212; Mr.
+                        <persName><surname>Cooper</surname></persName><lb/> came in to breakfast
+                  &#8212; smoked with <lb/>him. </p>
+               <p>Last night, <date>Jan. 21.</date> Semicolon, at <lb/><persName ref="#mcs">Mrs.
+                     Stetson</persName>s<ptr target="#note28" xml:id="nr28"/> &#8212; sent in piece
+                  on Dreams<corr resp="#cmo">.</corr><!-- #fbd ommitted period --><ptr target="#note29" xml:id="nr29"/>
+                  <lb/>One of the most delightful parties I <lb/>ever was in.<ptr target="#note30" xml:id="nr30"/><!-- #fbd ommitted paragraph break --></p>
+               <p>Have talked with <persName ref="#whc">Channing</persName>, &amp; <persName ref="#jcv">Vaughan</persName>
+                  <lb/>about Ministry at Large. Nothing defi= <lb/>nite done yet. </p>
+               <p>Forgot to mention last Thursday Ev. <lb/><date>Jan 17</date>. Conversation meeting
+                  at the <lb/>vestry room &#8212; talk about <choice>
+                     <sic resp="#fbd">Non</sic>
+                     <corr resp="#cmo" cert="low">non=</corr>
+                  </choice> resis= <lb/>tance &#8212; very good &#8212; well attended &#8212; <pb facs="cranch_p13" type="recto"/>
+                  <fw type="pagNum" place="top" rend="align(right)">13</fw>
+                  <persName ref="#whc">Channing</persName> is doing a noble work here. <lb/>Just the
+                  man to <unclear cert="medium">send</unclear> a new life into <lb/>our stagnating
+                  body of Unitarians.<ptr target="#note31" xml:id="nr31"/></p>
+               <p>Have made acquaintances with <persName>Miss
+                     <lb/><surname>Harding</surname></persName> &#8212; fine girl &#8212; <persName ref="#top">Oliver Prescott</persName> &#8212; fine <lb/>man. <persName ref="#jhp">Perkins</persName> I am getting to know<ptr target="#note32" xml:id="nr32"/> &#8212; <lb/>clear, deep man &#8212; with fine humor &#8212;
+                  <lb/>that <hi rend="underline">cement</hi>
+                  <abbr>wh.</abbr> every mind needs to <lb/>bind strongly &amp; smoothly together
+                  every <lb/>part.<ptr target="#note33" xml:id="nr33"/>
+               </p>
+               <p rend="text-indent:-2em;">Went up today a little while with <lb/><persName ref="#top">Prescott</persName> to court. Trial of
+                        <persName><surname>Butler</surname></persName> for <lb/>murder<ptr target="#note34" xml:id="nr34"/> &#8212; they were examining a bad <lb/>woman
+                  &#8212; poor creature &#8212; <choice>
+                     <sic resp="#fbd">. She</sic>
+                     <corr resp="#cmo">she</corr>
+                  </choice> seemed <lb/>made for better things. </p>
+               <p>I shall begin to visit soon, I hope, <lb/>among the poor &amp; degraded. </p>
+            </div>
+            <div type="section">
+               <milestone unit="undeclared" rend="short-bar"/>
+               <head><date>Jan. 23.<hi rend="superscript">d</hi>.</date></head>
+               <p>This afternoon attended sewing <lb/>circle of ladies <add rend="caret" place="above" hand="#cpc">at <persName ref="#wg">Green</persName>s</add>with
+                     <persName ref="#whc">Channing</persName>.<ptr target="#note35" xml:id="nr35"/>
+                  A sort of <lb/>Bible class. Rather interesting talk &#8212; but <lb/>too much <sic resp="#fbd"><!-- ommitted word --></sic><corr resp="#cmo">confined</corr> to
+                     <persName ref="#whc">Ch.</persName> &amp; myself. <lb/>Took tea with <persName ref="#whc">Ch.</persName> at <persName ref="#wg">Green</persName>s'. After tea
+                  <lb/>interesting talk on religious &amp; meta= <lb/>physical subjects. <persName ref="#whc">Ch.</persName> reminds me <lb/>of <persName ref="#jsd">Dwight</persName>. He is a noble spirit. So <lb/>is <persName ref="#wg">Greene</persName>. I like to talk with such &#8212; </p>
+            </div>
+
+            <pb facs="cranch_p14" type="verso"/>
+            <div type="sction">
+               <fw type="pagNum" place="top" rend="align(left)">14</fw>
+               <head><date>Sunday, Jan. 27<hi rend="superscript">th</hi></date>&#8212;</head>
+               <p>Thursday Ev. we met in vestryroom &amp; talked <lb/>about Looking at <choice>
+                     <sic resp="#fbd">Consequences</sic>
+                     <corr resp="#cmo">consequences</corr>
+                  </choice> in matters of <lb/>duty. </p>
+               <p>Friday <choice>
+                     <sic resp="#fbd">ev</sic>
+                     <corr resp="#cmo" cert="low">Ev</corr>
+                  </choice>. went to <persName>Mr Fisher</persName>'s &amp; to <persName ref="#dre">Judge <lb/>Estes</persName>'. Saturday Ev. to Debating club. </p>
+               <p>Yesterday afternoon attended <persName>M<hi rend="superscript">r</hi>
+                     Mackay</persName>'s <lb/>funeral. <persName ref="#whc">Channing</persName>
+                  officiated &#8212; in his usual <lb/>impressive manner. Coming home talked
+                  <lb/>with <persName ref="#jhp">Perkins</persName> about the Ministry at Large.
+                  <lb/>If I do not take it, <hi rend="underline">he intends to engage</hi>
+                  <lb/><hi rend="underline">in it himself</hi> &#8212; and to devote his life to
+                  <lb/>it. We are to talk about it this evening <lb/>at <persName ref="#whc">Channing</persName>'s room. I shall leave the <lb/>task to him. He is just the
+                  man for it. <lb/>I was surprised &amp; rejoiced to hear it. What <lb/>a noble
+                  spirit he is! He is <hi rend="underline">all</hi> spirit, as <lb/><persName ref="#epc">Edward</persName> says.<ptr target="#note36" xml:id="nr36"/> He will
+                  make the most <lb/>efficient minister to the poor, that could <lb/>be found in the
+                  country. He is already <lb/>fitted for it. I am not. The time that <hi rend="underline">I</hi><lb/><abbr>shd</abbr> spend in learning, he would spend
+                  in <lb/>acting &#8212; and acting on the broadest <del rend="strikethrough" hand="#cpc">&amp;</del>
+                  <lb/><del rend="strikethrough" hand="#cpc">most</del> foundation, &amp; with the
+                  most ear= <lb/>nest &amp; devoted spirit. It will re<del rend="strikethrough" hand="#cpc">a</del>lease <lb/><hi rend="underline">me</hi> from my position
+                  &#8212; a position I have been <lb/>standing in less from my own will, <pb facs="cranch_p15" type="recto"/>
+                  <fw type="pagNum" place="top" rend="align(right)">15</fw> than from the urgency of
+                  my friends.</p>
+               <p><!-- #fbd neglected paragraph break -->I feel that though this Ministry
+                     <abbr>wd</abbr> be a <lb/>glorious discipline to myself, yet I am <lb/>unfitted
+                  for it <sic resp="#fbd"><!-- #fbd ommitted comma --></sic><corr resp="#cmo">,</corr>
+                  <del rend="strikethrough" hand="#cpc">and</del> by taste and habits; <lb/>while
+                  with <persName ref="#jhp">Perkins</persName>, it seems to be the <lb/>very sphere
+                  for which everything in him <lb/>predestines him. </p>
+               <p rend="text-indent:-2em;">Still some such discipline I must have. <lb/>But where
+                  shall I <hi rend="underline">now</hi> go? The West is <lb/>all before me. Shall I
+                  remain this side <lb/>of the <choice>
+                     <sic>Mountains</sic>
+                     <corr resp="#cmo" cert="medium">mountains</corr>
+                  </choice>, or not?<ptr target="#note37" xml:id="nr37"/> I must de= <lb/>cide
+                  quickly. </p>
+            </div>
+            <div type="section">
+               <milestone unit="undeclared" rend="short-bar"/>
+               <head rend="text-indent:-2em;"><date><hi rend="underline">Jan. 30<hi rend="superscript">th</hi></hi>.</date></head>
+               <p><persName ref="#jhp">Perkins</persName> will engage <lb/>in the Ministry to the
+                  poor. God grant <lb/>him happiness &amp; success in it. How I <lb/>wish I could
+                  express to him my feelings <lb/>about it &#8212; that I could thank him &amp;
+                  <lb/>praise him with anything like the warmth <lb/>which my heart feels. I could
+                  almost <lb/>kneel to him &#8212; I have felt the tears <lb/>almost starting when I
+                  saw him thus <lb/>resolved on commencing &amp; <choice>
+                     <sic resp="#fbd">going</sic>
+                     <corr resp="#cmo" cert="medium">giving</corr>
+                  </choice> himself <lb/>to the work. But my manner is all <lb/>unchanged. No one
+                  knows how warmly <lb/>the stream of feeling &amp; enthusiasm runs <pb facs="cranch_p16" type="verso"/>
+                  <fw type="pagNum" place="top" rend="align(left)">16</fw> beneath the cold icebound
+                  exterior <lb/>of manner, <del rend="strikethrough" resp="#cpc">w</del>through
+                  which it <hi rend="underline">cannot</hi>
+                  <lb/>break.<ptr target="#note38" xml:id="nr38"/>
+               </p>
+               <p rend="text-indent:-2em;">And now I am free. I have been <lb/>making up my mind to
+                  go Eastward, <lb/>to settle. I think I shall do so. <lb/>I think I shall be
+                  happier &amp; more <lb/>useful at the East than in the West. <lb/>I shall probably
+                  start next week, <lb/>for <placeName><settlement type="city">Washington</settlement></placeName>, which I shall make <lb/>my point of
+                  lookout, till I can <lb/>get a parish which suits me.<ptr target="#note39" xml:id="nr39"/></p>
+            </div>
+            <div type="section">
+               <milestone unit="undeclared" rend="short-bar"/>
+               <head><date>February</date>.</head>
+               <p>1<hi rend="superscript">st</hi>. Young <choice>
+                     <sic resp="#fbd">Soeffies</sic>
+                     <corr resp="#cmo" cert="high">Soeffjes</corr>
+                  </choice> &#8212; Party at <persName>Miller</persName>s.</p>
+               <p>2<hi rend="superscript">d</hi>. Cold day. No prospect of river open= <lb/>ing or
+                  rising. Think it likely I shall <lb/>be obliged to go home by land. Dont <lb/>like
+                  the idea. Doing nothing here &#8212; &amp; <lb/>not supporting myself. </p>
+               <p>Went to Debating Soc. in evening with <persName ref="#bwc">Bertha</persName>
+                  <lb/>&amp; <persName><forename>Kate</forename>
+                     <surname>Wood</surname></persName>.<ptr target="#note40" xml:id="nr40"/>
+               </p>
+               <p>Sunday &#8212; 3<hi rend="superscript">d</hi>. Went to New Jerusalem
+                     <abbr>ch.</abbr> with <lb/><persName ref="#top">Prescott</persName>.<ptr target="#note41" xml:id="nr41"/> Good high heads &#8212; dull preacher &#8212;
+                  cur= <lb/>ious exposition of the <choice>
+                     <sic resp="#fbd">miracle</sic>
+                     <corr resp="#cmo">miracles</corr>
+                  </choice> of the loaves &amp; <lb/>fishes.<ptr target="#note42" xml:id="nr42"/> In
+                  the wing heard <persName ref="#whc">Channing</persName> &#8212; most <pb facs="cranch_p17" type="recto"/>
+                  <fw type="pagNum" place="top" rend="align(right)">17</fw> powerful sermon I ever
+                  heard <sic>. <!-- #fbd introduced here an incorrect paragraph break --></sic><corr resp="#cmo">&#8212;</corr> Text. 1 John. <lb/>IV. 20 &#8212; <quote>"If any one
+                     love not his brother whom <lb/>he hath knew, how can he love God whom <lb/>he
+                     hath not seen."</quote> &#8212; He who <hi rend="underline">loves</hi> not, is
+                  an <lb/><hi rend="underline">atheist</hi>. The bigot, the worldling, the sneerer,
+                  <lb/>all who see not the divine in man are <lb/>atheists. We can only love &amp;
+                  see God, through <lb/><del rend="strikethrough" type="false-start" hand="#cpc">our</del>
+                  <del rend="strikethrough" type="false-start" hand="#cpc">aff</del> the affections
+                  of our heart, with <abbr>wh.</abbr>
+                  <lb/>we love one another. There is no other pos= <lb/>sible way of knowing &amp;
+                  loving Him, but <lb/>by experiencing &amp; developing the common af= <lb/>fections
+                  of love &amp; <choice>
+                     <sic resp="#fbd">smpathy</sic>
+                     <corr resp="#cmo">sympathy</corr>
+                  </choice>
+                  <abbr>wh.</abbr> we <lb/>extend <choice>
+                     <sic resp="#fbd">toward</sic>
+                     <corr resp="#cmo" cert="medium">towards</corr>
+                  </choice> man. </p>
+               <p rend="text-indent:-2em;">The whole discourse was most condensed, <lb/>original,
+                  eloquent &amp; touching. He is a <lb/>glorious preacher. </p>
+            </div>
+            <div type="section">
+               <milestone unit="undeclared" rend="short-bar"/>
+               <head><date>Feb 17<hi rend="superscript">th</hi></date>. Sunday afternoon</head>
+               <p>How time flies! Here tis the middle <lb/>of <date>February</date> &#8212; doing
+                  nothing here.<ptr target="#note43" xml:id="nr43"/> Shall <lb/>leave for home this
+                  week. It is hard <lb/>to leave <placeName><settlement type="city">Cincinnati</settlement></placeName> &#8212; but I must &#8212; <lb/>This
+                  loafer life will never do. </p>
+               <p rend="text-indent:-2em;">Heard <persName ref="#whc">Channing</persName> preach
+                  this morning <lb/>a noble discourse on Prayer &#8212; worship <lb/>in spirit &amp;
+                  in truth. Spoke of the objec= <lb/>tions &amp; doubts generally held about
+                  <lb/>prayer. </p>
+
+               <pb facs="cranch_p18" type="verso"/>
+               <fw type="pagNum" place="top" rend="align(left)">18.</fw>
+               <div type="section">
+                  <head rend="text-indent:-2em;"><date>Feb 21.</date></head>
+                  <p>Shall not leave till <lb/>next week &#8212; River low &#8212; ice running. <lb/>
+                     <choice>
+                        <sic resp="#fbd">Feeling</sic>
+                        <corr resp="#cmo" cert="medium">Feelings</corr>
+                     </choice> unsettled &#8212; and uncomfortable. <lb/>Wish I was at home <corr resp="#cmo">,</corr> or somewhere, at <lb/>work. Last Monday Ev. Semicolon
+                     <lb/>at Mrs <persName ref="#mcs">Stetson</persName>s. Tuesday at <persName ref="#jcv">Vaughan</persName>'s. </p>
+                  <p rend="text-indent:-2em;">Oh this dreadful <hi rend="underline">indifference</hi> wh. <lb/>hangs upon me &#8212;! It is a <del rend="strikethrough" hand="#cpc">life</del> "night= <lb/>mare life in
+                        death".<ptr target="#note44" xml:id="nr44"/> I am dissatis= <lb/>fied with
+                     myself, and almost every= <lb/>thing about me. Action &#8212; <add place="above" hand="#cpc">a</add> habitual <lb/>daily fixed routine of duty
+                     can alone <lb/>"deliver me from the body of this death."<ptr target="#note45" xml:id="nr45"/>
+                     <lb/>I feel now as if I were letting my powers <lb/>run to waste. It must not
+                     be &#8212; </p>
+               </div>
+               <div type="section">
+                  <milestone unit="undeclared" rend="short-bar"/>
+                  <head><date>March 14<hi rend="superscript">th</hi>. 1839.</date>
+                     <placeName><settlement type="city">Washington City</settlement></placeName>
+                     &#8212;</head>
+
+                  <p>I have been here about a week &#8212;<lb/>Came on with Mr
+                           <persName><surname>Lynch</surname></persName>, Mrs
+                           <persName><surname>Lucas</surname></persName>, <lb/>&amp;c. Rather
+                     pleasant journey &#8212; cold.<ptr target="#note46" xml:id="nr46"/>
+                     <lb/>Find all well here. Have had <lb/>several talks with <persName ref="#rd">Rufus</persName> about <lb/>the New Church.<ptr target="#note47" xml:id="nr47"/> He presents it to <lb/>me in a most interesting &amp; less
+                     sec= <lb/>tarian light than I have ever <del rend="strikethrough" type="false-start" resp="#cpc">se</del> viewed <pb facs="cranch_p19" type="recto"/>
+                     <fw type="pagNum" place="top" rend="align(right)"><hi rend="bubble">19</hi></fw> it. Not <hi rend="underline">sectarian</hi> &#8212; that is
+                     not the <lb/>word &#8212; but he opens to me a far <lb/>broader &amp; more
+                     elevated view of the <lb/>New Church <add rend="caret" place="above" hand="#cpc">truths</add> than what I have been <lb/>accustomed to see. I am
+                     reading <lb/><persName ref="#es">Swedenborg</persName>'s <title>Arcana</title>,
+                     which is <lb/>interesting &#8212; also <persName ref="#ak">Kinmont</persName>'s
+                        <title>Lectures <lb/>on the Natural History of</title>
+                     <choice>
+                        <sic resp="#fbd">man</sic>
+                        <corr resp="#cmo" cert="low"><title>Man</title></corr>
+                     </choice>.<ptr target="#note48" xml:id="nr48"/>
+                     <lb/>This latter is a very profound and <lb/>original book, and exceedingly
+                     <lb/>interesting &amp; instructive. </p>
+                  <p rend="text-indent:-2em;">Preached last Sunday for <persName ref="#sgb">Mr.
+                        <lb/>Bulfinch</persName>.<ptr target="#note49" xml:id="nr49"/> Have called
+                     as yet on <lb/>scarcely any one. </p>
+               </div>
+               <div type="section">
+                  <milestone unit="undeclared" rend="long-bar"/>
+
+                  <p><date><abbr>Ap.</abbr> 2.<hi rend="superscript">d</hi></date>. My journal lags
+                     too much. One <lb/>must be <hi rend="underline">alone</hi> to journalize much
+                     &#8212; <lb/>My time has been passing delightfully here. <lb/>There is no place
+                     like home. I have not <lb/>written much &#8212; but have read somewhat &#8212;
+                     <lb/>finished <persName ref="#ak">Kinmont</persName>. I read <persName ref="#es">Swedenborg</persName> by <lb/>fits. Am now reading <persName ref="#vc">Cousin</persName> &#8212; but <lb/>I never shall be a great
+                        reader.<ptr target="#note50" xml:id="nr50"/> Wrote <lb/>a poem on
+                     "Correspondences" which <persName ref="#rd">Rufus</persName>
+                     <lb/>thinks the best thing he has seen of mine.<ptr target="#note51" xml:id="nr51"/>
+                     <lb/>Last week wrote a Sermon on the text &#8212; <lb/>"Can any good thing come
+                     out of Naza= <lb/>reth &#8212; come &amp; see." Think it one of <lb/>my best.
+                     Occasionally draw, &amp; india= <pb facs="cranch_p20" type="verso"/>
+                     <fw type="pagNum" place="top" rend="align(left)">20</fw> ink &#8212; and flute
+                     with <persName ref="#wcj">Bro. William</persName>
+                     <lb/>or <persName><roleName type="military">Major</roleName>
+                        <surname>Hitchcock</surname></persName>, or amuse my= <lb/>self with the
+                     piano forte &#8212; Had one <lb/>musical evening with
+                           <persName><surname>Fleischmann</surname></persName>. <lb/>My passion for
+                     music is such that <lb/>I sometimes wonder tis not all=ab= <lb/>sorbing. No
+                     enjoyment of my exis= <lb/>tence is greater. When I sit down <lb/>at twilight
+                     to the piano forte, and <lb/>roam over the Soul like chords of <lb/>that
+                     glorious instrument, I can feel <lb/>what <hi rend="underline">perfect</hi>
+                     <hi rend="double-underline">beauty</hi> is.<ptr target="#note52" xml:id="nr52"/> What <hi rend="double-underline">God</hi>
+                     <lb/>is. I can feel what the language <lb/>of the angels must be. That language
+                        <lb/><hi rend="underline">must</hi> be music. What else can <lb/>it be?
+                     &#8212;&#8212; </p>
+                  <p rend="text-indent:-2em;">Next week I shall probably start <lb/>for the North
+                     &#8212; shall stop on the <lb/>way &#8212; a good deal &#8212; &amp; probably
+                     shall <lb/>go to <placeName><settlement type="city">Northampton</settlement>
+                        &#8212; <settlement type="commonwealth"><abbr>Mass.</abbr></settlement></placeName><ptr target="#note53" xml:id="nr53"/>
+                  </p>
+                  <p rend="text-indent:-2em;">I must learn to renounce, more <lb/>than I do, many of
+                        <del rend="strikethrough" hand="#cpc">the</del> my talents <lb/>&amp;
+                     tastes, in music &amp; drawing, for <lb/>instance, &amp; give myself more to
+                     <lb/>my profession. I am behind <choice>
+                        <sic resp="#fbd">bad</sic>
+                        <corr resp="#cmo" cert="medium">hand</corr>
+                     </choice>
+                     <lb/>in this. I am too desultory &#8212; too <lb/>indolent, too <hi rend="underline">unclerical</hi>. . .<ptr target="#note54" xml:id="nr54"/>
+                  </p>
+               </div>
+
+               <pb facs="cranch_p21" type="recto"/>
+               <fw type="pagNum" place="top" rend="align(right)">21.</fw>
+               <div type="section">
+                  <head><placeName>
+                        <settlement type="city">Philadelphia</settlement>
+                     </placeName>&#8212;<date><abbr>Ap.</abbr> 18<hi rend="superscript">th</hi>.
+                        1839</date>.<ptr target="#note55" xml:id="nr55"/></head>
+                  <p rend="text-indent:-2em;">Left home on Saturday last. <date>Ap 13<hi rend="superscript">th</hi></date> &#8212; <lb/>in the afternoon cars.
+                     Home, dear <lb/>home &#8212; thou art once more shut out from <lb/>my eyes
+                     &#8212; but my heart is still with thee. <lb/>How many blessings &#8212; how
+                     many de= <lb/>lightful hours were mine during that <lb/>one month's stay. O may
+                     God make <lb/>me thankful for such a home &#8212; for <lb/>such a <persName ref="#wcs">father</persName>, such a <persName ref="#ngc">mother</persName>,
+                     such <lb/>sisters &amp; brothers, as mine are &#8212; ! <lb/>O, the pleasant
+                     hours in that old <lb/>library, with <persName ref="#rd">Rufus</persName>! The
+                     good times <lb/>with dear <persName>Margy</persName> &#8212; they are past.
+                     <lb/>I am once more <hi rend="underline">be mistered</hi>.<ptr target="#note56" xml:id="nr56"/></p>
+
+                  <gap reason="cut-away"/>
+
+
+                  <pb facs="cranch_p22" type="verso"/>
+                  <fw type="pagNum" place="top" rend="align(left)">22.</fw>
+                  <p>Wednesday morning left <placeName><settlement type="city">Baltimore</settlement></placeName>, &amp; <lb/>arrived here in the
+                     afternoon. Am <lb/>at <persName>Mary Eliot</persName>'s &#8212; (Mrs. James T.
+                     Furness) <lb/>delightful place &#8212; and people &#8212; every= <lb/>thing as
+                     pleasant as possible. <lb/>Walked about this morning with <lb/><persName ref="#whf">William Furness</persName> &#8212; saw houses, <lb/>public
+                     buildings, pictures &amp; people. <lb/>I am going to stay here two Sun=
+                     <lb/>days, while he goes North with <lb/>his wife.<ptr target="#note57" xml:id="nr57"/>
+                  </p>
+               </div>
+               <milestone unit="undeclared" rend="short-bar"/>
+               <div type="section">
+                  <p><date>Ap. 23<hi rend="superscript">d</hi></date>. &#8212; Mr <persName ref="#whf">Furness</persName> is still here <lb/><supplied reason="cut-away">on account of</supplied>
+                     <persName>Judy Barnes</persName>' sickness </p>
+                  <gap reason="cut-away"/>
+               </div>
+
+               <gap reason="cut-away"/>
+
+               <pb facs="cranch_p29" type="recto"/>
+               <div type="section">
+                  <fw type="pagNum" place="top" rend="align(right)">29.</fw>
+                  <p><date>June 24<hi rend="superscript">th</hi></date>&#8212;&#8212; I am reading
+                           <lb/><bibl><persName ref="#tj">Jouffroy</persName> on Philosophy, in
+                           <title>Ripleys <abbr>Spec</abbr>. <lb/>of foreign
+                        literature.</title></bibl><ptr target="#note58" xml:id="nr58"/> He is a most
+                     clear, <lb/>profound &amp; spiritual writer. It is satis= <lb/>factory to get
+                     hold of such a writer. He <lb/>seems to do something to fill a <hi rend="underline">void</hi> in <lb/>my nature. I need to be <hi rend="underline">based</hi> more <lb/>firmly upon eternal truths. I want
+                     <lb/>a sound philosophy to prop up my <lb/>too wavering faith. </p>
+
+                  <gap reason="cut-away">
+                     <desc>Rest of page is excised</desc>
+                  </gap>
+
+                  <pb facs="cranch_p30" type="verso"/>
+                  <fw type="pagNum" place="top" rend="align(left)">30</fw>
+                  <p><choice>
+                        <sic resp="#fbd">Show</sic>
+                        <corr resp="#cmo" cert="high">shew</corr>
+                     </choice> us any good?"<ptr target="#note59" xml:id="nr59"/> &#8212; Commenced
+                     <lb/>with speaking of the freshness, joy, &amp; <lb/>faith of childhood &#8212;
+                     then of the <lb/>enthusiasm of <choice>
+                        <sic resp="#fbd">mankind</sic>
+                        <corr resp="#cmo" cert="high">manhood</corr>
+                     </choice> &#8212; then <lb/>of the wants of the soul which the <lb/>world
+                     cannot satisfy &#8212; and of virtue <lb/>as the only good &#8212; the only
+                     means of <lb/>happiness &amp;c. His delivery is very <lb/>fine &#8212; almost
+                     too much gesture. </p>
+                  <gap reason="cut-away"/>
+               </div>
+            </div>
+         </div>
+      </body>
+
+      <back>
+         <div type="notes">
+            <note xml:id="note1"><quote>"My inheritance, how wide and fair! / Time is my estate; to
+                  time I'm heir,"</quote> from <bibl>Johann Wolfgang von Goethe's <title>Wilhelm
+                     Meister</title> (1795&#8211;96)</bibl>, as translated by Thomas Carlyle and
+               quoted at the beginning of the first American edition of <bibl><title>Sartor
+                     Resartus</title>, ed. Ralph Waldo Emerson (Boston: James Munroe, 1836)</bibl>.
+               Francis B. Dedmond notes that Carlyle's epigraph was omitted from later editions
+                  (<bibl>"Christopher Pearse Cranch's 'Journal. 1839,'" in <title>Studies in the
+                     American Renaissance 1983</title>, ed. Joel Myerson [Charlottesville:
+                  University Press of Virginia, 1983], 147)</bibl>. Remaining citations of
+                     <bibl><title>Sartor Resartus</title> come from the California edition by Rodger
+                  L. Tarr et al. (Berkeley: University of California Press, 2000)</bibl>.</note>
+            <note xml:id="note2">"Works and Days": An allusion to Hesiod's work, as well as to
+               Carlyle, who argues that we should focus daily on producing things of value. Emerson
+               also admired Hesiod; having lectured on his work Emerson later included an essay,
+               "Works and Days," in his 1870 collection <bibl><title>Society and Solitude, Collected
+                     Works of Ralph Waldo Emerson</title>, ed. Ronald A. Bosco and Douglas Emory
+                  Wilson (Cambridge: Harvard University Press, 2008), 7:79&#8211;94.</bibl></note>
+            <note xml:id="note3">Almost a direct quote of John 9:4 (King James Bible): <quote>"I
+                  must work the works of him that sent me, while it is day: the night cometh, when
+                  no man can work."</quote> Dedmond ("Cranch's 'Journal,'" 147) notes that Carlyle
+               ends the "Everlasting Yea" chapter with a version of this verse: <quote>"Work while
+                  it is called To-day; for the Night cometh, wherein no man can work."</quote>
+               <bibl>Leon Jackson, "The Reader Retailored: Thomas Carlyle, His American Audience,
+                  and the Politics of Evidence," <title>Book History</title> 2 (1999), 158 and
+                  170</bibl>, says, "The fact that Cranch also quotes two lines from Goethe from the
+               title page of <title>Sartor</title> suggests that he was thinking more of the
+               Scottish author than the Gospel one."</note>
+            <note xml:id="note4">Cranch echoes Emerson's opening in the first chapter of
+                  <title>Nature</title>: "To go into solitude, a man needs to retire as much from
+               his chamber as from society" (<bibl><title>Nature, Addresses, and Lectures</title>,
+                  vol. 1 of <title>Collected Works of Ralph Waldo Emerson</title>, ed. Robert E.
+                  Spiller and Alfred R. Ferguson [Cambridge: Harvard University Press, 1971],
+                  8</bibl>; cited hereafter as <hi rend="italic">CW</hi>).</note>
+            <note xml:id="note5">See Cranch's "River of Time" caricature (image 21, <ref target="http://nrs.harvard.edu/urn-3:FHCL.Hough:2317964">http://nrs.harvard.edu/urn-3:FHCL.Hough:2317964</ref>), which features Emerson's
+               idea that books can potentially hinder one's relationship to nature. Compare also
+                  <title>Nature</title>, chapter 4, "Language": "Who looks upon a river in a
+               meditative hour, and is not reminded of the flux of all things? Throw a stone into
+               the stream, and the circles that propagate themselves are the beautiful type of all
+               influence" (<title>CW</title>, 1:18).</note>
+            <note xml:id="note6"><hi rend="underline">Action</hi>] Following his metaphor of the
+               "stream of time," Cranch echoes Carlyle, who in <title>Sartor Resartus</title> says
+               that "the articulated Word sets all hands in Action" (47). See also Carlyle's quoting
+               the <foreign xml:lang="de">Erdgeist</foreign> from <title>Faust</title>: <quote>"In
+                  Being's floods, in Action's storm, / I walk and work, above, beneath, / Work and
+                  weave in endless motion!</quote> (43).</note>
+            <note xml:id="note7">beautiful meaning] Dwight had written a similar line about
+               Tennyson's "Claribel," a poem "full of meaning, felt to the soul," given its "vague
+               and mysterious" and "magic power": "Is there nothing worthy conveyed into the mind
+               through the subtle melody of mere verse?" (quoted in <bibl>J. Wesley Thomas, "John
+                  Sullivan Dwight: A Translator of German Romanticism," <title>American
+                     Literature</title> 21, no. 4 [January 1950]: 433</bibl>). Dwight said elsewhere
+               that the poems of Wordsworth, too, like Goethe, "are never dull" and "are always
+               steeped in the music of the man." <bibl>("The Poetical Works of Edmund Spenser,"
+                     <title>Christian Examiner</title> 28, no. 222 [May 1840])</bibl>.</note>
+            <note xml:id="note8">From Wordsworth's "The Leech-Gatherer, or Resolution and
+               Independence," stanza 6, lines 36&#8211;42.</note>
+            <note xml:id="note9">"see into the life of things"] From Wordsworth's "Lines Written a
+               Few Miles Above Tintern Abbey": <quote>"Almost suspended, we are laid asleep / In
+                  Body, and become a living soul: / While, with an eye made quiet by the power / Of
+                  harmony, and the deep power of joy, / We see into the life of things"</quote>
+               (lines 47&#8211;49). This was one of Emerson's favorite poems, according to his
+               journal entry of May 25, 1837 (<bibl><title>Journals and Miscellaneous Notebooks by
+                     Ralph Waldo Emerson: 1835&#8211;1838</title>, ed. Merton M. Sealts, Jr.
+                  (Cambridge: Harvard University Press, 1965), 5:335</bibl>), which anticipates the
+               "transparent eye-ball" passage in <title>Nature</title> (see <bibl>Patrick J. Keane's
+                     <title>Emerson, Romanticism, and Intuitive Reason: The Transatlantic "Light of
+                     All Our Day"</title> [Columbia: University of Missouri Press, 2005]</bibl>,
+               especially pages 100&#8211;107, on Emerson and Wordsworth). Compare also the
+               "Symbols" chapter of <title>Sartor Resartus</title>: <quote>"In the Symbol [. . .]
+                  the Infinite is made to blend itself with the Finite, to stand visible, and as it
+                  were, attainable there"</quote> (162). Dedmond ("Cranch's 'Journal,'" 147) notes
+               that the <title>Western Messenger</title> featured Carlyle's
+                  <title>Miscellanies</title> in its "Critical Notices" in December 1838. In it "C"
+               (which is probably Cranch, though it could be Clarke) writes, <quote>"We know of no
+                  life-reviewer equal to Carlyle. He has an eye to see into the soul of man as well
+                  asunder beneath his keen philosophical glance, as distinct as Day from
+                  Night"</quote> (5:138).</note>
+            <note xml:id="note10">Compare <title>Sartor Resartus</title>, chapter 5, "The World in
+               Clothes": <quote>"Cast forth thy Act, thy Word, into the ever-living, ever-working
+                  Universe: it is a seed-grain that cannot die"</quote> (30); and the closing of
+               book 1, chapter 11, "Prospective": <quote>"What is the use of health, or of life, if
+                  not to do some work therewith? And what work nobler than transplanting foreign
+                  Thought into the barren domestic soil; except indeed planting Thought of your own,
+                  which the fewest are privileged to do?"</quote>(60&#8211;61). The closing of "The
+               Everlasting Yea" argues that the impediment to the ideal is a lack of action.</note>
+            <note xml:id="note11">From Emerson's "American Scholar" address: <quote>"if the single
+                  man plant himself indomitably on his instincts, and there abide, the huge world
+                  will come round to him"</quote> (<bibl><title>CW</title>, 1:69</bibl>).</note>
+            <note xml:id="note12">"had all knowledge"] Dedmond ("Cranch's 'Journal'") points to
+               First Corinthians 13:2 (King James Bible): "And though I have the gift of prophecy,
+               and understand all mysteries, and all knowledge; and though I have all faith, so that
+               I could remove mountains, and have not charity, I am nothing." This also follows a
+               thread from Emerson's lecture "The Doctrine of the Soul": "With all the godlike
+               knowledge and godlike virtue we can find in history, we can spare it all"; and "I
+               could forgive the man of calculation his want of faith if he had knowledge of the
+               uttermost that man could be and do" (<bibl><title>Early Lectures of Ralph Waldo
+                     Emerson, vol. 3: 1838&#8211;1842</title>, ed. Robert E. Spiller and Wallace E.
+                  Williams [Cambridge: Harvard University Press, 1972], 13, 14</bibl>).</note>
+            <note xml:id="note13">Following his thoughts on the value of books, Cranch parallels
+               Emerson's "General Views" lecture (from the 1837&#8211;38 "Human Culture" series):
+               "Now what is true of a month's or a year's issue of new books, seems to me with a
+               little qualification true of the age [. . .] One man, two men,&#8212;possibly, three
+               or four,&#8212;have cast behind them the long-descended costume of the academy, and
+               the expectations of fashion, and have said, This world is too fair, this world comes
+               home too near to me than that I should walk a stranger in it, and live at
+               second-hand, fed by other men's doctrines, or treading only in their steps"
+                     (<bibl><title>Early Lectures, vol. 2: 1836&#8211;1838</title> [Cambridge: Harvard
+                  University Press, 1964], 361</bibl>). This also follows the theme in "The American
+               Scholar" that significant truths derive not necessarily from books but from an
+               engagement with nature&#8212;"instead of Man Thinking, we have the bookworm"
+                  (<title>CW</title>, 1:56).</note>
+            <note xml:id="note14">After his precept in the "Everlasting No" chapter of <title>Sartor
+                  Resartus</title> to not know thyself, but "know what thou canst work at," Carlyle
+               asks a rhetorical question: "Hast thou a certain Faculty, a certain Worth, such even
+               as the most have not; or art thou the completest Dullard of these modern times? Alas,
+               the fearful Unbelief is unbelief in yourself; and how could I believe?" (123). The
+               "skepticism" recalls Carlyle's arguments against the "Age of Skepticism" induced by
+               Voltaire, Hume, the French Revolution, materialism, and British Utilitarianism. In
+               his "State of German Literature" essay, Carlyle suggests that German writers provide
+               spiritual sustenance to people hampered by skepticism, which has made Europe "a scene
+               blackened and burnt-up with fire; mourning in the darkness, because there is
+               desolation, and no home for the soul" (<bibl><title>Critical and Miscellaneous
+                     Essays</title>, The Works of Thomas Carlyle in Thirty Volumes [London: Chapman
+                  and Hall, 1899], 26:85</bibl>). Compare also Emerson's "Religion" lecture, in
+               which he warns of "profound unbelief,&#8212;a diffidence" resulting from the fact
+               that "society sickens of skepticism" (<bibl><title>Early Lectures</title>,
+                  2:97</bibl>).</note>
+            <note xml:id="note15">Cranch echoes the primary message of Emerson's first chapter of
+                  <title>Nature</title>&#8212;the synthesis of soul and nature&#8212;that "Nature
+               always wears the colors of the spirit" (<bibl><title>CW</title>,
+               1:10</bibl>)&#8212;which itself recalls Carlyle's metaphor of the philosophy of
+               clothes in <title>Sartor Resartus</title>.</note>
+            <note xml:id="note16">Leaving for Boston in 1838, Clarke had asked Cranch to take over
+               as editor for at least two issues. When Clarke returned to Louisville in late
+               December, he exalted in the "exquisite keenness of [Emerson's] intellect and antique
+               charm of his imagination," resolving to stand behind "a man whose life is holiness,
+               whose words are gems, whose character is of the purest type of heroism, yet of
+               childlike simplicity" (quoted in <bibl>F. DeWolfe Miller, <title>Christopher Pearse
+                     Cranch and His Caricatures of New England Transcendentalism</title> [Cambridge:
+                  Harvard University Press, 1951], 35</bibl>).</note>
+            <note xml:id="note17">Cranch experienced the same problem the last time he was in
+               Louisville, as is indicated in a November 21, 1838, letter to Clarke: "Our river is
+               up once more, and everything alive and stirring. 'Da regte sich was Hande hat,' etc."
+               (Massachusetts Historical Society [MHS] typescript).</note>
+            <note xml:id="note18"><hi rend="underline">natural</hi> and <hi rend="underline">free</hi>] Cranch echoes Emerson's saying in "Heroism" that "A great man scarcely
+               knows how he dines, how he dresses; but without railing or precision, his living is
+               natural and poetic." An early version of "Heroism" was delivered as a lecture in
+               Boston in the winter of 1837, as part of his lectures on "Human Culture." See also
+               the introduction to this edition for more on how the "natural and free" idea comes
+               from Dwight's musical aesthetics.</note>
+            <note xml:id="note19">Truth &amp; Duty] This illustrates not only the influence of
+               Kant's categorical imperative but also the Calvinistic strains of Cranch's thought.
+               As Miller suggests, Cranch was raised in a Puritan household, and <quote>"God's
+                  immanence and man's duty to God were real truths for him"</quote>
+                     (<bibl><title>Cranch and His Caricatures</title>, 10</bibl>). Cranch's lineage
+               compares to Emerson, whose Aunt Mary was likewise puritanical in her many letters to
+               him in his formative years. See Phyllis Cole's <bibl><title>Mary Moody Emerson and
+                     the Origins of Transcendentalism: A Family History</title> (Oxford: Oxford
+                  University Press, 1998), 8&#8211;18.</bibl></note>
+            <note xml:id="note20">The letter has not been located.</note>
+            <note xml:id="note21">Dedmond cites Clarke's letter to Emerson from March 11, 1839
+               ("Cranch's 'Journal,'" 148): "Cranch and I were so profane as to illustrate some of
+               your sayings by sketches not of the gravest character. I should like to show them to
+               you, for I think you would like them. . . . C. P. Cranch has quite a talent at drawing
+               diablerie &amp; such like" <bibl>(<title>The Letters of Ralph Waldo Emerson</title>,
+                  ed. Ralph L. Rusk [New York: Columbia University Press, 1939], 2:190)</bibl>. In a
+               May 20, 1839, letter to Clarke, Cranch then commented on these drawings: "By the way,
+               I lent [Furness] my Emersonian scraps to take on with him, and it seems by sundry
+               external signs upon them since they were returned to me, that they have been
+               considerably thumbed and pocketed. Great men have looked upon them. The genius of a
+               Dewey and a Channing hath stopped to smile condescendingly on them. Our fame, friend,
+               groweth. It hath been budding with the spring. We are linked in celebrity, and thus
+               will descend to posterity as the immortal illustrators of the great
+               Transcendentalist! When all trades fail, let us take to caricaturing. We have humors
+               that way" (MHS typescript). See <ref type="html" target="2014/editions/cranchjournal_appendices">Appendix 1</ref> for a larger
+               portion of the letter.</note>
+            <note xml:id="note22">"swallows all formulas"] Cranch is most likely thinking of
+               Carlyle's translation of Mirabeau's saying about himself&#8212;il a humé toutes le
+               formules&#8212;in his <title>Memoirs</title>
+               <bibl>(Carlyle, <title>Historical Essays</title> [Berkeley: University of California
+                  Press, 2002], 188)</bibl>. Cranch had also probably read a related passage from
+               Carlyle's <title>French Revolution</title>, vol. 2, book 3, chapter 7, "Death of
+               Mirabeau" (1838): "So blazes out, far-seen, a Man's Life, and becomes ashes and a
+               caput mortuum, in this World-Pyre, which we name French Revolution: not the first
+               that consumed itself there; nor, by thousands and many millions, the last! A man who
+               'had swallowed all formulas'; who, in these strange times and circumstances, felt
+               called to live Titanically, and also to die so. As he, for his part, had swallowed
+               all formulas, what Formula is there, never so comprehensive, that will express truly
+               the plus and the minus of him, give us the accurate net-result of him? There is
+               hitherto none such" (<bibl><title>A Carlyle Reader</title> [Cambridge: Cambridge
+                  University Press, 1984], 363</bibl>).</note>
+            <note xml:id="note23">Compare Cranch's own words in "A Letter on Travelling," in the
+               June 1838 <title>Messenger</title>: "Well, here I am&#8212;again a
+               wanderer&#8212;another, and still another parting have I endured. For nearly three
+               years it has been my lot to rove from place to place, North, South, East,
+               West&#8212;making friends and parting from them&#8212;verily, I am growing aweary of
+               such itinerant ways of living" (<bibl><title>Western Messenger</title> 5 [June 1838]:
+                  183</bibl>). Emerson would later warn against the dangers of traveling in
+               "Self-Reliance": "Travelling is a fool's paradise [. . .] The rage of travelling is a
+               symptom of a deeper unsoundness affecting the whole intellectual action. The
+               intellect is vagabond, and our system of education fosters restlessness. Our minds
+               travel when our bodies are forced to stay at home" (<bibl><title>Collected Works of Ralph Waldo
+               Emerson</title>, ed. Joseph Slater, Alfred R. Ferguson et al [Cambridge: Harvard University
+               Press, 1980], 2:46&#8211;47</bibl>). That thought could have had its genesis in "The
+               Individual," where he quotes the adage, "To know that the sky is everywhere blue, you
+               need not travel round the world" and says, "I travel faster than you. In my closet I
+               see more and anticipate all your wonders" (<title>Early Lectures</title>,
+               2:178&#8211;79). See also Dedmond, "Cranch's 'Journal,'" 133.</note>
+            <note xml:id="note24">compensation] Cranch anticipates Emerson's doctrine of
+               compensation, that the world consists of <quote>"relations of parts and the end of
+                  the whole remaining the same"&#8212;an idea evident in <hi rend="italic">Nature</hi>, for example, in the "Idealism" chapter, where</quote> the
+               virtuous consider the <quote>"whole circle of persons and things, of actions and
+                  events, of country and religion, not as painfully accumulated, atom after atom,
+                  act after act, in an aged creeping Past, but as one vast picture, which God paints
+                  on the instant eternity, for the contemplation of the soul"</quote>
+                  (<title>CW</title>, 1:29, 36). Cranch could also be thinking of Emerson's early
+               lecture "On the Relation of Man to the Globe" (<title>Early Lectures</title>
+               1:27&#8211;49), which set the groundwork for compensation as one of Emerson's
+               fundamental ideas (even though the word "compensation" does not appear in the lecture
+               and in <title>Nature</title>).</note>
+            <note xml:id="note25">In a letter of February 9, 1839, Clarke also entertained doubts
+               about "the expediency of my leaving Louisville," adding that "I have no such serious
+               purpose, but at times I am 'exercised in mind' about the propriety of so doing. It
+               often seems to me as if some one else could do more good than I here, and I do more
+               good somewhere else. I am by no means a popular preacher in this place, nor ever
+               shall be ... I am extremely anxious in this matter to be guided solely by duty ...
+               William Channing urged me so strongly to retain the 'Western Messenger' that I have
+               agreed to do so till the end of the sixth number, volume vi. Then I hope they will
+               take it to Cincinnati. C. P. Cranch stayed three weeks with me after I reached home,
+               and I grew to love him very much, and he me" (<bibl><title>James Freeman Clarke:
+                     Autobiography, Diary, and Correspondence</title>, ed. Edward Everett Hale
+                  [Boston: Houghton Mifflin, 1892]</bibl>, 126).</note>
+            <note xml:id="note26">On October 14, 1837, Cranch had written to his sister Margaret
+               about Georgiana Emily: "I went the other night to see Mr. Keats, an English gentleman
+               residing here, and brother to Keats, the poet. He seemed to be a very intelligent and
+               gentlemanly man, and has some daughters, only one of whom I saw, a young lady about
+               fourteen years apparently, with face and features strongly resembling Keats, the
+               poet, or that little portrait of him which you see in the volume containing his poems
+               in conjunction with Coleridge and Shelley. I could scarcely keep my eyes from her
+               countenance, so striking was the likeness" (<bibl>Scott, <title>Life and
+                     Letters</title>, 38&#8211;39</bibl>). See also Denise Gigante's study,
+                     <bibl><title>The Keats Brothers: The Life of John and George</title>
+                  (Cambridge: Harvard University Press, 2011)</bibl>.</note>
+            <note xml:id="note27">Dialogic artistry was a crucial aspect of transcendentalism, due
+               in large part to the salon-like conversation/debating clubs such as the Semi-Colon
+               club that Cranch attended (see <ref target="#note28">note 28</ref>). See Noelle A.
+               Baker's "Conversations," chapter 24 of <bibl><title>The Oxford Handbook to
+                     Transcendentalism</title>, ed. Joel Myerson et al. (Oxford: Oxford University
+                  Press, 2010), 348&#8211;60</bibl>.</note>
+            <note xml:id="note28">Semi-Colon was a primarily Unitarian conversation club consisting
+               mostly of writers and intellectuals. The Beecher sisters were among its members, and
+               the club played a part in launching the career of Harriet Beecher Stowe (see
+                  <bibl>Forrest Wilson's <title>Crusader in Crinoline: A Life of Harriet Beecher
+                     Stowe</title> [New York: J. B. Lippincott Company, 1941]</bibl>, 122&#8211;26).
+               Semi-Colon provided intellectual stimulation for a small cohort of Boston-area
+               transplants in a rugged frontier city. See <bibl>Louis Tucker, "The Semi-Colon Club
+                  of Cincinnati," <title>Ohio History</title> 73, no. 1 (1964)</bibl>. For a recent
+               essay on the Semi-Colon members, women writers, and its hostesses (including a
+               section on Cranch's relation to club), see <bibl>Nicole Tonkovich's "Writing in
+                  Circles," in <title>Nineteenth-Century Women Learn to Write</title>
+                  (Charlottesville: University Press of Virginia, 1995), 149&#8211;78</bibl>. Cranch
+               praised Semi-Colon for providing freedom for more advanced writers as well as
+               "embolden[ing] beginners to a spontaneity of thought and style" (Library of Congress
+               manuscript; quoted in Tonkovich, 152). Tonkovich also challenges the accuracy of
+               Wilson's view on the club's responsibility for bolstering Stowe's career.</note>
+            <note xml:id="note29">"Dreams" appeared in the <bibl><title>Western Messenger</title> 6
+                  (June 1839): 98&#8211;100</bibl>. Of interest is his rhetorical question,
+                  <quote>"may it not be, that dreams are one way in which the spiritual gains access
+                  to the spirit's ear [. . .] ?"</quote> The "imprisoned spirit" looks to the
+               Imagination for spiritual answers. This may have informed Cranch's poem "The Three
+               Muses," in which he describes a bewildered traveler's waking dream, and a muse calls
+               upon <quote>"the truth sublime" of "The soul within the soul, the hidden life, / The
+                  fount of dreams, the vision and the strife / Of thoughts that seized on every
+                  other force, / And turned it to their own resistless course"</quote>
+                     (<bibl><title>The Bird and the Bell, and Other Poems</title> [Boston: James R.
+                  Osgood and Company, 1875], 31</bibl>). Cranch often channeled Emerson's idea in
+                  <title>Nature</title> that <quote>"the world is a divine dream"</quote> (also
+                  <quote>"a dream may let us deeper into the secret of nature than a hundred
+                  concerted experiments"</quote> [<title>CW</title>, 1:37, 39]).</note>
+            <note xml:id="note30">Cranch wrote to Clarke on January 22 about the party: "Last night
+               I went to a Semicolon party at Mrs. Stetson's. We had a glorious time. The pieces
+               were good, and the music refreshing; and dancing&#8212;heavens! how they danced. 'Old
+               men and maidens gay', whose heads seemed almost topsyturveyed. It was one of the most
+               delightful seasons of social refreshment I ever enjoyed. A perfect inundation of
+               spirits, whose merry and sparkling utterances seemed to set afloat in mere
+               kindliness, the most staid and old, who at first were prone to root themselves to the
+               sides of the room in their chairs. 'Such music flows from kind hearts, in a kind
+               environment of time and peace.' 'The poor claims of me and thee vanished.' We were
+               all as one" (MHS typescript).</note>
+            <note xml:id="note31">In an undated fragment of a journal or letter, Cranch expressed
+               his frustration with the "over-cautious and conservative Unitarians of Massachusetts"
+               who took issue with his work at the <title>Western Messenger</title> (MHS
+               typescript). He was also not afraid to poke at them: see his poem (signed "X") in the
+               May 1838 (vol. 5) issue of the <title>Western Messenger</title>&#8212; <quote>"Surely
+                  our preachers should have warmth of soul, / And yet we hear of Unitarian
+                  coldness&#8212; / We have our Green-wood, Furness, Burn-up, Cole, / And Flint and
+                  sparks once blazed away with boldness, / And now along with names so warm and
+                  zealous, / There's lately come to kindle us, a Bellows."</quote> For a similar
+               play on names, see also Cranch's poem "A Landscape."</note>
+            <note xml:id="note32">Perkins had written in a letter to a friend, just after he became
+               minister-at-large, that the individual spirit was being lost to the whims of the
+               masses: "The mantle of Minister at Large has fallen upon me, and in this vocation I
+               hope somewhat to realize that usefulness to which you allude as the crowning gift of
+               man. The field is wide and undug; my spade is dull and weak. . . . Pauperism,
+               Poverty, Infidelity, Vice, Crime,&#8212;these are five well-armed and most determined
+               demons to war with,&#8212;true children of the world, the flesh, and the Devil,
+               which, jockey-like, cross and recross their breeds for ever" (<bibl><title>Memoirs
+                     and Writings of James Handasyd Perkins</title>, ed. William Henry Channing
+                  [Cincinnati: Trueman and Spofford, 1851], 1:114&#8211;15</bibl>; quoted in Dedmond,
+               "Cranch's 'Journal,'" 148). His chief objective was "to form such connections with
+               the poor as will enable us, in some degree at least, to withdraw them and their
+               children from evil associations, and to combine immediate physical relief with
+               continued moral relief; and second, to find those in need employment"
+               (1:118&#8211;19).</note>
+            <note xml:id="note33"><hi rend="underline">cement</hi>] Cranch may have recalled this
+               metaphor from Emerson's 1833 lecture "The Uses of Natural History," in which he
+               encourages strong minds to sympathize with all fellow beings: "Where is it these fair
+               creatures (in whom an order and series is so distinctly discernable,) find their link,
+               their cement, their keystone, but in the Mind of Man? It is he who marries the
+               visible to the Invisible by uniting thought to Animal Organization" (<title>Early
+                  Lectures</title>, 1:24). Also, he might be remembering a similar thought from
+               "Water," in which Emerson speaks of the friend who "is present in every function of
+               life, grows in the vegetable, is a cement, and an engineer, and an architect, in
+               inanimate nature" (<title>Early Lectures</title>, 1:51).</note>
+            <note xml:id="note34">On December 7, 1838, Thomas Butler fatally stabbed a clerk named
+               James T. White with a Bowie knife in "a house of ill fame" in Cincinnati
+                  (<title>Cincinnati Whig</title>, December 10, 1838). The <title>Whig</title>
+               reported that "some disturbance took place in an upper room of the establishment,
+               (but with which Mr. White had nothing to do,) which attracted the notice of Butler,
+               who immediately started for the scene of the riot. In going up stairs, he met Mr.
+               White coming down, and instantly gave him two fatal stabs in the region of the heart,
+               and, (so far as is known,) without the slightest provocation. ... Butler made his
+               escape." The mayor of Cincinnati offered a $250 reward for his capture. He was
+               captured in late December and returned to his native city of Jeffersonville, Indiana,
+               according to a Cincinnati correspondent's report in the January 3, 1839,
+                  <title>Scioto Gazette</title> (Chillicothe, Ohio). Butler's trial ended on January
+               22 with a guilty verdict of second-degree murder.</note>
+            <note xml:id="note35">For more on William Henry Channing and the sewing circle in the
+               Ohio Valley, see <bibl>Elizabeth R. McKinsey's <title>The Western Experiment: New
+                     England Transcendentalists in the Ohio Valley</title> (Cambridge: Harvard
+                  University Press, 1973), 42&#8211;48</bibl>.</note>
+            <note xml:id="note36">Starting in March 1839, Channing would spend three years as the
+               lead pastor in the Unitarian Church of Cincinnati. See <bibl>Octavius Brooks
+                  Frothingham's <title>Memoirs of William Henry Channing</title> (Boston: Houghton
+                  Mifflin, 1886)</bibl>, 144&#8211;50).</note>
+            <note xml:id="note37">Compare to Cranch's poem "Original Ode": <quote> "We gather by
+                  wild stream and wood / In a far Western land / [. . .] When by the Rock on
+                  Plymouth's shore / They moored their lonely bark, / And round them listened to the
+                  roar / Of a winter wild and dark."</quote></note>
+            <note xml:id="note38">Cranch had written similarly in an August 1837 letter to Clarke,
+               saying he is <quote>"reserved, secretive, proud, indolent, but above all diffident.
+                  This besetting diffidence lies at the root of all my reserve, and keeps me again
+                  and again silent and seemingly cold, when no one could tell how deep and strong
+                  the stream which ran hidden within"</quote> (Scott, <title>Life and
+                  Letters</title>, 35).</note>
+            <note xml:id="note39">Cranch did not leave Cincinnati until around March 2.</note>
+            <note xml:id="note40">Bertha and Kate were the daughters of Mrs. Wood, who provided
+               meals for the Cranch brothers.</note>
+            <note xml:id="note41">On May 23, 1840, Cranch wrote Clarke that he was <quote>"getting
+                  to be somewhat of a Swedenborgian. ... I do not think we study him enough. ... For
+                  my part, I could be a New Church man, were it not for the doctrine of the identity
+                  of Jesus and God"</quote> (MHS typescript; see also Dedmond, "Cranch's 'Journal,'"
+               148&#8211;49).</note>
+            <note xml:id="note42">loaves &amp; the fishes] In his <title>Remarks on the Four
+                  Gospels</title>, one of the most important books Cranch read in 1836 alongside
+                  <title>Nature</title>, William Henry Furness devotes a chapter to the miracles,
+               arguing that the word comes from the Latin <hi rend="italic">miraculum</hi>, meaning
+               "wonder," and that Jesus's miracles were wonders of "moral elevation" rather than
+               supernatural feats (<bibl><title>Remarks on the Four Gospels</title> [Philadelphia:
+                  Carey, Lea and Blanchard, 1836], 145&#8211;46</bibl>). He also quotes William
+               Ellery Channing's remarks that God's purpose is to establish the "order of Nature,"
+               "and miracles, instead of warring against, would concur with nature" (147&#8211;48).
+               Another connection is Cranch's Eliot relatives, who, as Cynthia Grant Tucker writes,
+                  <quote>"were happy to leave the Virgin Birth and Three-Person God to the
+                  orthodox"</quote> and were <quote>"willing to forfeit the miracles, the loaves and
+                  the fishes,"</quote> conceding to logic and natural philosophy (<bibl><title>No
+                     Silent Witness: The Eliot Parsonage Women and Their Unitarian World</title>
+                  [New York: Oxford University Press, 2010], 235</bibl>).</note>
+            <note xml:id="note43">In a February 16, 1839, letter to Clarke, Cranch admitted that
+                  <quote>"I have been a regular loafer here. Living in a dusty, noisy law office,
+                  and sleeping in the same on a most extemporaneous couch-bed, without a
+                  pillow,&#8212;very unsettled and inactive."</quote> He also indicated his
+               weariness with his intrepid lifestyle: <quote>"Heartily tired am I of wandering. I
+                  want a home; quiet steady work, and a wife. I shall not find them this side of the
+                  mountains"</quote> (Scott, <title>Life and Letters</title>, 46).</note>
+            <note xml:id="note44">From Coleridge's "Rime of the Ancient Mariner," when the
+               Spectre-Woman appears, <quote>"The Night-mare LIFE-IN-DEATH was she"</quote> (1.193),
+               and again in III.220&#8211;4. Compare also Milton's <title>Samson Agonistes</title>,
+                  <quote> "Then had I not been thus exiled from light, / As in the land of darkness,
+                  yet in light, / To live a life half dead, a living death, / And buried; but, O yet
+                  more miserable! / Myself my sepulchre, a moving grave"</quote> (lines
+               98&#8211;102).</note>
+            <note xml:id="note45">From Romans 7:24, <quote>"O wretched man that I am! who shall
+                  deliver me from the body of this death?"</quote> For a similar sense (also
+               anticipating Coleridge's life-in-death), compare <title>Paradise Lost</title>, book
+               10, <quote>"Both Death and I / Am found eternal, and incorporate both"</quote> (lines
+               815&#8211;16).</note>
+            <note xml:id="note46">On March 6, after a boat trip up the Ohio River to Wheeling,
+               Cranch took the stagecoach to Frederick, Maryland, and then traveled by train to
+               Washington. He left Mrs. Lynch and Lucas in Frederick (Dedmond, "Cranch's 'Journal,'"
+               149).</note>
+            <note xml:id="note47">In a March 8 letter to his brother Edward, Cranch wrote that
+               "Rufus [Dawes] is sitting with me in the old library, reading Carlyle. We had a long
+               talk this morning about the New Church. He talks grandly about it, and almost makes
+               me in love with the system of Swedenborg. He thinks most of the Unitarians today will
+               all come round to the New Church before long" (Quoted in Dedmond, "Cranch's
+               'Journal,'" 149).</note>
+            <note xml:id="note48"><bibl>Emanuel Swedenborg, <title>Arcana Coelestia: or, Heavenly
+                     Mysteries Contained in the Sacred Scriptures, or Word of the Lord, Manifested
+                     and Laid Open; Beginning with the Book of Genesis. Interspersed with Relations
+                     of Wonderful Things Seen in the World of Spirits and the Heaven of
+                     Angels</title>, 12 vols. (London: J. Hodson, 1789&#8211;1806)</bibl>.
+                  <bibl>Alexander Kinmont, <title>Twelve Lectures on the History of Man, and the
+                     Rise and Progress of Philosophy</title> (Cincinnati: N. P. James,
+               1839)</bibl>.</note>
+            <note xml:id="note49">Dedmond notes that Cranch wrote to Edward on March 8: "I have not
+               yet seen Greenleaf Bulfinch. He is busy moving" ("Cranch's 'Journal,'" 149). The
+               February 1838 <title>Western Messenger</title> published a "discourse" by S. G.
+               Bulfinch, then pastor of the Unitarian Church in Pittsburgh. Cranch kept close with
+               him, as is indicated in an August 13, 1843, letter to Dwight that he lives "in
+               perpetual creation," welcomes his new poverty, and says that he "preached one sermon
+               only for Bulfinch, as he needed help" (Scott, <title>Life and Letters</title>,
+               82).</note>
+            <note xml:id="note50">Cranch was probably reading <bibl>Cousin's <title>Elements of
+                     Psychology: Included in a Critical Examination of Locke's Essay on the Human
+                     Understanding</title> (New York: Gould and Newman, 1838)</bibl>. On June 21,
+               1839, Cranch wrote Edward from Philadelphia: "I am also continuing to read Cousin. He
+               does much to strengthen my faith" (MHS typescript; quoted in Dedmond, "Cranch's
+               'Journal,'" 149). At around this time Emerson and his followers were attracted to the
+               common sense and eclecticism of Cousin and Jouffroy, yet Emerson soon wrote in his
+               journal that he found "nothing of worth in the accomplished Cousin &amp; the mild
+               Jouffroy." See <bibl>Philip F. Gura, <title>American Transcendentalism: A
+                  History</title> (New York: Hill and Wang, 2008), 59&#8211;60</bibl>.</note>
+            <note xml:id="note51">Published in <bibl><title>Dial</title> 1 (January 1841):
+                  381</bibl>, and dated "March, 1839," "Correspondences" continues the theme of
+               poetry as dream-making. The optimistic, thoroughly transcendentalist poem attempts in
+                  <quote>"Seeing in all things around, types of the Infinite Mind"</quote>:
+                  <quote>"Little dreaming the cause why to such terms he is prone, / Little dreaming
+                  that every thing here has its own correspondence / Folded within its form, as in
+                  the body the soul"</quote> (<bibl><title>Poems</title> [Philadelphia: Carey and
+                  Hart, 1844], 42</bibl>).</note>
+            <note xml:id="note52">Cranch, who was at this time equally well regarded among close
+               friends for his musical as for his conversational abilities, once complained about
+               the tediousness in staying in one place, day after day, <quote>"'as idle as a painted
+                  ship upon a painted ocean.' I should think it was next to being becalmed at sea.
+                  The good folks here seem to have discovered my musical propensities and
+                  weaknessess, and I am accordingly made use of as unceremoniously as if I were a
+                  poor passive pitchpipe for everybody to sound. I fear my consenting to sing that
+                  everlasting 'Schoolmaster' has proved the father of many future bores on my part.
+                  Two or three times already, have I bawled it out to the exercise of many
+                  cachinnatory muscles in the auditors thereof. Some of my German songs also, I have
+                  attempted. I flute all alone as yet, though I found a fine flute at Mr.
+                  G's&#8212;, on which I played a little while there"</quote> (MHS, undated
+               typescript of journal or letter fragment).</note>
+            <note xml:id="note53">On April 14, Cranch wrote Edward from Baltimore: <quote>"I shall
+                  be in Balt. a few days&#8212;they want me to stay over another Sunday, but I shall
+                  not have time. Next Sunday I intend to preach in Phila spend a few days in New
+                  York, &amp; be in Boston the last week in April. Where I shall then go, I know not
+                  yet. Perhaps to Northampton. Mr. Briggs said he would try to arrange it. There are
+                  many vacant parishes in N.E."</quote> (quoted in Dedmond, "Cranch's 'Journal,'"
+               149).</note>
+            <note xml:id="note54">Dedmond quotes Cranch's reflection in "The Book of Thoughts," an
+               unpublished commonplace book, ca. 1872&#8211;79, pp. 191&#8211;93, in which he
+               laments his <quote>"misfortune (as regards worldly &amp; pecuniary success) to have
+                  too many sides&#8212;to have been born (and educated) with a diversity of talents
+                  . . . I have wooed too many mistresses; and the world punishes me for not shutting
+                  my eyes to all charmers but one"</quote> (MHS; Dedmond, "Cranch's 'Journal,'"
+               149).</note>
+            <note xml:id="note55">In a September 22, 1891, scrap from a letter or journal, Cranch
+               recalled this time in more detail: <quote>"In 1839 I preached a sermon in Dr.
+                  Furness' pulpit in Philadelphia, and afterwards in several other pulpits, in which
+                  the leading idea, if I remember, was&#8212;all life has a tendancy [<hi rend="italic">sic</hi>] upwards. The mineral is taken up by the vegetable, this
+                  into the animal, the animal into the intellectual, and the intellectual into the
+                  spiritual. He that loseth life shall find it. The lower life is lost that the
+                  higher may survive. I remember preaching it once at the Thursday lecture in
+                  Boston, when Mr. Emerson was one of my hearers, and that he was interested in it.
+                  The MS. was lost&#8212;burnt up with all my old sermons in the fire that destroyed
+                  the old De Windt homestead in 1862, with all my books and my letters, and other
+                  things I hardly remember now"</quote> (MHS typescript).</note>
+            <note xml:id="note56">This page was cut away, and it is not known who is responsible for
+               cutting out this and the following pages. Pages 23&#8211;28 were written into but
+               entirely cut away.</note>
+            <note xml:id="note57">Cranch revealed in a June 21, 1839, letter from Philadelphia that
+                  <quote>"The people are not sociable. There is an air of stiffness,
+                  reserve,&#8212;a disposition which even their very houses manifest upon their
+                  fronts&#8212;to keep by themselves, to keep their hands behind them at the
+                  approach of a stranger. There is nothing of the cordiality of manner you meet with
+                  in the West. // I can't say I have been at all industrious since I have been
+                  here."</quote> He recalled writing two sermons, one on "The voice crying in the
+                  wilderness"&#8212;<quote>which, Cranch said, "the superficial might say was
+                  upholding 'Transcendentalism'"</quote>&#8212;and another on "Sects," <quote>"in
+                  which I took the ground that sects were not only unavoidable, and not to be
+                  regretted, but were necessary to the development of truth"</quote> (MHS
+               typescript). See <ref type="html" target="2014/editions/cranchjournal_appendices">Appendix 2</ref> for another section of this letter containing a poem on Cousin
+               and transcendentalism. </note>
+            <note xml:id="note58">Cranch probably learned about Jouffroy from being in Cincinnati
+               with William Henry Channing, who was working on a translation of
+                     <bibl><title>Introduction to Ethics, Including a Critical Survey of Moral
+                     Systems</title> in two volumes for the Specimens of Foreign Standard Literature
+                  series (Boston: Hilliard, Gray, 1840&#8211;41)</bibl>. </note>
+            <note xml:id="note59">Probably Psalm 4:6 (<bibl>King James Bible</bibl>): <quote>"There
+                  be many that say, Who will shew us any good? Lord lift thou up the light of thy
+                  countenance upon us."</quote></note>
+         </div>
+         <div type="Appendix" n="1" xml:id="Appendix1">
+            <head>Appendix 1</head>
+            <note type="headnote"><hi rend="italic">From the May 20, 1839 letter to Clarke, with
+                  further comments on the draft caricatures, the ministry, and the</hi> Western
+               Messenger.</note>
+            <p>Albeit I wrote the last letter which passed between us, my pen yearneth to speak to
+               thee again. I know that my poor epistles scarce deserve the happiness of being
+               replied to, by such as thine&#8212;and perhaps in the multitude of cares&#8212;amid
+               sermons and editorials, and multifarious readings and writings you hardly find time
+               to bestow so much of yourself upon your correspondents as they could desire. Yet,
+               verily, this shall not deter me from communing with thee, my friend; this is a
+               pleasure I can not easily relinquish. Having had one sip of the fountain, I would not
+               willingly be removed from it. Send forth, therefore, I beseech thee, a few drops of
+               thy refreshing streams. My heart will bless you for it, if my poor wits can not
+               adequately repay you.</p>
+            <p>I have taken up my abode you perceive in this Philadelphia, and am minister to the
+               new society at the "Northern Liberties" for some weeks. They are at present a feeble
+               folk like the conies, and poor in this world's goods; but I trust they may increase,
+               and their latter end be respectable. I should like it right well, could I be the
+               means of building up a church among them. Time will show what can be done. I have
+               been supplying Mr. Furness' pulpit a few Sundays, while he went northward. By the
+               way, I lent him my Emersonian scraps [sketches] to take on with him, and it seems by
+               sundry external signs upon them since they were returned to me, that they have been
+               considerably thumbed and pocketed. Great men have looked upon them. The genius of a
+               Dewey and a Channing hath stopped to smile condescendingly on them. Our fame, friend,
+               groweth. It hath been budding with the spring. We are linked in celebrity, and thus
+               will descend to posterity as the immortal illustrators of the great
+               Transcendentalist! When all trades fail, let us take to caricaturing. We have humors
+               that way. I did not, by the way, hear the echo of your laugh over the last scraps I
+               sent you from Washington. Pray tell me if you received them safe out of the vulgar
+               hands of the men of the post office. I would not have these sacred mysteries bared to
+               common daylight and to uninitiated and vulgar risibilities. Pray tell me that you
+               received them. I heard in fancy your laugh for a week. Do write that laugh on paper,
+               and send us a scrap of your own.</p>
+            <p>O my brother, we need your poetic faculty to quicken us in this life. My wits have
+               brought forth little but thorns and weeds since thy rain and sunshine were withdrawn.
+               True, when I was at home, the quiet atmosphere of that loved spot, backed by the
+               influences of the opening spring, and the bees and blossoms, did call forth some
+               fruit&#8212;such as it was. And I did commence a Spenserian stanza poem which I shall
+               probably never complete. I wrote near forty stanzas. It is a love tale, thus far. But
+               I got dissatisfied with it. I followed my own experience too closely. Besides, it
+               does not look ministerial. Should I publish, what would the world say, etc.,
+               etc.&#8212;comes into my mind. What have I to do with writing and publishing such
+               stuff?</p>
+            <p>I perceive you are relieved of the immediate care of the "Messenger". I wish you joy.
+               I hope Channing will not mix in too much abolitionism. Look out for southern
+               subscribers, if you don't take care.</p>
+            <p>I saw young Huidekoper a week ago, who was just about embarking for Europe. Chandler
+               Robbins also I met in New York just before he sailed. I had a good time in New York
+               at the dedication of Dewey's church. I don't like the name&#8212;do you? He preached
+               a grand sermon though. And Fanny Parkman who seems to be midwife general to all the
+               churches which are legitimate, made an excellent dedicatory prayer.</p>
+            <p>But now, no more. Tempus est stopendi. Windum up est. Write to us if we have any
+               place in your memory. Remember me to each and all of my good Louisville friends. I
+               remember them all with interest.</p>
+            <p>Ever your friend and brother, <lb/>C. P. C. </p>
+         </div>
+         <div type="Appendix" n="2" xml:id="Appendix2">
+            <head>Appendix 2</head>
+            <note type="headnote"><hi rend="italic">At the end of his 21 June 1839 letter to his
+                  brother from Philadelphia, Cranch said he was reading Hazlitt's "Spirit of the
+                  Ages," "Specimens of Foreign Literature, being Eckermann's Conversations with
+                  Goethe (translated by Miss Fuller), and Cousin, who "does much to strengthen my
+                  faith." Furthermore, he added, "To show you how far he is, and I too, from
+                  'Transcendentalism', I will scratch off a few lines I wrote yesterday while
+                  reading him</hi>.</note>
+            <lg type="poem">
+               <l>Kant affirms that Reason can't</l>
+               <l>Give certainty to what we want,</l>
+               <l>But only must suppose it.</l>
+               <l>But Nature and God we must reject, if</l>
+               <l>The light of Reason is subjective:&#8212;</l>
+               <l>So doth Cousin disclose it.</l>
+               <l>So I'd rather with Cousin</l>
+               <l>Let Kant and Fichte hang!</l>
+               <l>Their creed is surely worse than all.</l>
+               <l>The Will alone is personal.</l>
+               <l>Fact of Reason&#8212;Facts of sense,</l>
+               <l>Both are necessary,</l>
+               <l>Universal also;&#8212;hence</l>
+               <l>Let us all be wary</l>
+               <l>Lest we get too transcendental,</l>
+               <l>Else we surely shall repent all,</l>
+               <l>Tumbling into Idealism,</l>
+               <l>Pantheism, Atheism,</l>
+               <l>Seeing Truth through such a prism.</l>
+            </lg>
+         </div>
+      </back>
+
+   </text>
+</TEI>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<body> <!-- <body> is a placeholder here, so that the file is well-formed. In TextLab you don't need the <body> -->
+<pb facs='#img_24'/>
+<ab>
+  <metamark place="margin(right)" function="folio"
+  rend="no-caret \_HMp" change="St1833a"
+  facs="#img_24-0002" >9</metamark>
+<lg type="poem" >
+  <head><hi rend="italic">The Grave of Wilberforce</hi>
+  <lb/>––––Extinctus amabitur idem.
+    <lb/>Hor.</head>
+  <lb/>
+  <milestone unit=""/>––––––––––––––––––
+  <lb/>
+  <lg type="stanza" >
+    <l n="1" >Tho' least in fame, and last in time,</l>
+    <lb/>
+    <l n="2" >of all, whose tributory rhyme</l>
+    <lb/>
+    <l n="3" >In freedom's cause you crave;</l>
+    <lb/>
+    <l n="4" >Yet, for my subject's sake, excuse</l>
+    <lb/>
+    <l n="5" >The long delay, and lowly muse:</l>
+    <lb/>
+    <l n="6" >'Tis Wilberforce's grave.</l>
+    <lb/>
+  </lg>
+  </lg>
+</ab>
+</body>

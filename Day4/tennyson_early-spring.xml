@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Early Spring</title>
+            <author>Alfred Lord Tennyson</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication information</p>        
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+            <listWit>
+               
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         
+      </front>
+      <body>
+         <div type="poem">
+            
+            <lg type="sestet">
+               <l>Once more the Heavenly Power</l>
+               <l>Makes all things new,</l>
+               <l>And domes the red-plowed hills</l>
+               <l>With loving blue;</l> 
+               <l>The blackbirds have their wills,</l>
+               <l>The throstles too.</l>
+            </lg>
+            
+            <lg type="sestet">
+               <l>Opens a door in Heaven; </l>
+               <l>From skies of glass</l>
+               <l>A Jacob's ladder falls</l>
+               <l>On greening grass, </l>
+               <l>And o'er the mountain-walls</l>
+               <l>Young angels pass.</l></lg>
+            
+            <lg type="sestet">
+               <l>Before them fleets the shower,</l>
+               <l>And burst the buds,</l> 
+               <l>And shine the level lands,</l>
+               <l>And flash the floods;</l>
+               <l>The stars are from their hands</l>
+               <l>Flung through the woods,</l></lg>
+            
+            <lg type="sestet">
+               <l>The woods with living airs</l>
+               <l>How softly fanned,</l>
+               <l>Light airs from where the deep,</l>
+               <l>All down the sand,</l>
+               <l>Is breathing in his sleep,</l>
+               <l>Heard by the land.</l>
+            </lg>
+            
+            <lg type="sestet">
+               <l>O, follow, leaping blood,</l>
+               <l>The season's lure!</l>
+               <l>O heart, look down and up,</l>
+               <l>Serene, secure,</l> 
+               <l>Warm as the crocus cup,</l>
+               <l>Like snow-drops, pure!</l>
+            </lg>
+            
+            <lg type="sestet">
+               <l>Past, Future glimpse and fade</l>
+               <l>Through some slight spell,</l>
+               <l>A gleam from yonder vale,</l> 
+               <l>Some far blue fell;</l> 
+               <l>And sympathies, how frail,</l>
+               <l>In sound and smell!</l>
+            </lg>
+            
+            <lg type="sestet">
+               <l>Till at thy chuckled note,</l>
+               <l>Thou twinkling bird,</l>
+               <l>The fairy fancies range,</l>
+               <l>And, lightly stirred,</l>
+               <l>Ring little bells of change</l>
+               <l>From word to word.</l>
+            </lg>
+            
+            <lg type="sestet"><l>For now the Heavenly Power</l>
+               <l>Makes all things new,</l>
+               <l>And thaws the cold, and fills</l>
+               <l>The flower with dew;</l>
+               <l>The blackbirds have their wills,</l>
+               <l>The poets too.</l></lg>
+         </div>
+      </body>
+   </text>
+</TEI>
+
